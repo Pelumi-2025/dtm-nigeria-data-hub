@@ -1,0 +1,10 @@
+{
+  "name": "DTM Nigeria Data Hub",
+  "short_name": "DTM Nigeria",
+  "description": "Published IOM DTM Nigeria data by year, round, region and state",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F2F4F8",
+  "theme_color": "#0033A0",
+  "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230033A0'/%3E%3Cpath d='M14 70 L34 44 L52 56 L86 22' stroke='white' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E", "sizes": "any", "type": "image/svg+xml"}]
+}

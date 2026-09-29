@@ -1,0 +1,5 @@
+# Netlify serves the built dashboard from dist/.
+# The GitHub Action builds dist/ and deploys it; this file lets Netlify build it too.
+[build]
+  command = "pip install -r requirements.txt && cd harvester && python build_baseline.py && python build_site.py"
+  publish = "dist"
