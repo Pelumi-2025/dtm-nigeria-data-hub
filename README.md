@@ -50,3 +50,8 @@ The chat box sends the question to Claude together with a set of query tools ove
 before individuals, the round/period, the source (report or data file) and links. On claude.ai it uses the
 page's built-in Claude access; on GitHub Pages each viewer adds their own Anthropic API key under
 **AI settings** (stored in the browser only). Without either it falls back to offline rule-based answers.
+
+## Map
+The Map page shades Nigeria's 37 states by the chosen product, measure and round/period, on OpenStreetMap or
+ArcGIS Online basemaps (Light Gray, Topographic, Imagery). `site/vendor/` holds Leaflet 1.9.4 and the state
+boundaries (Natural Earth, public domain); both are built into the page, so the shading also works offline.

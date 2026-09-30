@@ -234,6 +234,16 @@ body.hide-years .yr{display:grid} .mt-only{display:none} body.show-mt .mt-only{d
 .side{top:0}
 i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size:.7em;margin-left:1px}
 .cal td{min-width:34px;font-size:.74rem;text-align:center;cursor:pointer}
+/*__LEAFLET_CSS__*/
+.map-wrap{position:relative}
+#map{height:560px;border-radius:10px;border:1px solid var(--line);background:#dfe6f0}
+:root[data-theme="dark"] #map{background:#1b2436}
+.leaflet-container{font-family:var(--font)}
+.map-lbl{background:transparent;border:0;box-shadow:none;font-size:10.5px;font-weight:700;color:#16213A;text-shadow:0 0 3px #fff,0 0 3px #fff}
+.map-lbl::before{display:none}
+.map-legend{display:flex;gap:0;align-items:center;flex-wrap:wrap;font-size:.76rem;margin:8px 0}
+.map-legend span{display:inline-flex;align-items:center;gap:4px;margin-right:10px}
+.map-legend i{width:18px;height:12px;display:inline-block;border:1px solid rgba(0,0,0,.15)}
 </style>
 </head>
 <body>
@@ -277,6 +287,7 @@ i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size
     <button role="tab" data-t="mobility">Mobility tracking</button>
     <button role="tab" data-t="ett">Emergency tracking (ETT)</button>
     <button role="tab" data-t="flash">Incidents & flash reports</button>
+    <button role="tab" data-t="map">Map</button>
     <button role="tab" data-t="flood">Floods</button>
     <button role="tab" data-t="bio">Biometric registration</button>
     <button role="tab" data-t="pubs">Publications</button>
@@ -469,6 +480,28 @@ i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size
   </div>
 </section>
 
+<!-- ============================================================ MAP -->
+<section id="s-map" hidden>
+  <h2>Map – numbers by state</h2>
+  <p class="lede">State figures for each data product and period on an OpenStreetMap / ArcGIS Online basemap. Choose the product, the measure and the round or period; the years follow the From/To filter on the left.</p>
+  <div class="controls">
+    <label>Data product<select id="mpProd">
+      <option value="mobility">Mobility Tracking</option><option value="ett">Emergency Tracking Tool (ETT)</option>
+      <option value="flash">Incidents & Flash</option><option value="flood">Floods</option><option value="bio">Biometric Registration</option></select></label>
+    <label>Measure<select id="mpMeasure"></select></label>
+    <label class="mp-mob">North East round<select id="mpNE"></select></label>
+    <label class="mp-mob">North Central & North West round<select id="mpNC"></select></label>
+    <label>Labels<span class="seg" id="mpLbl"><button aria-pressed="true" data-v="on">On</button><button data-v="off">Off</button></span></label>
+  </div>
+  <div class="figs" id="mpFigs"></div>
+  <div class="panel"><div class="panel-head"><div><h3 id="mpTitle"></h3><p class="sub" id="mpSub"></p></div></div>
+    <div class="map-wrap"><div id="map" role="img" aria-label="Map of Nigeria by state"></div></div>
+    <div class="map-legend" id="mpLegend"></div>
+    <p class="note">Basemaps: OpenStreetMap contributors; Esri, ArcGIS Online (World Topographic, World Imagery, Light Gray Canvas). State boundaries: Natural Earth (public domain). Basemap tiles need an internet connection; the state shading works offline.</p></div>
+  <div class="panel" style="margin-top:16px"><div class="panel-head"><h3>State table</h3><button class="btn" data-csv="mpTable">Download CSV</button></div>
+    <div class="tw"><table id="mpTable"></table></div></div>
+</section>
+
 <!-- ============================================================ BIOMETRIC -->
 <section id="s-bio" hidden>
   <h2>Biometric registration</h2>
@@ -574,7 +607,9 @@ i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size
 <input id="askKey" type="password" placeholder="sk-ant-…" autocomplete="off"><div class="tools" style="margin-top:6px"><button class="btn" id="askKeySave" type="button">Save key</button><button class="btn" id="askKeyClear" type="button">Remove key</button></div></div>
 <div class="ask-log" id="askLog"></div><form id="askForm"><input id="askIn" placeholder="Ask anything about the data on this dashboard…" autocomplete="off"><button class="primary" id="askSend">Send</button></form></div>
 <div id="tip" role="tooltip"></div>
+<script>/*__LEAFLET_JS__*/</script>
 <script>
+const NG_STATES = /*__GEO__*/null;
 const EMBEDDED = /*__DATA__*/null;
 const NE="North East", NC="North Central & North West";
 const COMPONENTS = [
@@ -1776,7 +1811,7 @@ function wireAsk(){
 }
 
 /* ================================================================= TOP BUTTON BAR */
-const TB_COMP=[["mobility","Mobility Tracking"],["ett","Emergency Tracking Tool (ETT)"],["flash","Incidents & Flash"],["flood","Floods"],["bio","Biometric Registration"]];
+const TB_COMP=[["mobility","Mobility Tracking"],["ett","Emergency Tracking Tool (ETT)"],["flash","Incidents & Flash"],["flood","Floods"],["bio","Biometric Registration"],["map","Map"]];
 const TB_POP=[["both","IDPs & Returnees"],["idp","All IDPs"],["hc","IDPs in host communities (HC)"],["camp","IDPs in camps"],["ret","Returnees"]];
 const popPre=()=>V.pop==="hc"?"hc_":V.pop==="camp"?"camp_":V.pop==="ret"?"ret_":"idp_";
 function setSel(id,v){ const el=$(id); el.value=v; el.dispatchEvent(new Event("change")); }
@@ -1828,7 +1863,9 @@ function reportCount(){
 function linkPop(box,list,empty){ box.innerHTML=list.length?list.slice(0,60).map(l=>`<a href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)}<small>${l.d?esc(l.d)+" · ":""}${esc(l.u.replace(/^https?:\/\//,"").slice(0,70))}</small></a>`).join(""):`<p class="muted" style="padding:8px">${empty}</p>`; }
 function wireTopbar(){
   $("#tbRegion").onclick=e=>{ const b=e.target.closest("button"); if(b) setSel("#fRegion",b.dataset.v); };
-  $("#tbComp").onclick=e=>{ const b=e.target.closest("button"); if(b) setTab(b.dataset.v); };
+  $("#tbComp").onclick=e=>{ const b=e.target.closest("button"); if(!b) return; const v=b.dataset.v;
+    if(v!=="map"&&MAP_MEASURES[v]&&$("#mpProd")){ MAPV.prod=v; $("#mpProd").value=v; MAPV.measure=(MAP_MEASURES[v][1]||MAP_MEASURES[v][0])[0]; if($("#mpNE").options.length){ $("#mpMeasure").innerHTML=MAP_MEASURES[v].map(([k,l])=>`<option value="${k}" ${k===MAPV.measure?"selected":""}>${l}</option>`).join(""); document.querySelectorAll(".mp-mob").forEach(el=>el.style.display=v==="mobility"?"":"none"); } }
+    setTab(v); };
   $("#tbPop").onclick=e=>{ const b=e.target.closest("button"); if(!b) return; V.pop=b.dataset.v;
     V.dcGroup=V.pop==="both"?"idp":V.pop; V.rsGroup=V.pop==="ret"?"Returnees":"IDPs"; segSet("#dcGroup",V.dcGroup); segSet("#rsGroup",V.rsGroup); render(); };
   const toggle=(btn,pop,which)=>{ btn.onclick=e=>{ e.stopPropagation(); const open=pop.hidden; document.querySelectorAll(".tb-pop").forEach(p=>p.hidden=true);
@@ -1858,8 +1895,82 @@ function renderBio(){
   table("bioTable",[{k:"date",h:"Report date",cls:"tl"},{k:"state",h:"State",cls:"tl"},{k:"lga",h:"LGA / site",cls:"tl"},{k:"hh",h:"Households"},{k:"ind",h:"Individuals"},
     {k:"title",h:"Report",cls:"tl wrap",f:(v,r)=>r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>`:esc(v),raw:r=>r.url}],rows.map((r,i)=>({...r,ord:i,date:r.date||"latest update"})),{sort:"ord",dir:1});
 }
+
+/* ================================================================= MAP (Leaflet + OSM / ArcGIS Online basemaps) */
+const MAP_MEASURES={
+  mobility:[["idp_hh","IDP households"],["idp_ind","IDP individuals"],["camp_hh","IDPs in camps – households"],["camp_ind","IDPs in camps – individuals"],["hc_hh","IDPs in host communities – households"],["hc_ind","IDPs in host communities – individuals"],["ret_hh","Returnee households"],["ret_ind","Returnee individuals"],["idp_wards","Wards with IDPs"]],
+  ett:[["hh","Households arrived"],["ind","Individuals arrived"],["locations","Locations receiving arrivals"],["records","Movement records"]],
+  flash:[["n","Flash / incident records"],["hh","Households displaced"],["ind","Individuals displaced"],["deaths","Deaths reported"]],
+  flood:[["aff_hh","Households affected"],["aff_ind","Individuals affected"],["dis_hh","Households displaced"],["dis_ind","Individuals displaced"],["deaths","Deaths"],["communities","Communities assessed"]],
+  bio:[["hh","Households registered (latest report)"],["ind","Individuals registered (latest report)"]]};
+let MAPV={prod:"mobility",measure:"idp_ind",ne:null,nc:null,labels:true}, LMAP=null, LGEO=null, LLBL=null;
+function mapValues(){
+  const P=MAPV.prod, m=MAPV.measure, out={}, det={};
+  const put=(st,v,extra)=>{ if(v==null||isNaN(v)) return; out[st]=(out[st]||0)+v; det[st]={...(det[st]||{}),...extra}; };
+  if(P==="mobility"){ [[NE,MAPV.ne],[NC,MAPV.nc]].forEach(([reg,rn])=>{ if(!rn) return; const U=withF({},()=>unitRows(reg,rn,"state"));
+      Object.entries(U).forEach(([st,v])=>{ if(v[m]) put(st,v[m],{[`${reg==="North East"?"NE":"NC/NW"} round`]:`R${rn} · ${ym((roundRow(reg,rn)||{}).date)}`,"IDP households":v.idp_hh,"IDP individuals":v.idp_ind,"Returnee households":v.ret_hh,"Returnee individuals":v.ret_ind,source:v.src?"report":"data file"}); }); }); }
+  if(P==="ett"){ D.ettL.year.filter(r=>inYears(r.p)).forEach(r=>{ put(r.state,r[m],{}); const d=det[r.state]; d.Households=(d.Households||0)+r.hh; d.Individuals=(d.Individuals||0)+r.ind; }); }
+  if(P==="flash"){ flashRecordsAll().filter(r=>inYears(r.d.slice(0,4))).forEach(r=>{ const sh=1/Math.max(1,r.states.length);
+      r.states.forEach(st=>{ const v=m==="n"?1:(r[m==="hh"?"hh":m==="ind"?"ind":"deaths"]||0)*sh; put(st,v,{}); const d=det[st]; d.Records=(d.Records||0)+1; }); }); }
+  if(P==="flood"){ D.floodL.filter(r=>inYears(r.year)).forEach(r=>{ put(r.state,r[m],{}); const d=det[r.state]; d["Households affected"]=(d["Households affected"]||0)+r.aff_hh; d["Individuals affected"]=(d["Individuals affected"]||0)+r.aff_ind; }); }
+  if(P==="bio"){ const last={}; (D.biometric||[]).forEach(b=>{ if(!b.date||inYears(b.date.slice(0,4))) last[b.state]=b; });
+      Object.values(last).forEach(b=>put(b.state,b[m],{report:b.title,Households:b.hh,Individuals:b.ind})); }
+  return {vals:out,det};
+}
+function mapColors(n){ return ["#DCE6F7","#A9C1EC","#6F95D9","#3566C2","#0B3E9E","#062467"].slice(0,n); }
+function breaks(vals){ const v=vals.filter(x=>x>0).sort((a,b)=>a-b); if(!v.length) return [];
+  const q=[.2,.4,.6,.8].map(p=>v[Math.min(v.length-1,Math.floor(p*v.length))]); return [...new Set(q)].filter(x=>x>0); }
+function initMapControls(){
+  const fill=()=>{ $("#mpMeasure").innerHTML=MAP_MEASURES[MAPV.prod].map(([k,l])=>`<option value="${k}" ${k===MAPV.measure?"selected":""}>${l}</option>`).join("");
+    if(!MAP_MEASURES[MAPV.prod].some(x=>x[0]===MAPV.measure)){ MAPV.measure=MAP_MEASURES[MAPV.prod][1]?MAP_MEASURES[MAPV.prod][1][0]:MAP_MEASURES[MAPV.prod][0][0]; $("#mpMeasure").value=MAPV.measure; }
+    document.querySelectorAll(".mp-mob").forEach(el=>el.style.display=MAPV.prod==="mobility"?"":"none"); };
+  const rsel=(id,reg,key)=>{ const R=mob(reg).rounds.filter(r=>(mob(reg).lgaByRound[r.round]||[]).length||r.states_reported);
+    if(!MAPV[key]) MAPV[key]=R.length?R[R.length-1].round:null;
+    $(id).innerHTML=`<option value="">None</option>`+R.slice().reverse().map(r=>`<option value="${r.round}" ${r.round===MAPV[key]?"selected":""}>R${r.round} · ${ym(r.date)}</option>`).join(""); };
+  rsel("#mpNE",NE,"ne"); rsel("#mpNC",NC,"nc"); fill();
+  $("#mpProd").onchange=e=>{ MAPV.prod=e.target.value; fill(); render(); };
+  $("#mpMeasure").onchange=e=>{ MAPV.measure=e.target.value; render(); };
+  $("#mpNE").onchange=e=>{ MAPV.ne=+e.target.value||null; render(); }; $("#mpNC").onchange=e=>{ MAPV.nc=+e.target.value||null; render(); };
+  $("#mpLbl").onclick=e=>{ const b=e.target.closest("button"); if(!b) return; segSet("#mpLbl",b.dataset.v); MAPV.labels=b.dataset.v==="on"; render(); };
+}
+function renderMap(){
+  if(!$("#mpNE").options.length) initMapControls();
+  const {vals,det}=mapValues(), mlab=(MAP_MEASURES[MAPV.prod].find(x=>x[0]===MAPV.measure)||["",""])[1];
+  const period=MAPV.prod==="mobility"?[MAPV.ne?`North East R${MAPV.ne}`:null,MAPV.nc?`NC & NW R${MAPV.nc}`:null].filter(Boolean).join(" · "):(MAPV.prod==="bio"?"latest report per state":(F.from===2014&&F.to===2035?"all years":`${F.from}–${F.to}`));
+  $("#mpTitle").textContent=`${mlab} by state`; $("#mpSub").textContent=`${$("#mpProd").selectedOptions[0].text} · ${period}`;
+  const tot=Object.values(vals).reduce((a,b)=>a+b,0), n=Object.keys(vals).length, top=Object.entries(vals).sort((a,b)=>b[1]-a[1])[0];
+  $("#mpFigs").innerHTML=figHTML("",fmt(tot),mlab,"all states shown")+figHTML("",fmt(n),"States with data","of 37")+figHTML("",top?esc(top[0]):"–","Highest",top?fmt(top[1]):"");
+  const br=breaks(Object.values(vals)), cols=mapColors(br.length+1);
+  const colorOf=v=>{ if(!v) return null; let i=0; while(i<br.length&&v>br[i]) i++; return cols[i]; };
+  const lg=[`<span><i style="background:#f1f3f7"></i>No data</span>`]; let lo=0;
+  br.concat([Infinity]).forEach((b,i)=>{ lg.push(`<span><i style="background:${cols[i]}"></i>${i===0?"≤ "+short(b):b===Infinity?"> "+short(lo):short(lo)+" – "+short(b)}</span>`); lo=b; });
+  $("#mpLegend").innerHTML=lg.join("");
+  const dkeys=[...new Set(Object.values(det).flatMap(o=>Object.keys(o)))].filter(k=>k!=="report"&&k!==mlab);
+  table("mpTable",[{k:"state",h:"State",cls:"tl"},{k:"zone",h:"Zone",cls:"tl"},{k:"v",h:mlab},...dkeys.map(k=>({k,h:k,cls:/round|source/.test(k)?"tl":""}))],
+    Object.entries(vals).map(([st,v])=>({state:st,zone:zoneOf(st),v,...det[st]})),{sort:"v",dir:-1});
+  if(!window.L||!NG_STATES){ $("#map").innerHTML=`<div class="empty" style="margin:20px">The map library did not load.</div>`; return; }
+  if(!LMAP){
+    LMAP=L.map("map",{zoomSnap:.25,attributionControl:true}).setView([9.1,8.3],6);
+    const osm=L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"© OpenStreetMap contributors"});
+    const topo=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",{maxZoom:18,attribution:"Esri, ArcGIS Online"});
+    const img=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",{maxZoom:18,attribution:"Esri, Maxar, Earthstar Geographics"});
+    const gray=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,attribution:"Esri, ArcGIS Online"});
+    gray.addTo(LMAP);
+    L.control.layers({"ArcGIS Light Gray":gray,"OpenStreetMap":osm,"ArcGIS Topographic":topo,"ArcGIS Imagery":img},{}, {collapsed:false}).addTo(LMAP);
+    LGEO=L.geoJSON(NG_STATES,{}).addTo(LMAP); LMAP.fitBounds(LGEO.getBounds(),{padding:[10,10]});
+    LLBL=L.layerGroup().addTo(LMAP);
+  }
+  LLBL.clearLayers();
+  LGEO.eachLayer(l=>{ const st=l.feature.properties.name, v=vals[st], c=colorOf(v);
+    l.setStyle({color:"#ffffff",weight:1.2,fillColor:c||"#f1f3f7",fillOpacity:c?.82:.35});
+    const d=det[st]||{}; l.bindTooltip(`<b>${esc(st)}</b><br>${esc(mlab)}: <b>${fmt(v)}</b>`+Object.entries(d).filter(([k])=>k!=="report").map(([k,x])=>`<br>${esc(k)}: ${typeof x==="number"?fmt(x):esc(x)}`).join("")+(d.report?`<br><i>${esc(d.report)}</i>`:""),{sticky:true});
+    l.off("click").on("click",()=>{ setSel("#fState",st); });
+    if(MAPV.labels&&v){ const ctr=l.getBounds().getCenter(); LLBL.addLayer(L.tooltip({permanent:true,direction:"center",className:"map-lbl",interactive:false}).setLatLng(ctr).setContent(`${esc(st)}<br>${short(v)}`)); }
+  });
+  setTimeout(()=>LMAP.invalidateSize(),50);
+}
 /* ================================================================= wiring */
-const RENDER={bio:renderBio,home:renderHome,overview:renderOverview,mobility:renderMobility,ett:renderETT,flash:renderFlash,flood:renderFlood,pubs:renderPubs,add:()=>{},about:renderAbout};
+const RENDER={map:renderMap,bio:renderBio,home:renderHome,overview:renderOverview,mobility:renderMobility,ett:renderETT,flash:renderFlash,flood:renderFlood,pubs:renderPubs,add:()=>{},about:renderAbout};
 function setTab(t){ V.tab=t; document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));
   document.querySelectorAll("main>section").forEach(s=>s.hidden=s.id!=="s-"+t); document.body.classList.toggle("hide-years",t==="mobility"||t==="add"); document.body.classList.toggle("show-mt",t==="mobility");
   render(); history.replaceState(null,"","#"+t); }
