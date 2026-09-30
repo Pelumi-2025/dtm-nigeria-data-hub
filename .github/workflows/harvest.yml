@@ -2,8 +2,7 @@ name: Harvest DTM Nigeria and publish the Data Hub
 
 on:
   schedule:
-    - cron: "15 */6 * * *"    # quick check for new reports every 6 hours
-    - cron: "30 1 * * *"      # full harvest with PDF reading every night (02:30 WAT)
+    - cron: "30 1 * * *"      # every night at 02:30 WAT
   push:
     branches: [main]
     paths: ["data/raw/**", "data/reports/**", "harvester/**", "site/**"]
@@ -16,7 +15,7 @@ permissions:
 
 concurrency:
   group: harvest
-  cancel-in-progress: false
+  cancel-in-progress: true    # a new run replaces one that is still waiting or running
 
 jobs:
   build:
@@ -32,36 +31,41 @@ jobs:
         run: cd harvester && python build_baseline.py
 
       - name: DTM public API (skipped if no DTM_API_KEY secret)
+        continue-on-error: true
         env: { DTM_API_KEY: "${{ secrets.DTM_API_KEY }}" }
         run: cd harvester && python dtm_api.py
 
       - name: Crawl dtm.iom.int, ReliefWeb and HDX
+        continue-on-error: true
         env: { RELIEFWEB_APPNAME: "${{ secrets.RELIEFWEB_APPNAME }}" }
         run: |
           cd harvester
-          if [ "${{ github.event.schedule }}" = "15 */6 * * *" ]; then
-            python harvest_web.py --max-pages 5 --no-pdf     # quick: first pages only
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python harvest_web.py --max-pages 3 --no-pdf    # after an upload: quick, so the site updates fast
           else
-            python harvest_web.py                            # full: every page + PDFs
+            python harvest_web.py                           # nightly / manual: every page + PDFs
           fi
 
       - name: Download Mobility Tracking data files published online
+        continue-on-error: true
         run: cd harvester && python harvest_datasets.py
 
+      - name: Save the harvest to the repository (kept even if a later step fails)
+        if: always()
+        run: |
+          git config user.name "dtm-hub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/harvest data/raw/online || true
+          git diff --cached --quiet || git commit -m "Harvest $(date -u +%F\ %H:%M)"
+          git pull --rebase --autostash || true
+          git push || true
+
       - name: Re-read all data files (online first, attached files for missing rounds)
+        continue-on-error: true
         run: cd harvester && python build_baseline.py
 
       - name: Build the dashboard
         run: cd harvester && python build_site.py
-
-      - name: Save the harvest to the repository
-        run: |
-          git config user.name "dtm-hub-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/harvest data/baseline.json data/raw/online || true
-          git diff --cached --quiet || git commit -m "Harvest $(date -u +%F\ %H:%M)"
-          git pull --rebase --autostash || true
-          git push || true
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
