@@ -389,6 +389,10 @@ def main():
     payload = json.dumps(data, separators=(",", ":"))
     (DIST / "data.json").write_text(payload)
     html = (SITE / "index.html").read_text().replace("/*__DATA__*/null", payload.replace("</", "<\\/"))
+    vend = SITE / "vendor"
+    html = html.replace("/*__LEAFLET_JS__*/", (vend / "leaflet.js").read_text().replace("</script", "<\\/script"))
+    html = html.replace("/*__LEAFLET_CSS__*/", (vend / "leaflet.css").read_text())
+    html = html.replace("/*__GEO__*/null", (vend / "nigeria_states.geojson").read_text())
     (DIST / "index.html").write_text(html)
     for f in ("sw.js", "manifest.webmanifest", "_headers"):
         if (SITE / f).exists():

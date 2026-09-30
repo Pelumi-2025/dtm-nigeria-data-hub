@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "baseline.json"
 REG_NE, REG_NC = "North East", "North Central & North West"
+USE_ONLINE = True
 
 # ---------------------------------------------------------------- column synonyms
 SYN = {
@@ -124,7 +125,14 @@ def fix_header(df):
         out = out.iloc[1:].copy()
         # keep hashtags as a fallback naming when headers are blank
         out.columns = [c if str(c).strip() and not str(c).startswith("Unnamed") else h for c, h in zip(out.columns, hx)]
-    return out.reset_index(drop=True)
+    out = out.reset_index(drop=True)
+    cols, seen = [], {}
+    for c in out.columns:                       # duplicate or blank headers break column look-ups
+        c = str(c).strip() or "blank"
+        seen[c] = seen.get(c, 0) + 1
+        cols.append(c if seen[c] == 1 else f"{c}__{seen[c]}")
+    out.columns = cols
+    return out
 
 
 def read_any(path):
@@ -204,6 +212,8 @@ def load_frames(prefix):
     and from datasets the harvester downloaded from the websites (data/raw/online)."""
     frames = []
     for origin, folder in (("attached", RAW), ("online", RAW / "online")):
+        if origin == "online" and not USE_ONLINE:
+            continue
         files = sorted(list(folder.glob(f"{prefix}*.xlsx")) + list(folder.glob(f"{prefix}*.csv"))) if folder.exists() else []
         for f in files:
             try:
@@ -212,6 +222,7 @@ def load_frames(prefix):
                 print(f"  cannot read {f.name}: {e}")
                 continue
             for sheet, df in book.items():
+              try:
                 if df.empty:
                     continue
                 cm = colmap(df)
@@ -257,6 +268,8 @@ def load_frames(prefix):
                 frames.append(d)
                 rs = sorted(d["round"].unique())
                 print(f"  [{origin}] {f.name}:{sheet} -> {len(d)} rows, R{rs[0]}–R{rs[-1]}")
+              except Exception as e:                      # a malformed downloaded file is skipped, not fatal
+                print(f"  skipped {f.name}:{sheet} – {type(e).__name__}: {e}")
     return pd.concat(frames, ignore_index=True) if frames else None
 
 
@@ -512,7 +525,16 @@ def build_region(prefix, region, reported):
                 reference.setdefault((rn, False), a_)
             if c_:
                 reference.setdefault((rn, True), c_)
-    lga_rows, meta, reasons, notes, places = load_mobility(prefix, reference)
+    try:
+        lga_rows, meta, reasons, notes, places = load_mobility(prefix, reference)
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"  !! online files could not be combined ({e}); using the attached files only")
+        global USE_ONLINE
+        USE_ONLINE = False
+        lga_rows, meta, reasons, notes, places = load_mobility(prefix, reference)
+        USE_ONLINE = True
     # cross-check figures: summary sheet of the Excel file, then published reports
     for oc in official_comparison() if region == REG_NE else []:
         m = meta.get(oc["round"])
