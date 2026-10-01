@@ -233,8 +233,66 @@ body.hide-years .yr{display:grid} .mt-only{display:none} body.show-mt .mt-only{d
 @media (max-width:900px){.tb-row{grid-template-columns:1fr}.topbar{position:relative;padding:10px 14px}}
 .side{top:0}
 i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size:.7em;margin-left:1px}
+.hero{background:var(--panel);border:1.5px solid var(--pb-line);border-radius:8px;padding:18px 20px;margin-bottom:14px}
+.hero h2{font-size:1.6rem;color:#0E4D6E;margin-bottom:6px}
+.bigbtn{padding:10px 20px;font-size:1rem;border-radius:8px;background:#0E4D6E}
+h3.hh{margin:18px 0 8px;color:#0E4D6E}
+.guide{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.guide>div{background:var(--panel);border:1.5px solid var(--pb-line);border-radius:8px;padding:12px 14px}
+.guide em{font-style:italic;font-weight:800;font-size:1.3rem;color:#5BA3C7;margin-right:6px}
+.guide b{color:var(--ink)} .guide p{margin:6px 0 0;color:var(--ink-2);font-size:.88rem}
 .cal td{min-width:34px;font-size:.74rem;text-align:center;cursor:pointer}
 /*__LEAFLET_CSS__*/
+/* ================= Power BI–style theme ================= */
+:root{ --iom:#0E4D6E; --idp:#0E4D6E; --ret:#5BA3C7; --pb-side:#45ACE0; --pb-bg:#E6F3FA; --pb-line:#B9DDF0; --paper:#E6F3FA; --wash:#E1F0F8; }
+:root[data-theme="dark"]{ --pb-side:#123a52; --pb-bg:#0f1a26; --pb-line:#25425a; }
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){ --pb-side:#123a52; --pb-bg:#0f1a26; --pb-line:#25425a; }}
+body{background:var(--pb-bg)}
+.pbi-head{display:grid;grid-template-columns:220px 1fr auto;align-items:center;gap:14px;padding:8px 22px;
+  background:linear-gradient(90deg,#0A3A57 0%,#0E5A80 55%,#0A3A57 100%);color:#fff;min-height:74px;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.pbi-head h1{margin:0;text-align:center;font-size:clamp(1.3rem,2.4vw,2rem);font-weight:800;letter-spacing:.2px}
+.pbi-logo{width:58px;height:58px;border-radius:50%;background:#fff;color:#0E4D6E;display:grid;place-items:center;font-weight:900;font-size:1rem;box-shadow:0 0 0 3px rgba(255,255,255,.35)}
+.pbi-tools{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.pbi-tools .status{font-size:.74rem}
+.pbi-tools .mast-tools{margin:0}
+.shell{grid-template-columns:230px minmax(0,1fr);background:linear-gradient(to right,var(--pb-side) 230px,transparent 230px)!important}
+.side{background:var(--pb-side)!important;padding:22px 18px;gap:12px}
+.side .tabs{gap:12px}
+.side .tabs button{background:rgba(255,255,255,.18);color:#0B3550;border:1.5px solid rgba(255,255,255,.75);border-radius:14px;padding:13px 10px;
+  text-align:center;font-weight:700;font-size:.86rem;box-shadow:0 2px 0 rgba(0,0,0,.08)}
+:root[data-theme="dark"] .side .tabs button{color:#e8f2fa}
+.side .tabs button:hover{background:rgba(255,255,255,.35)}
+.side .tabs button[aria-selected="true"]{background:#CBE9F8;color:#0A3A57;border-color:#fff;box-shadow:0 3px 8px rgba(0,0,0,.18)}
+.pbi-social{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:14px}
+.pbi-social a{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#0E4D6E;font-weight:800;font-size:.72rem;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.pbi-social a:nth-child(1){background:#C4161C;color:#fff}.pbi-social a:nth-child(2){background:#0A66C2;color:#fff}
+.side-foot{color:#0B3550;text-align:center}
+.shell main{padding:14px 16px 80px}
+.slicers{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:flex-end;background:var(--panel);border:1.5px solid var(--pb-line);border-radius:6px;padding:10px 14px;margin-bottom:12px}
+.slicers>label,.slicers .rdd>label{display:flex;flex-direction:column;gap:3px;font-size:.78rem;font-weight:700;color:var(--ink)}
+.slicers select,.slicers #rBtn{min-width:130px;background:#0E4D6E;color:#fff;border:0;border-radius:3px;padding:5px 8px;font-size:.82rem;font-weight:600}
+.slicers select option{background:#fff;color:#16213A}
+.slicers .rdd label{color:var(--ink)}
+.slicers #rBtn{text-align:left;width:auto;min-width:170px}
+.slicers [hidden]{display:none!important}
+.sl-links{display:flex;gap:6px;margin-left:auto}
+.sl-links .tb-link{background:var(--wash);color:var(--iom);border:1px solid var(--iom);border-radius:3px;padding:5px 10px;font-weight:700;font-size:.8rem;cursor:pointer}
+.sl-count{flex-basis:100%;font-size:.8rem;color:var(--ink-2);border-top:1px solid var(--line-2);padding-top:6px}
+.tb-dd{position:relative}
+.panel{border:1.5px solid var(--pb-line);border-radius:6px;box-shadow:none}
+.panel h3.pt{text-align:center;font-size:.98rem;margin-bottom:6px}
+.figs,.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;border:0;background:none;margin-bottom:12px}
+.figs .fig,.kpis .fig{position:relative;background:var(--panel);border:1.5px solid var(--pb-line);border-radius:6px;padding:14px 14px 12px 24px;text-align:center}
+.figs .fig::before,.kpis .fig::before{content:"";position:absolute;left:8px;top:12px;bottom:12px;width:6px;border-radius:4px;background:#0E4D6E}
+.fig .v{font-size:1.75rem;color:#0E4D6E}
+:root[data-theme="dark"] .fig .v{color:#9fd3f0}
+.fig .l{font-weight:700;color:var(--ink);font-size:.9rem}
+.pbi-grid{display:grid;gap:12px;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr) minmax(0,1.6fr);grid-template-areas:"g t b" "c c b"}
+.pb-gauge{grid-area:g}.pb-tree{grid-area:t}.pb-bars{grid-area:b}.pb-cols{grid-area:c}
+@media (max-width:1100px){.pbi-grid{grid-template-columns:1fr;grid-template-areas:"g" "t" "b" "c"}}
+#ovTree svg text{pointer-events:none}
+@media (max-width:900px){.pbi-head{grid-template-columns:60px 1fr}.pbi-tools{grid-column:1/-1;align-items:flex-start}.shell{background:none!important}}
+
 .map-wrap{position:relative}
 #map{height:560px;border-radius:10px;border:1px solid var(--line);background:#dfe6f0}
 :root[data-theme="dark"] #map{background:#1b2436}
@@ -247,109 +305,107 @@ i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size
 </style>
 </head>
 <body>
-<header class="mast">
-  <div class="mast-in">
-    <div class="mast-row">
-      <div>
-        <h1>DTM Nigeria Data Hub</h1>
-        <p>Everything IOM's Displacement Tracking Matrix has published on Nigeria — displacement and return by round, LGA and state, weekly movements, incidents and floods.</p>
-      </div>
-      <div>
-        <div class="status" id="status">Loading data…</div>
-        <div class="mast-tools">
-          <button class="ghost" id="themeBtn" type="button">Switch theme</button>
-          <button class="ghost" id="saveBtn" type="button">Save offline copy</button>
-        </div>
-      </div>
-    </div>
-    <div id="curve" aria-label="IDPs and returnees across all mobility tracking rounds"></div>
-    <div class="curve-key">
-      <span><i style="background:#fff"></i>North East IDPs</span>
-      <span><i style="background:#F0B845"></i>North East returnees</span>
-      <span><i style="background:#8FB0FF"></i>North Central & North West IDPs</span>
-    </div>
+<header class="mast pbi-head">
+  <div class="pbi-logo" title="IOM Displacement Tracking Matrix">DTM</div>
+  <h1>DTM Nigeria Data Hub</h1>
+  <div class="pbi-tools">
+    <div class="status" id="status">Loading data…</div>
+    <div class="mast-tools"><button class="ghost" id="themeBtn" type="button">Theme</button><button class="ghost" id="saveBtn" type="button">Save offline</button></div>
   </div>
 </header>
 
-<div class="topbar" id="topbar">
-  <div class="tb-row"><span class="tb-l">Region</span><div class="tb-b" id="tbRegion"></div></div>
-  <div class="tb-row"><span class="tb-l">Data product</span><div class="tb-b" id="tbComp"></div></div>
-  <div class="tb-row"><span class="tb-l">Reports published</span><div class="tb-b"><span class="tb-count" id="tbCount"></span></div></div>
-  <div class="tb-row" id="tbPopRow"><span class="tb-l">Population category</span><div class="tb-b" id="tbPop"></div></div>
-  <div class="tb-row"><span class="tb-l">Links</span><div class="tb-b"><span class="tb-dd"><button type="button" class="tb-link" id="tbRep">Report link ▾</button><div class="tb-pop" id="tbRepPop" hidden></div></span>
-    <span class="tb-dd"><button type="button" class="tb-link" id="tbDs">Dataset link ▾</button><div class="tb-pop" id="tbDsPop" hidden></div></span><span class="tb-note" id="tbNote"></span></div></div>
-</div>
 <div class="shell">
 <aside class="side" aria-label="Filters and sections">
   <nav class="tabs" role="tablist" id="tabs">
     <button role="tab" data-t="home" aria-selected="true">Home & guide</button>
     <button role="tab" data-t="overview">Overview</button>
+    <button role="tab" data-t="map">Map</button>
     <button role="tab" data-t="mobility">Mobility tracking</button>
     <button role="tab" data-t="ett">Emergency tracking (ETT)</button>
     <button role="tab" data-t="flash">Incidents & flash reports</button>
-    <button role="tab" data-t="map">Map</button>
+    <button role="tab" data-t="ttt">Transhumance (TTT)</button>
     <button role="tab" data-t="flood">Floods</button>
     <button role="tab" data-t="bio">Biometric registration</button>
     <button role="tab" data-t="pubs">Publications</button>
     <button role="tab" data-t="add">Add data</button>
     <button role="tab" data-t="about">Sources & method</button>
   </nav>
-  <div class="filters">
-    <h4>Filters</h4>
-    <div class="sidefilt"><label>Region<select id="fRegion">
-      <option value="">All regions</option><option>North East</option><option>North Central & North West</option><option>Southern states</option></select></label>
-    <label>State<select id="fState"><option value="">All states</option></select></label></div>
-    <div class="mt-only rdd"><label for="rBtn">Rounds</label><button type="button" id="rBtn" aria-expanded="false"></button>
-      <div class="rpanel" id="rPanel" hidden><div class="rtools"><button type="button" data-q="all">All</button><button type="button" data-q="latest">Latest</button><button type="button" data-q="last5">Last 5</button><button type="button" data-q="yearly">Last of each year</button><button type="button" data-q="none">Clear</button></div>
-        <div class="rlist" id="rList"></div></div></div>
-    <div class="yr two"><label>From<select id="fFrom"></select></label><label>To<select id="fTo"></select></label></div>
-    
-    <button class="ghost" id="resetBtn" type="button">Reset all filters</button>
+  <div class="pbi-social">
+    <a href="https://dtm.iom.int/nigeria" target="_blank" rel="noopener" title="DTM Nigeria on dtm.iom.int">DTM</a>
+    <a href="https://response.reliefweb.int/nigeria/data" target="_blank" rel="noopener" title="ReliefWeb Response – Nigeria data">RW</a>
+    <a href="https://data.humdata.org/group/nga" target="_blank" rel="noopener" title="HDX – Nigeria">HDX</a>
   </div>
   <div class="side-foot">IOM · Displacement Tracking Matrix · Nigeria</div>
 </aside>
 <main>
+<div class="slicers" id="slicers">
+  <label>Year from<select id="fFrom"></select></label>
+  <label>Year to<select id="fTo"></select></label>
+  <label>Region<select id="fRegion"><option value="">All</option><option>North East</option><option>North Central & North West</option><option>Southern states</option></select></label>
+  <label>State<select id="fState"><option value="">All</option></select></label>
+  <label>Data product<select id="tbComp"></select></label>
+  <label id="tbPopRow">Population category<select id="tbPop"></select></label>
+  <div class="mt-only rdd"><label for="rBtn">Rounds</label><button type="button" id="rBtn" aria-expanded="false"></button>
+    <div class="rpanel" id="rPanel" hidden><div class="rtools"><button type="button" data-q="all">All</button><button type="button" data-q="latest">Latest</button><button type="button" data-q="last5">Last 5</button><button type="button" data-q="yearly">Last of each year</button><button type="button" data-q="none">Clear</button></div>
+      <div class="rlist" id="rList"></div></div></div>
+  <div class="sl-links"><span class="tb-dd"><button type="button" class="tb-link" id="tbRep">Report link ▾</button><div class="tb-pop" id="tbRepPop" hidden></div></span>
+    <span class="tb-dd"><button type="button" class="tb-link" id="tbDs">Dataset link ▾</button><div class="tb-pop" id="tbDsPop" hidden></div></span>
+    <button class="tb-link" id="resetBtn" type="button">Reset</button></div>
+  <div class="sl-count" id="tbCount"></div><span id="tbNote" hidden></span><div id="tbRegion" hidden></div>
+</div>
 <section id="s-home">
-  <h2>DTM Nigeria Data Hub</h2>
-  <p class="lede">All data IOM DTM Nigeria publishes on dtm.iom.int and ReliefWeb — mobility tracking rounds, emergency tracking, incident and flash reports, and every publication — cross-checked against the curated data files. Choose a region, state or period on the left and every number, table and chart updates.</p>
-  <div class="figs" id="homeFigs"></div>
-  <h3 style="margin-top:22px">How to use the dashboard</h3>
-  <ol class="steps">
-    <li><b>Pick a place and period.</b> In the blue panel, choose a region, a state and the years. Mobility tracking has its own round selector.</li>
-    <li><b>Move between rounds.</b> On Mobility tracking, click a round in the coverage strip (shift-click sets the start), or pick Round A and Round B to see the change for every state and LGA in percentages.</li>
-    <li><b>Follow trends.</b> Choose states or LGAs as chips to follow them across rounds, weeks or months.</li>
-    <li><b>Check the sources.</b> Every round links to its report and dataset online; the cross-check table compares the data files with the published figures.</li>
-    <li><b>Read ETT and flash reports by week and month.</b> Switch Week / Month / Year and State / LGA on those pages.</li>
-    <li><b>Export.</b> Every table has Download CSV; “Save offline copy” keeps the whole platform in one file that works without internet.</li>
-    <li><b>Ask the data.</b> Use the button at the bottom right, for example “returnees in Adamawa round 44” or “flash reports per month in Zamfara 2025”.</li>
-    <li><b>Add new rounds.</b> North East R53–R65 and North Central & North West R20–R35 can be added as files or typed-in figures on Add data.</li>
-  </ol>
-  <h3 style="margin-top:22px">What each component covers</h3>
+  <div class="hero">
+    <h2>DTM Nigeria Data Hub</h2>
+    <p class="lede">A live view of the numbers IOM DTM Nigeria publishes on dtm.iom.int — displacement and return by round, state and LGA, weekly emergency tracking, incident and flash reports, transhumance, floods and biometric registration — from 2014 onwards. Choose any period, product, region or state and every number, chart and list updates together.</p>
+    <div class="figs" id="homeFigs"></div>
+    <p><button class="primary bigbtn" type="button" data-go="overview">Open the dashboard →</button></p>
+  </div>
+  <h3 class="hh">How to use the dashboard</h3>
+  <div class="guide">
+    <div><em>1</em><b>Pick a period</b><p>Use <i>Year from</i> and <i>Year to</i> in the slicer bar at the top; every page follows them.</p></div>
+    <div><em>2</em><b>Choose a data product</b><p>Pick Mobility Tracking, ETT, Incidents &amp; Flash, Transhumance, Floods or Biometric Registration in <i>Data product</i>, or use the buttons on the left.</p></div>
+    <div><em>3</em><b>Choose regions and states</b><p>Use the <i>Region</i> and <i>State</i> slicers (all 36 states and the FCT). The Map shows every state at once.</p></div>
+    <div><em>4</em><b>Select rounds</b><p>On Mobility Tracking, the <i>Rounds</i> slicer selects any set of rounds (North East R1–R52, North Central &amp; North West R1–R19); households always come before individuals.</p></div>
+    <div><em>5</em><b>Read the headline numbers</b><p>The cards at the top of each page give the totals for your selection, with the change from the previous round or period.</p></div>
+    <div><em>6</em><b>Explore the charts and the map</b><p>Hover over any bar, state or cell to see its number; click a state on the map to filter by it.</p></div>
+    <div><em>7</em><b>Open or export reports</b><p><i>Report link</i> and <i>Dataset link</i> list the sources for your selection; every table has <i>Download CSV</i>; <i>Save offline</i> keeps the whole platform in one file.</p></div>
+    <div><em>8</em><b>Ask the data</b><p>Use <i>Ask the data</i> (bottom right) for questions such as “flash reports per month in Zamfara in 2026” or “herders counted in Katsina”.</p></div>
+  </div>
+  <h3 class="hh">What each data product covers</h3>
   <div class="cards" id="homeCards"></div>
-  <h3 style="margin-top:22px">Good to know</h3>
-  <div class="prose"><p>Rounds are shown from the lowest to the highest. Round-to-round change in households and individuals is always shown as a percentage. Values not yet published or harvested show as a dash — nothing is estimated. Sites (IDP locations, camps) are counts stated in reports; the data files are ward-level, so dataset rounds also show wards with IDPs.</p></div>
+  <h3 class="hh">Good to know</h3>
+  <div class="guide good">
+    <div><b>Where the numbers come from</b><p>Headline figures are those published in each report. Where a report does not state a figure, the round's data file is used and shown in grey italic.</p></div>
+    <div><b>Rounds and dates</b><p>Rounds run from the lowest to the highest. Each round is dated by its publication month; ETT weeks are Monday–Sunday.</p></div>
+    <div><b>Regions and states</b><p>North East covers Adamawa, Bauchi, Borno, Gombe, Taraba and Yobe; North Central &amp; North West covers the other tracked states. Floods cover all 37 states.</p></div>
+    <div><b>Always up to date</b><p>New reports on dtm.iom.int, ReliefWeb and HDX are collected automatically every night; the offline copy works without internet.</p></div>
+  </div>
 </section>
 <!-- ============================================================ OVERVIEW -->
 <section id="s-overview" hidden>
-  <h2>Where displacement stands now</h2>
-  <p class="lede" id="ovLede"></p>
-  <div class="figs" id="ovFigs"></div>
-  <div class="grid">
-    <div class="panel c8">
-      <div class="panel-head"><div><h3>Year-on-year change</h3><p class="sub">Last round published in each year.</p></div>
-        <div class="seg" id="yoySeg"><button aria-pressed="true" data-v="North East">North East</button><button data-v="North Central & North West">NC & NW</button></div></div>
-      <div class="chart" id="yoyChart"></div>
-    </div>
-    <div class="panel c4"><h3>Publications by component</h3><p class="sub">Selected years and places.</p><div id="ovPubs"></div></div>
-    <div class="panel c6"><h3>Emergency tracking – arrivals per month</h3><p class="sub">Individuals recorded by the ETT.</p><div class="chart" id="ovEtt"></div></div>
-    <div class="panel c6"><h3>Flood impact by year</h3><p class="sub">Affected and displaced individuals.</p><div class="chart" id="ovFlood"></div></div>
+  <div class="kpis" id="ovFigs"></div>
+  <div class="pbi-grid">
+    <div class="panel pb-gauge"><h3 class="pt">Figures taken from published reports</h3><div id="ovGauge"></div><p class="sub" style="text-align:center">Share of round household &amp; individual figures (both regions) stated in a report</p></div>
+    <div class="panel pb-tree"><h3 class="pt">IDPs by state – latest rounds</h3><div id="ovTree"></div></div>
+    <div class="panel pb-bars"><h3 class="pt">Returnees by state – latest North East round</h3><div class="chart" id="ovRetBars"></div></div>
+    <div class="panel pb-cols"><h3 class="pt" id="ovColsTitle">IDP households and individuals by round</h3>
+      <div class="seg" id="yoySeg" style="margin:0 auto 4px;display:flex;width:max-content"><button aria-pressed="true" data-v="North East">North East</button><button data-v="North Central & North West">NC & NW</button></div>
+      <div class="chart" id="ovCols"></div></div>
+  </div>
+  <p class="lede" id="ovLede" style="margin-top:14px"></p>
+  <div class="grid" style="margin-top:6px">
+    <div class="panel c12"><h3 class="pt">Displacement trend – all rounds</h3><div id="curve" class="chart"></div></div>
+    <div class="panel c8"><h3 class="pt">Year-on-year change</h3><p class="sub">Last round published in each year.</p><div class="chart" id="yoyChart"></div></div>
+    <div class="panel c4"><h3 class="pt">Publications by component</h3><div id="ovPubs"></div></div>
+    <div class="panel c6"><h3 class="pt">Emergency tracking – arrivals per month</h3><div class="chart" id="ovEtt"></div></div>
+    <div class="panel c6"><h3 class="pt">Flood impact by year</h3><div class="chart" id="ovFlood"></div></div>
   </div>
 </section>
 
 <!-- ============================================================ MOBILITY -->
 <section id="s-mobility" hidden>
   <div class="panel-head"><div><h2>Mobility tracking – IDP & returnee atlas</h2>
-    <p class="lede">North East R1–R52 and North Central & North West R1–R19, lowest to highest round. Choose rounds in the <b>Rounds</b> dropdown on the left (or click them in the strip below); every table and chart follows your selection.</p></div>
+    <p class="lede">North East R1–R52 and North Central & North West R1–R19, lowest to highest round. Choose rounds in the <b>Rounds</b> slicer at the top (or click them in the strip below); every table and chart follows your selection.</p></div>
     <div class="seg" id="mtSeg"><button aria-pressed="true" data-v="North East">North East</button><button data-v="North Central & North West">North Central & North West</button></div></div>
 
   <div class="panel" style="margin-bottom:16px">
@@ -480,6 +536,21 @@ i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size
   </div>
 </section>
 
+<!-- ============================================================ TTT -->
+<section id="s-ttt" hidden>
+  <h2>Transhumance Tracking Tool (TTT)</h2>
+  <p class="lede">Two TTT products: the <b>Early Warning & Early Response (EWER)</b> dashboards count alerts (events and massive/late movements) linked to farmer–herder tensions, and the <b>Transhumance Flow Monitoring</b> dashboards count herders and animals at flow monitoring points. Figures are taken from each published report, with its number and link.</p>
+  <div class="kpis" id="tttFigs"></div>
+  <div class="grid">
+    <div class="panel c6"><h3 class="pt">Early warning – alerts per report</h3><p class="sub" style="text-align:center">Events and movements; grey = total only (split not stated)</p><div class="chart" id="tttEwChart"></div></div>
+    <div class="panel c6"><h3 class="pt">Flow monitoring – herders and animals per report</h3><p class="sub" style="text-align:center">All states in the report</p><div class="chart" id="tttFlChart"></div></div>
+    <div class="panel c12"><div class="panel-head"><div><h3>Early Warning & Early Response dashboards</h3><p class="sub">Number of alerts, events and movements per report, with report number and link.</p></div><button class="btn" data-csv="tttEwTable">Download CSV</button></div>
+      <div class="tw"><table id="tttEwTable"></table></div></div>
+    <div class="panel c12"><div class="panel-head"><div><h3>Transhumance Flow Monitoring dashboards</h3><p class="sub">Herders and animals by state per report, flow monitoring (counting) points, report number and link.</p></div><button class="btn" data-csv="tttFlTable">Download CSV</button></div>
+      <div class="tw"><table id="tttFlTable"></table></div></div>
+  </div>
+</section>
+
 <!-- ============================================================ MAP -->
 <section id="s-map" hidden>
   <h2>Map – numbers by state</h2>
@@ -487,7 +558,7 @@ i.dsv{color:var(--ink-3)} i.dsv::after{content:"ᵈ";font-style:normal;font-size
   <div class="controls">
     <label>Data product<select id="mpProd">
       <option value="mobility">Mobility Tracking</option><option value="ett">Emergency Tracking Tool (ETT)</option>
-      <option value="flash">Incidents & Flash</option><option value="flood">Floods</option><option value="bio">Biometric Registration</option></select></label>
+      <option value="flash">Incidents & Flash</option><option value="ttt">Transhumance (TTT)</option><option value="flood">Floods</option><option value="bio">Biometric Registration</option></select></label>
     <label>Measure<select id="mpMeasure"></select></label>
     <label class="mp-mob">North East round<select id="mpNE"></select></label>
     <label class="mp-mob">North Central & North West round<select id="mpNC"></select></label>
@@ -615,8 +686,9 @@ const NE="North East", NC="North Central & North West";
 const COMPONENTS = [
  ["mt_atlas","Mobility Tracking – IDP & Returnee Atlas"],["mt_needs","Mobility Tracking – Needs Monitoring"],
  ["flash","Incident / Flash Report"],["ett","Emergency Tracking Tool (ETT)"],
+ ["transhumance","Transhumance Flow Monitoring Dashboard"],["ewer","Transhumance Early Warning & Early Response"],
  ["flood","Post-Flood Situation Report (Ad-Hoc)"],["biometric","Biometric Registration Report"],["other","Other DTM products"]];
-const EXCLUDED=["intention","ses","smi","transhumance","ewer","ses_fm"];
+const EXCLUDED=["intention","ses","smi","ses_fm"];
 const COMP_KW = [
  ["mt_needs",["needs monitoring","multi-sectoral needs","msna"]],["flash",["flash report","incident report","flash update"]],
  ["ett",["emergency tracking tool","ett report","emergency tracking"]],["intention",["intention survey","intentions survey","return intention","camp closure"]],
@@ -737,6 +809,7 @@ function barChart(box,o){
       r.addEventListener("mousemove",e=>{ const rows=o.series.filter(q=>q.values[i]!=null&&q.values[i]!==0).map(q=>`<div><span style="color:${q.colorOf?q.colorOf(q.values[i]):q.color}">●</span> ${esc(q.name)}: <b>${(o.tipFmt||fmt)(q.values[i])}</b></div>`).join("");
         showTip(`<b>${o.tipTitle?o.tipTitle(i):esc(l)}</b>${rows}${o.stacked&&o.series.length>1?`<div>Total: <b>${fmt(tot[i])}</b></div>`:""}`,e);});
       r.addEventListener("mouseleave",hideTip);
+      if(!hz && !o.stacked && o.topLabels){ el("text",{x:b0+off+sw/2,y:m.t+ih-p1-4,"text-anchor":"middle","font-size":10,"font-weight":600,fill:css("--ink")},svg).textContent=short(v); }
       if(hz && !o.stacked && o.valueLabels!==false){ const endx=v<0?m.l+p0-4:m.l+p1+4; el("text",{x:endx,y:b0+off+sw/2+4,"text-anchor":v<0?"end":"start","font-size":10.5,fill:txt},svg).textContent=(o.labelFmt||short)(v); }
     });
     if(hz){ el("text",{x:m.l-6,y:b0+bw/2+4,"text-anchor":"end","font-size":11.5,fill:css("--ink-2")},svg).textContent=l;
@@ -858,16 +931,40 @@ function roundTotals(reg, rn){
 
 /* ================================================================= masthead curve */
 function drawCurve(){
+  if(!$("#curve")||$("#curve").offsetParent===null) return;
   const ne=mob(NE).rounds.filter(r=>r.date), nc=mob(NC).rounds.filter(r=>r.date);
   const months=[...new Set([...ne.map(r=>r.date),...nc.map(r=>r.date)])].sort();
   const at=(arr,k)=>months.map(mo=>{const r=arr.find(x=>x.date===mo); return r&&r[k]!=null?r[k]:null;});
   const carry=a=>{let last=null,on=false; return a.map(v=>{ if(v!=null){on=true;last=v;} return on?last:null;});};
-  lineChart($("#curve"),{labels:months,height:210,onDark:true,legend:false,yearTicks:true,
-    series:[{name:"North East IDPs",color:"#FFFFFF",values:carry(at(ne,"idp_ind")),width:2.6,dot:0,area:true,areaOpacity:.08},
-            {name:"North East returnees",color:"#F0B845",values:carry(at(ne,"ret_ind")),width:2.4,dot:0},
-            {name:"NC & NW IDPs",color:"#8FB0FF",values:carry(at(nc,"idp_ind")),dash:true,width:2,dot:0}],
+  lineChart($("#curve"),{labels:months,height:250,yearTicks:true,
+    series:[{name:"North East IDPs",color:"#0E4D6E",values:carry(at(ne,"idp_ind")),width:2.6,dot:0,area:true,areaOpacity:.10},
+            {name:"North East returnees",color:"#5BA3C7",values:carry(at(ne,"ret_ind")),width:2.4,dot:0},
+            {name:"North Central & North West IDPs",color:"#E08A1E",values:carry(at(nc,"idp_ind")),dash:true,width:2,dot:0}],
     tipTitle:i=>{ const a=ne.find(r=>r.date===months[i]), b=nc.find(r=>r.date===months[i]);
       return ym(months[i])+(a?` · NE R${a.round}`:"")+(b?` · NC/NW R${b.round}`:""); }});
+}
+
+/* gauge + treemap (Power BI–style visuals) */
+function gauge(box,p,sub){ const W=260,H=150,cx=130,cy=130,r=100,t=34; const a=Math.PI*(1-Math.max(0,Math.min(100,p))/100);
+  const arc=(a0,a1)=>{ const x0=cx+r*Math.cos(a0),y0=cy-r*Math.sin(a0),x1=cx+r*Math.cos(a1),y1=cy-r*Math.sin(a1),ri=r-t;
+    const x2=cx+ri*Math.cos(a1),y2=cy-ri*Math.sin(a1),x3=cx+ri*Math.cos(a0),y3=cy-ri*Math.sin(a0);
+    return `M${x0},${y0} A${r},${r} 0 0 1 ${x1},${y1} L${x2},${y2} A${ri},${ri} 0 0 0 ${x3},${y3} Z`; };
+  box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:300px;display:block;margin:6px auto">
+    <path d="${arc(Math.PI,0)}" fill="#EEF1F4"/><path d="${arc(Math.PI,a)}" fill="#1F5F7A"/>
+    <text x="${cx}" y="${cy-10}" text-anchor="middle" font-size="34" font-weight="700" fill="${css("--ink")}">${p.toFixed(1)}%</text></svg>`+(sub?`<div class="sub" style="text-align:center">${sub}</div>`:""); }
+function treemap(box,items,opts={}){
+  box.innerHTML=""; const W=Math.max(box.clientWidth,320), H=opts.height||260; items=items.filter(x=>x.v>0).sort((a,b)=>b.v-a.v);
+  if(!items.length){ emptyChart(box,"No data for this selection."); return; }
+  const total=items.reduce((a,b)=>a+b.v,0), rects=[];
+  (function lay(list,x,y,w,h){ if(!list.length) return; if(list.length===1){ rects.push({...list[0],x,y,w,h}); return; }
+    const tot=list.reduce((a,b)=>a+b.v,0); let acc=0,k=0; while(k<list.length-1&&acc+list[k].v<tot/2){ acc+=list[k].v; k++; } if(k===0){acc=list[0].v;k=1;}
+    const f=acc/tot; if(w>=h){ lay(list.slice(0,k),x,y,w*f,h); lay(list.slice(k),x+w*f,y,w*(1-f),h); } else { lay(list.slice(0,k),x,y,w,h*f); lay(list.slice(k),x,y+h*f,w,h*(1-f)); } })(items,0,0,W,H);
+  const shades=["#0B3C5D","#0E4D6E","#1F5F7A","#2F7392","#4A8CAB","#5BA3C7","#7DB8D6","#9CCBE2"];
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",height:H},box);
+  rects.forEach((r,i)=>{ const g=el("g",{},svg); el("rect",{x:r.x+1,y:r.y+1,width:Math.max(0,r.w-2),height:Math.max(0,r.h-2),fill:shades[Math.min(i,shades.length-1)]},g);
+    if(r.w>46&&r.h>30){ el("text",{x:r.x+8,y:r.y+18,fill:"#fff","font-size":12,"font-weight":600},g).textContent=r.k;
+      el("text",{x:r.x+8,y:r.y+r.h-8,fill:"#fff","font-size":11},g).textContent=short(r.v); }
+    g.addEventListener("mousemove",e=>showTip(`<b>${esc(r.k)}</b><br>${fmt(r.v)} (${(r.v/total*100).toFixed(1)}%)`,e)); g.addEventListener("mouseleave",hideTip); });
 }
 
 /* ================================================================= OVERVIEW */
@@ -875,33 +972,44 @@ function figHTML(cls,v,l,d){ return `<div class="fig ${cls}"><div class="v">${v}
 function deltaTxt(a,b,label){ const p=pct(a,b); if(p==null) return ""; return `<span class="${p>0?"up":"down"}">${p>0?"+":""}${p.toFixed(1)}%</span> vs ${label}`; }
 function latestWith(rounds,k){ const r=rounds.filter(x=>x[k]!=null); return [r[r.length-1]||{}, r[r.length-2]||{}]; }
 function renderOverview(){
-  const [n1,n0]=latestWith(mob(NE).rounds,"idp_ind"), [c1,c0]=latestWith(mob(NC).rounds,"idp_ind");
-  const [r1,r0]=latestWith(mob(NE).rounds,"ret_ind"), [q1,q0]=latestWith(mob(NC).rounds,"ret_ind");
-  const pend=[NE,NC].map(reg=>{ const p=mob(reg).rounds.filter(r=>!hasFig(r)); return p.length?`${reg} ${p.map(r=>"R"+r.round).join(", ")}`:null; }).filter(Boolean);
-  $("#ovLede").textContent=`Latest figures: North East Round ${n1.round} (${ym(n1.date)}) and North Central & North West Round ${c1.round} (${ym(c1.date)}).`+
-    (pend.length?` Published with figures still to come: ${pend.join("; ")}.`:"");
+  const [n1]=latestWith(mob(NE).rounds,"idp_ind"), [c1]=latestWith(mob(NC).rounds,"idp_ind");
+  const [nh]=latestWith(mob(NE).rounds,"idp_hh"), [ch]=latestWith(mob(NC).rounds,"idp_hh");
+  const [r1]=latestWith(mob(NE).rounds,"ret_ind"), [q1]=latestWith(mob(NC).rounds,"ret_ind");
+  const [rh]=latestWith(mob(NE).rounds,"ret_hh"), [qh]=latestWith(mob(NC).rounds,"ret_hh");
   const ms=[...new Set(D.ett.monthly.map(r=>r.month))].sort().slice(-12);
   $("#ovFigs").innerHTML=
-    figHTML("idp",fmt(n1.idp_ind),`IDPs, North East (R${n1.round})`,deltaTxt(n1.idp_ind,n0.idp_ind,`R${n0.round}`))+
-    (()=>{const [h1,h0]=latestWith(mob(NE).rounds,"ret_hh"); return figHTML("",fmt(h1.ret_hh),`Returnee households, North East (R${h1.round})`,h0.round?deltaTxt(h1.ret_hh,h0.ret_hh,`R${h0.round}`):"");})()+
-    figHTML("ret",fmt(r1.ret_ind),`Returnees, North East (R${r1.round})`,deltaTxt(r1.ret_ind,r0.ret_ind,`R${r0.round}`))+
-    figHTML("idp",fmt(c1.idp_ind),`IDPs, NC & NW (R${c1.round})`,deltaTxt(c1.idp_ind,c0.idp_ind,`R${c0.round}`))+
-    (()=>{const [h1,h0]=latestWith(mob(NC).rounds,"ret_hh"); return figHTML("",fmt(h1.ret_hh),`Returnee households, NC & NW (R${h1.round})`,h0.round?deltaTxt(h1.ret_hh,h0.ret_hh,`R${h0.round}`):"");})()+
-    figHTML("ret",fmt(q1.ret_ind),`Returnees, NC & NW (R${q1.round})`,deltaTxt(q1.ret_ind,q0.ret_ind,`R${q0.round}`))+
-    figHTML("",fmt(sum(D.ett.monthly.filter(r=>ms.includes(r.month)),r=>r.ind)),"ETT arrivals, last 12 months of data",`to ${D.ett.last_date}`)+
-    figHTML("",fmt((n1.idp_ind||0)+(c1.idp_ind||0)),"IDPs across all tracked regions","latest round in each region");
+    figHTML("",short((nh.idp_hh||0)+(ch.idp_hh||0)),"IDP Households",`NE R${nh.round} + NC/NW R${ch.round}`)+
+    figHTML("",short((n1.idp_ind||0)+(c1.idp_ind||0)),"Total IDPs",`NE R${n1.round} + NC/NW R${c1.round}`)+
+    figHTML("",short((rh.ret_hh||0)+(qh.ret_hh||0)),"Returnee Households",`NE R${rh.round} + NC/NW R${qh.round}`)+
+    figHTML("",short((r1.ret_ind||0)+(q1.ret_ind||0)),"Total Returnees",`NE R${r1.round} + NC/NW R${q1.round}`)+
+    figHTML("",short(sum(D.ett.monthly.filter(r=>ms.includes(r.month)),r=>r.ind)),"ETT Arrivals (12 months)",`to ${D.ett.last_date}`);
+  // gauge: share of round HH / individual figures that come from published reports
+  let rep=0,tot=0; [NE,NC].forEach(reg=>mob(reg).rounds.forEach(r=>["idp_hh","idp_ind","ret_hh","ret_ind"].forEach(k=>{ if(r[k]!=null){ tot++; if((r.fig_src||{})[k]==="report") rep++; } })));
+  gauge($("#ovGauge"),tot?rep/tot*100:0);
+  // treemap of IDPs by state, latest round of each region
+  const st={}; [[NE,n1.round],[NC,c1.round]].forEach(([reg,rn])=>Object.entries(withF({},()=>unitRows(reg,rn,"state"))).forEach(([k,v])=>{ if(!F.region||regionOf(k)===F.region) st[k]=(st[k]||0)+(v.idp_ind||0); }));
+  treemap($("#ovTree"),Object.entries(st).map(([k,v])=>({k,v})),{height:270});
+  // returnees by state
+  const rr=Object.entries(withF({},()=>unitRows(NE,r1.round,"state"))).map(([k,v])=>[k,v.ret_ind||0]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]);
+  barChart($("#ovRetBars"),{labels:rr.map(x=>x[0]),horizontal:true,legend:false,height:Math.max(320,rr.length*58),series:[{name:"Returnees",color:"#1F5F7A",values:rr.map(x=>x[1])}],tipTitle:i=>`${rr[i][0]} · R${r1.round}`});
+  // clustered columns: households and individuals by round (last 12 rounds)
+  const R=mob(V.yoy).rounds.filter(r=>r.idp_ind!=null&&inYears(r.year)).slice(-12);
+  $("#ovColsTitle").textContent=`IDP Households and IDP Individuals by Round – ${V.yoy}`;
+  barChart($("#ovCols"),{labels:R.map(r=>"R"+r.round),topLabels:true,height:260,tickW:28,series:[{name:"IDP Households",color:"#0E4D6E",values:R.map(r=>r.idp_hh||null)},{name:"IDP Individuals",color:"#5BA3C7",values:R.map(r=>r.idp_ind)}],tipTitle:i=>`Round ${R[i].round} · ${ym(R[i].date)}`});
+  const pend=[NE,NC].map(reg=>{ const p=mob(reg).rounds.filter(r=>!hasFig(r)); return p.length?`${reg} ${p.map(r=>"R"+r.round).join(", ")}`:null; }).filter(Boolean);
+  $("#ovLede").textContent=`Latest figures: North East Round ${n1.round} (${ym(n1.date)}) and North Central & North West Round ${c1.round} (${ym(c1.date)}).`+(pend.length?` Published with figures still to come: ${pend.join("; ")}.`:"");
+  drawCurve();
   const m={}; mob(V.yoy).rounds.forEach(r=>{ if(r.idp_ind!=null&&r.year) m[r.year]=r; }); const ly=Object.values(m).sort((a,b)=>a.year-b.year).filter(r=>inYears(r.year));
-  barChart($("#yoyChart"),{labels:ly.map(r=>r.year),series:[{name:"IDP households",color:"#7FA6FF",values:ly.map(r=>r.idp_hh||null)},{name:"IDPs (individuals)",color:css("--idp"),values:ly.map(r=>r.idp_ind)},
-    {name:"Returnee households",color:"#F0CB7A",values:ly.map(r=>r.ret_hh||null)},{name:"Returnees (individuals)",color:css("--ret"),values:ly.map(r=>r.ret_ind||null)}],
-    tipTitle:i=>`${ly[i].year} · Round ${ly[i].round} (${ym(ly[i].date)})`});
+  barChart($("#yoyChart"),{labels:ly.map(r=>r.year),series:[{name:"IDP households",color:"#0B3C5D",values:ly.map(r=>r.idp_hh||null)},{name:"IDPs (individuals)",color:"#1F5F7A",values:ly.map(r=>r.idp_ind)},
+    {name:"Returnee households",color:"#7DB8D6",values:ly.map(r=>r.ret_hh||null)},{name:"Returnees (individuals)",color:"#5BA3C7",values:ly.map(r=>r.ret_ind||null)}],tipTitle:i=>`${ly[i].year} · Round ${ly[i].round} (${ym(ly[i].date)})`});
   const P=pubs(); const box=$("#ovPubs");
-  if(!P.length) box.innerHTML=`<div class="empty"><h3>No publications harvested yet</h3>Counts appear after the harvester's first run, or when you add report PDFs on the <a href="#" data-go="add">Add data</a> tab.</div>`;
+  if(!P.length) box.innerHTML=`<div class="empty">Publications appear after the harvester's run.</div>`;
   else { const c={}; P.forEach(p=>c[p.c]=(c[p.c]||0)+1); const rows=COMPONENTS.filter(([k])=>c[k]).sort((a,b)=>c[b[0]]-c[a[0]]);
-    barChart(box,{labels:rows.map(r=>r[1].replace("Mobility Tracking – ","MT – ")),horizontal:true,legend:false,series:[{name:"Publications",color:css("--iom"),values:rows.map(r=>c[r[0]])}]}); }
+    barChart(box,{labels:rows.map(r=>r[1].replace("Mobility Tracking – ","MT – ")),horizontal:true,legend:false,series:[{name:"Publications",color:"#1F5F7A",values:rows.map(r=>c[r[0]])}]}); }
   const em={}; D.ett.monthly.forEach(r=>{ if(stateOk(r.state)&&inYears(r.month.slice(0,4))) em[r.month]=(em[r.month]||0)+r.ind; });
-  const ek=spanKeys(Object.keys(em),"month"); lineChart($("#ovEtt"),{labels:ek,series:[{name:"Arrivals",color:css("--ett"),values:ek.map(k=>em[k]||0),area:true,dot:0}],yearTicks:true,tipTitle:i=>ym(ek[i])});
-  const fy={}; D.floodL.forEach(r=>{ if(!inYears(r.year)||!floodOk(r)) return; const o=fy[r.year]||(fy[r.year]={a:0,d:0}); o.a+=r.aff_ind; o.d+=r.dis_ind; });
-  const yk=Object.keys(fy).sort(); barChart($("#ovFlood"),{labels:yk,series:[{name:"Affected",color:css("--flood"),values:yk.map(k=>fy[k].a)},{name:"Displaced",color:css("--flash"),values:yk.map(k=>fy[k].d)}]});
+  const ek=spanKeys(Object.keys(em),"month"); lineChart($("#ovEtt"),{labels:ek,series:[{name:"Arrivals",color:"#1F5F7A",values:ek.map(k=>em[k]||0),area:true,dot:0}],yearTicks:true,tipTitle:i=>ym(ek[i])});
+  const fy={}; D.floodL.forEach(r=>{ if(!inYears(r.year)||!floodOk(r)) return; const o=fy[r.year]||(fy[r.year]={h:0,a:0,dh:0,d:0}); o.h+=r.aff_hh; o.a+=r.aff_ind; o.dh+=r.dis_hh; o.d+=r.dis_ind; });
+  const yk=Object.keys(fy).sort(); barChart($("#ovFlood"),{labels:yk,series:[{name:"Affected households",color:"#0B3C5D",values:yk.map(k=>fy[k].h)},{name:"Affected individuals",color:"#1F5F7A",values:yk.map(k=>fy[k].a)},{name:"Displaced households",color:"#7DB8D6",values:yk.map(k=>fy[k].dh)},{name:"Displaced individuals",color:"#5BA3C7",values:yk.map(k=>fy[k].d)}]});
 }
 
 /* ================================================================= MOBILITY */
@@ -1187,7 +1295,7 @@ function renderEttTrend(R,keys,unit){
 function flashRecords(){
   const out=[];
   (D.publications||[]).filter(p=>p.c==="flash").forEach(p=>{ const d=p.ps||p.p; if(!d) return;
-    out.push({d, states:p.s||[], lgas:p.l||[], ind:p.f.displaced_ind??null, hh:p.f.displaced_hh??null, deaths:p.f.deaths??null, injured:p.f.injured??null,
+    out.push({d, states:p.s||[], lgas:p.l||[], ind:p.f.displaced_ind??null, hh:p.f.displaced_hh??null, aff_ind:p.f.affected_ind??null, aff_hh:p.f.affected_hh??null, n:p.n, deaths:p.f.deaths??null, injured:p.f.injured??null,
       comm:p.f.communities??null, title:p.t, url:p.u, region:(p.r||[]).join(", "), src:p.src==="uploaded report"?"Uploaded PDF":"Report", pub:p.p}); });
   (D.incidents||[]).forEach(r=>out.push({d:r.d, states:[r.state], lgas:r.lga?[r.lga]:[], ind:r.ind, hh:r.hh, deaths:r.deaths, injured:r.injured, comm:r.locations,
       title:r.type||"Incident", url:null, region:regionOf(r.state), src:"Dataset", pub:null}));
@@ -1235,7 +1343,7 @@ function renderFlash(){
     {k:"hh",h:"Displaced HH"},{k:"ind",h:"Displaced ind."},{k:"dead",h:"Deaths"},{k:"comm",h:"Communities"}],Object.values(pv),{sort:"period",dir:1,then:["unit"]});
   const draw=()=>{ const q=($("#flSearch2").value||"").toLowerCase();
     table("flList",[{k:"d",h:"Incident date",cls:"tl"},{k:"wk",h:"Week",cls:"tl"},{k:"region",h:"Region",cls:"tl"},{k:"st",h:"States",cls:"tl"},{k:"lg",h:"LGAs",cls:"tl wrap"},
-      {k:"hh",h:"Displaced HH"},{k:"ind",h:"Displaced ind."},{k:"deaths",h:"Deaths"},{k:"injured",h:"Injured"},{k:"comm",h:"Communities"},
+      {k:"n",h:"Report no."},{k:"hh",h:"Displaced HH"},{k:"ind",h:"Displaced ind."},{k:"aff_hh",h:"Affected HH"},{k:"aff_ind",h:"Affected ind."},{k:"deaths",h:"Deaths"},{k:"injured",h:"Injured"},{k:"comm",h:"Communities"},
       {k:"title",h:"Report / incident",cls:"tl wrap",f:(v,r)=>r.url&&!r.url.startsWith("local:")?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>`:esc(v)},{k:"src",h:"Source",cls:"tl"}],
       P.map(r=>({...r,wk:periodOf(r.d,"week"),st:r.states.join(", "),lg:r.lgas.join(", ")})).filter(r=>!q||(r.title+" "+r.lg+" "+r.st).toLowerCase().includes(q)),{sort:"d",dir:1}); };
   $("#flSearch2").oninput=draw; draw();
@@ -1591,7 +1699,7 @@ function exportData(){ const pk=(rows,cols)=>({cols,rows:rows.map(r=>cols.map(c=
 
 
 /* ================================================================= HOME */
-const COMP_INFO={mt_atlas:"IDPs and returnees per round, state, LGA and site (Round atlases, baseline, site and location assessments).",
+const COMP_INFO={transhumance:"Herders and animals counted at flow monitoring points (Transhumance Flow Monitoring dashboards).",ewer:"Alerts – events and massive/late movements – from the Transhumance Early Warning & Early Response dashboards.",mt_atlas:"IDPs and returnees per round, state, LGA and site (Round atlases, baseline, site and location assessments).",
   mt_needs:"Needs of IDPs and returnees in sites and host communities (displacement reports).",flash:"Sudden displacement after attacks, fires or floods: dates, LGAs, people displaced.",
   ett:"Weekly arrivals and departures tracked in real time, by state and LGA.",intention:"Where IDPs intend to go: return, integrate locally or relocate.",
   ses:"Livelihoods, income and living conditions of displaced and host households.",smi:"How stable areas hosting IDPs and returnees are (Solutions Mobility / Stability Index).",
@@ -1600,15 +1708,18 @@ const COMP_INFO={mt_atlas:"IDPs and returnees per round, state, LGA and site (Ro
 function renderHome(){ /* excluded components are not shown */
   const [n1]=latestWith(mob(NE).rounds,"idp_ind"), [c1]=latestWith(mob(NC).rounds,"idp_ind"); const P=pubs();
   const latest=P.filter(p=>p.p).sort((a,b)=>b.p.localeCompare(a.p))[0];
-  $("#homeFigs").innerHTML=figHTML("",fmt(P.length),"publications tracked",D.harvest_count?`${fmt(D.harvest_count)} harvested in total`:"harvest runs daily")+
-    figHTML("",`${mob(NE).rounds.length} + ${mob(NC).rounds.length}`,"rounds on record",`North East R1–R${mob(NE).rounds.at(-1).round} · NC & NW R1–R${mob(NC).rounds.at(-1).round}`)+
-    figHTML("idp",fmt((n1.idp_ind||0)+(c1.idp_ind||0)),"IDPs in the latest rounds",`NE R${n1.round} + NC/NW R${c1.round}`)+
-    figHTML("",latest?esc(latest.p):"–","latest publication",latest?esc(latest.t.slice(0,60)):"")+
+  const T=D.ttt||{ewer:[],flow:[]}; const bioN=new Set((D.biometric||[]).map(b=>b.title)).size;
+  const all=[...P.map(p=>({d:p.p,t:p.t})),...T.ewer.map(r=>({d:r.pe||r.ps,t:r.title})),...T.flow.map(r=>({d:r.pe||r.ps,t:r.title}))].filter(x=>x.d).sort((a,b)=>b.d.localeCompare(a.d));
+  const nRounds=mob(NE).rounds.filter(r=>(r.links||[]).length||hasFig(r)).length+mob(NC).rounds.filter(r=>(r.links||[]).length||hasFig(r)).length;
+  $("#homeFigs").innerHTML=figHTML("",fmt(P.length+T.ewer.length+T.flow.length+bioN+nRounds),"reports tracked",`incl. ${nRounds} mobility tracking rounds`)+
+    figHTML("","7","data products","Mobility, ETT, Flash, TTT, Floods, Biometric, Map")+
+    figHTML("",all[0]?esc(all[0].d):"–","latest publication",all[0]?esc(all[0].t.slice(0,70)):"")+
     figHTML("",new Date(D.generated).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}),"last checked on dtm.iom.int","");
-  const c={}; P.forEach(p=>c[p.c]=(c[p.c]||0)+1);
+  const c={}; P.forEach(p=>c[p.c]=(c[p.c]||0)+1); c.ewer=Math.max(c.ewer||0,T.ewer.length); c.transhumance=Math.max(c.transhumance||0,T.flow.length); c.biometric=Math.max(c.biometric||0,bioN);
+  c.mt_atlas=Math.max(c.mt_atlas||0,nRounds);
   $("#homeCards").innerHTML=COMPONENTS.slice(0,-1).map(([k,n])=>`<button type="button" data-comp="${k}"><em>${c[k]?fmt(c[k]):""}</em><b>${n}</b><span>${COMP_INFO[k]||""}</span></button>`).join("");
   $("#homeCards").onclick=e=>{ const b=e.target.closest("button[data-comp]"); if(!b) return; const k=b.dataset.comp;
-    const go={mt_atlas:"mobility",ett:"ett",flash:"flash",flood:"flood"}[k]; if(go) setTab(go); else { V.pubComp=k; setTab("pubs"); } };
+    const go={mt_atlas:"mobility",mt_needs:"mobility",ett:"ett",flash:"flash",flood:"flood",transhumance:"ttt",ewer:"ttt",biometric:"bio"}[k]; if(go) setTab(go); else { V.pubComp=k; setTab("pubs"); } };
 }
 
 /* ================================================================= ASK THE DATA (works offline, no AI service) */
@@ -1731,6 +1842,10 @@ const TOOLS = [
     const key=level==="lga"?(r=>r.lga+", "+r.state):level==="state"?(r=>r.state):(r=>r.year); const G={};
     R.forEach(r=>{ const k=key(r); const o=G[k]||(G[k]={key:k,aff_hh:0,aff_ind:0,dis_hh:0,dis_ind:0,deaths:0,injured:0,communities:0,shelters_destroyed:0}); ["aff_hh","aff_ind","dis_hh","dis_ind","deaths","injured","communities"].forEach(f=>o[f]+=r[f]); o.shelters_destroyed+=r.sh_destroyed; });
     return {...clip(Object.values(G).sort((a,b)=>b.aff_ind-a.aff_ind),60),needs:D.flood.needs.filter(n=>!year||n.year===year)}; }},
+ {name:"transhumance", description:"Transhumance Tracking Tool reports: Early Warning & Early Response dashboards (alerts, events, movements per report, % leading to displacement/casualties) and Flow Monitoring dashboards (herders and animals by state, flow monitoring points), with report numbers and links.",
+  inputSchema:{type:"object",properties:{product:{type:"string",enum:["ewer","flow","both"]},state:{type:"string"},number:{type:"integer"},from_date:{type:"string"},to_date:{type:"string"}}},
+  execute:({product,state,number,from_date,to_date})=>{ const T=D.ttt||{ewer:[],flow:[]}; const ok=r=>(!state||(r.states||[]).includes(state))&&(!number||r.n===number)&&(!from_date||(r.ps||"")>=from_date)&&(!to_date||(r.ps||"")<=to_date);
+    return {ewer:product==="flow"?null:T.ewer.filter(ok),flow:product==="ewer"?null:T.flow.filter(ok)}; }},
  {name:"biometric", description:"Biometric registration reports (Borno, Adamawa, Yobe, Benue): households and individuals registered, by LGA/site, locations, vulnerable individuals, report links; in publication order (latest last).",
   inputSchema:{type:"object",properties:{state:{type:"string"}}},
   execute:({state})=>({reports:(D.biometric||[]).filter(b=>!state||b.state===state)})},
@@ -1811,19 +1926,17 @@ function wireAsk(){
 }
 
 /* ================================================================= TOP BUTTON BAR */
-const TB_COMP=[["mobility","Mobility Tracking"],["ett","Emergency Tracking Tool (ETT)"],["flash","Incidents & Flash"],["flood","Floods"],["bio","Biometric Registration"],["map","Map"]];
+const TB_COMP=[["map","Map"],["mobility","Mobility Tracking"],["ett","Emergency Tracking Tool (ETT)"],["flash","Incidents & Flash"],["ttt","Transhumance Tracking Tool (TTT)"],["flood","Floods"],["bio","Biometric Registration"]];
 const TB_POP=[["both","IDPs & Returnees"],["idp","All IDPs"],["hc","IDPs in host communities (HC)"],["camp","IDPs in camps"],["ret","Returnees"]];
 const popPre=()=>V.pop==="hc"?"hc_":V.pop==="camp"?"camp_":V.pop==="ret"?"ret_":"idp_";
 function setSel(id,v){ const el=$(id); el.value=v; el.dispatchEvent(new Event("change")); }
 function renderTopbar(){
-  const regs=[["","All regions"],[NE,NE],[NC,NC],["Southern states","Southern states"]];
-  $("#tbRegion").innerHTML=regs.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${F.region===v}">${l}</button>`).join("");
-  $("#tbComp").innerHTML=TB_COMP.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${V.tab===v}">${l}</button>`).join("");
+  const prods=[["overview","Overview – all products"],["home","Home & guide"],...TB_COMP];
+  $("#tbComp").innerHTML=prods.map(([v,l])=>`<option value="${v}" ${V.tab===v?"selected":""}>${l}</option>`).join("")+(prods.some(p=>p[0]===V.tab)?"":`<option value="${V.tab}" selected>${({pubs:"Publications",add:"Add data",about:"Sources & method"})[V.tab]||V.tab}</option>`);
   $("#tbPopRow").hidden=V.tab!=="mobility";
-  $("#tbPop").innerHTML=TB_POP.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${V.pop===v}">${l}</button>`).join("");
-  $("#tbCount").innerHTML=reportCount();
+  $("#tbPop").innerHTML=TB_POP.map(([v,l])=>`<option value="${v}" ${V.pop===v?"selected":""}>${l}</option>`).join("");
+  $("#tbCount").innerHTML="Reports published: "+reportCount();
   const L=currentLinks(); $("#tbRep").textContent=`Report link${L.rep.length?` (${L.rep.length})`:""} ▾`; $("#tbDs").textContent=`Dataset link${L.ds.length?` (${L.ds.length})`:""} ▾`;
-  $("#tbNote").textContent="";
 }
 /* links that match the current product, place, period (and selected rounds) */
 function currentLinks(){
@@ -1838,6 +1951,7 @@ function currentLinks(){
     if(comp){ (D.publications||[]).filter(p=>p.c===comp&&inP(p.p)&&okS(p.s)&&okR(p.r)).sort((a,b)=>(b.p||"").localeCompare(a.p||"")).forEach(p=>{ add(rep,p.u,p.t,p.p); if(p.pdf) add(rep,p.pdf,"PDF – "+p.t,p.p); });
       (D.datasets||[]).filter(x=>x.c===comp&&inP(x.p)).forEach(x=>add(ds,x.u,x.t,x.p)); }
     if(V.tab==="bio") (D.biometric||[]).slice().reverse().forEach(b=>add(rep,b.url,b.title,b.date));
+    if(V.tab==="ttt"){ const {ew,fl}=tttData(); [...ew,...fl].sort((a,b)=>(b.ps||"").localeCompare(a.ps||"")).forEach(r=>{ add(rep,r.url,r.title,r.ps); if(r.pdf) add(rep,r.pdf,"PDF – "+r.title,r.ps); }); }
     if(V.tab==="ett") (D.files||[]).filter(f=>/^ett_/.test(f.name)).forEach(f=>add(ds,f.path,"Data file – "+f.name,null));
     if(V.tab==="flood") (D.files||[]).filter(f=>/^flood_/.test(f.name)).forEach(f=>add(ds,f.path,"Data file – "+f.name,null));
     if(V.tab==="flash") (D.files||[]).filter(f=>/^incidents_/.test(f.name)).forEach(f=>add(ds,f.path,"Data file – "+f.name,null)); }
@@ -1856,17 +1970,20 @@ function reportCount(){
   if(V.tab==="flash"){ const L=cnt(["flash"]); const ne=L.filter(p=>(p.r||[]).includes(NE)).length, nc=L.filter(p=>(p.r||[]).includes(NC)).length;
     const n=maxN(L); return `${N(L,"incident / flash reports read so far")} (${esc(place)})${L.length?` · North East ${fmt(ne)} · North Central & North West ${fmt(nc)}`:""}${n?` · latest numbered flash report <b>No. ${n}</b>`:""}`; }
   if(V.tab==="flood"){ const L=cnt(["flood"]); return `${N(L,"post-flood reports")} (${esc(place)}) · assessment data 2022–2025 from the data file`+tail; }
+  if(V.tab==="ttt"){ const {ew,fl}=tttData();
+    const latest=L=>{ const g={}; L.forEach(r=>{ if(!r.n) return; const k=(r.states||[]).join(" & "); g[k]=Math.max(g[k]||0,r.n); }); return Object.entries(g).map(([k,n])=>`No. ${n} (${k})`).join(", "); };
+    const a=latest(ew), b=latest(fl);
+    return `<b>${fmt(ew.length)}</b> Early Warning dashboards${a?` – latest ${a}`:""} · <b>${fmt(fl.length)}</b> Flow Monitoring dashboards${b?` – latest ${b}`:""} (${esc(place)})`; }
   if(V.tab==="bio"){ const B=(D.biometric||[]).filter(b=>(!F.state||b.state===F.state)&&(!F.region||regionOf(b.state)===F.region)); const titles=new Set(B.map(b=>b.title));
     return `<b>${fmt(titles.size)}</b> biometric registration reports (${esc(place)})`+(P.length?"":" <span class=\"muted\">(more are added by the harvester)</span>"); }
   const L=P.filter(p=>inP(p)&&okR(p)&&okS(p)); return `${N(L,"reports and datasets")} in total (${esc(place)}). Pick a data product to see its count.`+tail;
 }
 function linkPop(box,list,empty){ box.innerHTML=list.length?list.slice(0,60).map(l=>`<a href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)}<small>${l.d?esc(l.d)+" · ":""}${esc(l.u.replace(/^https?:\/\//,"").slice(0,70))}</small></a>`).join(""):`<p class="muted" style="padding:8px">${empty}</p>`; }
 function wireTopbar(){
-  $("#tbRegion").onclick=e=>{ const b=e.target.closest("button"); if(b) setSel("#fRegion",b.dataset.v); };
-  $("#tbComp").onclick=e=>{ const b=e.target.closest("button"); if(!b) return; const v=b.dataset.v;
+  $("#tbComp").onchange=e=>{ const v=e.target.value;
     if(v!=="map"&&MAP_MEASURES[v]&&$("#mpProd")){ MAPV.prod=v; $("#mpProd").value=v; MAPV.measure=(MAP_MEASURES[v][1]||MAP_MEASURES[v][0])[0]; if($("#mpNE").options.length){ $("#mpMeasure").innerHTML=MAP_MEASURES[v].map(([k,l])=>`<option value="${k}" ${k===MAPV.measure?"selected":""}>${l}</option>`).join(""); document.querySelectorAll(".mp-mob").forEach(el=>el.style.display=v==="mobility"?"":"none"); } }
     setTab(v); };
-  $("#tbPop").onclick=e=>{ const b=e.target.closest("button"); if(!b) return; V.pop=b.dataset.v;
+  $("#tbPop").onchange=e=>{ V.pop=e.target.value;
     V.dcGroup=V.pop==="both"?"idp":V.pop; V.rsGroup=V.pop==="ret"?"Returnees":"IDPs"; segSet("#dcGroup",V.dcGroup); segSet("#rsGroup",V.rsGroup); render(); };
   const toggle=(btn,pop,which)=>{ btn.onclick=e=>{ e.stopPropagation(); const open=pop.hidden; document.querySelectorAll(".tb-pop").forEach(p=>p.hidden=true);
     if(open){ const L=currentLinks(); linkPop(pop,L[which],which==="rep"?"No report link for this selection yet — reports are listed after the harvester's run.":"No dataset link for this selection yet."); pop.hidden=false; } }; };
@@ -1902,7 +2019,8 @@ const MAP_MEASURES={
   ett:[["hh","Households arrived"],["ind","Individuals arrived"],["locations","Locations receiving arrivals"],["records","Movement records"]],
   flash:[["n","Flash / incident records"],["hh","Households displaced"],["ind","Individuals displaced"],["deaths","Deaths reported"]],
   flood:[["aff_hh","Households affected"],["aff_ind","Individuals affected"],["dis_hh","Households displaced"],["dis_ind","Individuals displaced"],["deaths","Deaths"],["communities","Communities assessed"]],
-  bio:[["hh","Households registered (latest report)"],["ind","Individuals registered (latest report)"]]};
+  bio:[["hh","Households registered (latest report)"],["ind","Individuals registered (latest report)"]],
+  ttt:[["herders","Herders counted (flow monitoring)"],["animals","Animals counted (flow monitoring)"],["alerts","Early-warning alerts (split equally across the report's states)"]]};
 let MAPV={prod:"mobility",measure:"idp_ind",ne:null,nc:null,labels:true}, LMAP=null, LGEO=null, LLBL=null;
 function mapValues(){
   const P=MAPV.prod, m=MAPV.measure, out={}, det={};
@@ -1913,6 +2031,9 @@ function mapValues(){
   if(P==="flash"){ flashRecordsAll().filter(r=>inYears(r.d.slice(0,4))).forEach(r=>{ const sh=1/Math.max(1,r.states.length);
       r.states.forEach(st=>{ const v=m==="n"?1:(r[m==="hh"?"hh":m==="ind"?"ind":"deaths"]||0)*sh; put(st,v,{}); const d=det[st]; d.Records=(d.Records||0)+1; }); }); }
   if(P==="flood"){ D.floodL.filter(r=>inYears(r.year)).forEach(r=>{ put(r.state,r[m],{}); const d=det[r.state]; d["Households affected"]=(d["Households affected"]||0)+r.aff_hh; d["Individuals affected"]=(d["Individuals affected"]||0)+r.aff_ind; }); }
+  if(P==="ttt"){ const {ew,fl}=tttData();
+    if(m==="alerts") ew.forEach(r=>{ if(r.alerts==null) return; const sh=1/Math.max(1,(r.states||[]).length); (r.states||[]).forEach(st=>{ put(st,r.alerts*sh,{}); const d=det[st]; d.Reports=(d.Reports||0)+1; }); });
+    else fl.forEach(r=>(r.by_state||[]).forEach(b=>{ if(b[m]==null) return; put(b.state,b[m],{}); const d=det[b.state]; d.Herders=(d.Herders||0)+(b.herders||0); d.Animals=(d.Animals||0)+(b.animals||0); })); }
   if(P==="bio"){ const last={}; (D.biometric||[]).forEach(b=>{ if(!b.date||inYears(b.date.slice(0,4))) last[b.state]=b; });
       Object.values(last).forEach(b=>put(b.state,b[m],{report:b.title,Households:b.hh,Individuals:b.ind})); }
   return {vals:out,det};
@@ -1969,8 +2090,34 @@ function renderMap(){
   });
   setTimeout(()=>LMAP.invalidateSize(),50);
 }
+
+/* ================================================================= TRANSHUMANCE (TTT) */
+function tttData(){ const T=D.ttt||{ewer:[],flow:[]};
+  const ok=r=>(!r.ps||inYears(r.ps.slice(0,4)))&&(!F.state||(r.states||[]).includes(F.state))&&(!F.region||(r.states||[]).some(s=>regionOf(s)===F.region));
+  return {ew:T.ewer.filter(ok), fl:T.flow.filter(ok)}; }
+function renderTTT(){
+  const {ew,fl}=tttData(); const nEw=ew.map(r=>r.n).filter(Boolean), nFl=fl.map(r=>r.n).filter(Boolean);
+  $("#tttFigs").innerHTML=figHTML("",fmt(ew.length),"Early warning reports",nEw.length?`latest No. ${Math.max(...nEw)}`:"")+
+    figHTML("",fmt(sum(ew,r=>r.alerts)),"Alerts recorded",`${ew.filter(r=>r.alerts!=null).length} reports with figures`)+
+    figHTML("",fmt(sum(ew,r=>r.events)),"Event alerts",`movements: ${fmt(sum(ew,r=>r.movements))}`)+
+    figHTML("",fmt(fl.length),"Flow monitoring reports",nFl.length?`latest No. ${Math.max(...nFl)}`:"")+
+    figHTML("",fmt(sum(fl,r=>r.herders)),"Herders counted",`animals: ${fmt(sum(fl,r=>r.animals))}`);
+  const E=ew.filter(r=>r.alerts!=null), lab=r=>`${r.n?"#"+r.n+" ":""}${ym((r.ps||"").slice(0,7))}`;
+  barChart($("#tttEwChart"),{labels:E.map(lab),stacked:true,series:[{name:"Events",color:"#0E4D6E",values:E.map(r=>r.events)},{name:"Movements",color:"#5BA3C7",values:E.map(r=>r.movements)},
+    {name:"Alerts (split not stated)",color:"#9AA6B8",values:E.map(r=>r.events==null&&r.movements==null?r.alerts:null)}],tipTitle:i=>esc(E[i].title)});
+  const L=fl.filter(r=>r.herders!=null);
+  barChart($("#tttFlChart"),{labels:L.map(lab),series:[{name:"Herders",color:"#0E4D6E",values:L.map(r=>r.herders)},{name:"Animals",color:"#5BA3C7",values:L.map(r=>r.animals)}],tipTitle:i=>esc(L[i].title)});
+  const link=(v,r)=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">Open report</a>${r.pdf?` · <a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}`;
+  table("tttEwTable",[{k:"n",h:"Report no."},{k:"per",h:"Period",cls:"tl"},{k:"st",h:"States / series",cls:"tl"},{k:"alerts",h:"Alerts"},{k:"events",h:"Events"},{k:"movements",h:"Movements"},
+    {k:"events_pct",h:"Events (%)"},{k:"movements_pct",h:"Movements (%)"},
+    {k:"displacement_pct",h:"Led to displacement (%)"},{k:"casualty_pct",h:"Casualties / injuries (%)"},{k:"url",h:"Link",cls:"tl",f:link},{k:"title",h:"Title",cls:"tl wrap"}],
+    ew.map(r=>({...r,per:`${r.ps||""} – ${r.pe||""}`,st:r.series||(r.states||[]).join(", ")})),{sort:"ps",dir:1});
+  const rows=[]; fl.forEach(r=>{ (r.by_state&&r.by_state.length?r.by_state:[{state:(r.states||[]).join(", "),herders:null,animals:null}]).forEach(b=>rows.push({...r,state:b.state,sh:b.herders,sa:b.animals,per:`${r.ps||""} – ${r.pe||""}`})); });
+  table("tttFlTable",[{k:"n",h:"Report no."},{k:"per",h:"Period",cls:"tl"},{k:"state",h:"State",cls:"tl"},{k:"sh",h:"Herders"},{k:"sa",h:"Animals"},{k:"points",h:"Flow monitoring points"},
+    {k:"note",h:"Note",cls:"tl wrap"},{k:"url",h:"Link",cls:"tl",f:link}],rows,{sort:"ps",dir:1});
+}
 /* ================================================================= wiring */
-const RENDER={map:renderMap,bio:renderBio,home:renderHome,overview:renderOverview,mobility:renderMobility,ett:renderETT,flash:renderFlash,flood:renderFlood,pubs:renderPubs,add:()=>{},about:renderAbout};
+const RENDER={ttt:renderTTT,map:renderMap,bio:renderBio,home:renderHome,overview:renderOverview,mobility:renderMobility,ett:renderETT,flash:renderFlash,flood:renderFlood,pubs:renderPubs,add:()=>{},about:renderAbout};
 function setTab(t){ V.tab=t; document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));
   document.querySelectorAll("main>section").forEach(s=>s.hidden=s.id!=="s-"+t); document.body.classList.toggle("hide-years",t==="mobility"||t==="add"); document.body.classList.toggle("show-mt",t==="mobility");
   render(); history.replaceState(null,"","#"+t); }
@@ -1981,7 +2128,7 @@ function seg(id,key,after){ const s=$(id); s.addEventListener("click",e=>{ const
 function initFilters(){
   const fs=$("#fState"); const fill=()=>{ const r=$("#fRegion").value;
     const zs=Object.keys(ZONES).filter(z=>!r||(r===NE?z==="North East":r===NC?(z==="North Central"||z==="North West"):z.startsWith("South")));
-    fs.innerHTML=`<option value="">All states</option>`+zs.map(z=>`<optgroup label="${z}">${ZONES[z].map(s=>`<option>${s}</option>`).join("")}</optgroup>`).join("");
+    fs.innerHTML=`<option value="">All</option>`+zs.map(z=>`<optgroup label="${z}">${ZONES[z].map(s=>`<option>${s}</option>`).join("")}</optgroup>`).join("");
     if(F.state&&(!r||regionOf(F.state)===r)) fs.value=F.state; else F.state=""; };
   fill();
   const years=[]; for(let y=2014;y<=2035;y++) years.push(y);

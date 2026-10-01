@@ -235,6 +235,22 @@ def mine_figures(component, text):
     first(rf"started in [A-Za-z]+ \d{{4}} in\s*{NUM}\s*locations", "idp_locations")
     first(rf"assessments in\s*{NUM}\s*locations", "idp_locations")
     first(rf"assessments in\s*{NUM}\s*wards", "idp_wards")
+    # Transhumance Tracking Tool: early-warning alerts (events + movements) and flow monitoring (herders, animals)
+    first(rf"captured\s*{NUM}\s*alerts", "alerts")
+    first(rf"{NUM}\s*alerts were (?:reported|recorded)", "alerts")
+    first(rf"comprising\s*{NUM}\s*events", "ttt_events")
+    first(rf"comprising\s*{NUM}\s*events[^.]{{0,30}}?and\s*{NUM}\s*movements", "ttt_movements", 2)
+    first(rf"{NUM}\s*\(\d+%\)\s*(?:being\s*)?event", "ttt_events")
+    first(rf"{NUM}\s*\(\d+%\)\s*(?:related to\s*)?movements", "ttt_movements")
+    first(rf"{NUM}\s*\(\d+%\)\s*events and\s*{NUM}", "ttt_movements", 2)
+    first(rf"at\s*{NUM}\s*(?:counting|flow monitoring) points", "ttt_points")
+    m2 = re.search(rf"identified\s*{NUM}\s*herders in ([A-Z][a-z]+) State and\s*{NUM}\s*herders in ([A-Z][a-z]+) State", t)
+    if m2:
+        st = {m2.group(2): [to_int(m2.group(1)), None], m2.group(4): [to_int(m2.group(3)), None]}
+        m3 = re.search(rf"(?:animal|herd) counts? (?:was estimated at|of)\s*{NUM}\s*(?:for [A-Z][a-z]+ State\s*)?and\s*{NUM}", t)
+        if m3:
+            st[m2.group(2)][1], st[m2.group(4)][1] = to_int(m3.group(1)), to_int(m3.group(2))
+        f["ttt_by_state"] = st
     # reasons for displacement, e.g. "insurgency (92%)", "armed banditry (672,792 individuals or 45%)"
     reasons = {}
     for m in re.finditer(r"(insurgency|non-state armed group[s]? attacks?|communal (?:clash(?:es)?|violence)|armed banditry(?:/kidnapping| and kidnapping)?|banditry|kidnapping|"

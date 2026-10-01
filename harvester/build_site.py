@@ -236,8 +236,7 @@ SEED_FLASH = [  # title, date, states, lgas, displaced/affected ind, hh, url
     ("North-east Nigeria — Borno State Flash Report 169 (15 September 2025)", "2025-09-15", ["Borno"], [], None, None, "https://reliefweb.int/report/nigeria/nigeria-north-east-nigeria-borno-state-flash-report-169-15-september-2025"),
     ("Farmer-herder and communal clashes – Apa, Gwer East, Katsina-Ala and Makurdi LGAs, Benue (29 May – 1 June 2025)", "2025-06-01", ["Benue"], ["Apa", "Gwer East", "Katsina-Ala", "Makurdi"], 943, 257, "https://dtm.iom.int/operations/north-central-and-north-west"),
     ("North Central & North West Flash Report #83 (27 December 2021 – 2 January 2022)", "2022-01-02", ["Benue", "Kaduna", "Katsina", "Zamfara"], [], None, None, "https://dtm.iom.int/operations/north-central-and-north-west"),
-    ("Armed bandit attacks – Katsina State (21 May – 1 June 2026)", "2026-06-01", ["Katsina"], [], 3830, 517, "https://dtm.iom.int/nigeria"),
-    ("North East Dikwa LGA – Borno State Flash Report (28 March 2021): arrivals 16–25 March, 3,876 since the 1–2 March attack", "2021-03-25", ["Borno"], ["Dikwa", "Jere"], 2296, None, "https://dtm.iom.int/reports/nigeria-%E2%80%94-north-east-dikwa-lga-%E2%80%94-borno-state-flash-report-28-march-2021"),
+        ("North East Dikwa LGA – Borno State Flash Report (28 March 2021): arrivals 16–25 March, 3,876 since the 1–2 March attack", "2021-03-25", ["Borno"], ["Dikwa", "Jere"], 2296, None, "https://dtm.iom.int/reports/nigeria-%E2%80%94-north-east-dikwa-lga-%E2%80%94-borno-state-flash-report-28-march-2021"),
     ("North East Dikwa LGA – Borno State Flash Report (16–22 April 2021)", "2021-04-22", ["Borno"], ["Dikwa", "Jere", "Maiduguri"], 1551, None, "https://dtm.iom.int/reports/nigeria-%E2%80%94-north-east-dikwa-lga-%E2%80%94-borno-state-flash-report-16-22-april-2021"),
     ("North East Dikwa LGA – Borno State Flash Report (08–14 May 2021)", "2021-05-14", ["Borno"], ["Dikwa", "Jere", "Maiduguri"], 1346, None, "https://dtm.iom.int/reports/nigeria-—-north-east-dikwa-lga-—-borno-state-flash-report-08-14-may-2021"),
     ("North East Dikwa LGA – Borno State Flash Report (7 June 2021): 29 May–4 June", "2021-06-04", ["Borno"], ["Dikwa", "Jere", "Maiduguri"], 1390, None, "https://dtm.iom.int/reports/nigeria-%E2%80%94-north-east-dikwa-lga-%E2%80%94-borno-state-flash-report-7-june-2021"),
@@ -250,11 +249,130 @@ SEED_FLASH = [  # title, date, states, lgas, displaced/affected ind, hh, url
     ("Armed bandit attacks – Katsina State (21 May – 1 June 2026)", "2026-06-01", ["Katsina"], [], 3830, 517, "https://dtm.iom.int/nigeria"),
     ("North-central & North-west Flash Report 161 – Maru LGA, Zamfara (27 March 2024)", "2024-03-27", ["Zamfara"], ["Maru"], 230, 42, None),
     ("Farmers-herders clash – Tomanyiin, Nzorov ward, Guma LGA, Benue (20 January 2026)", "2026-01-20", ["Benue"], ["Guma"], 194, 43, "https://dtm.iom.int/nigeria?page=2"),
-    ("NSAG attack – Kurmin Wali, Idon ward, Kajuru LGA, Kaduna (18 January 2026)", "2026-01-18", ["Kaduna"], ["Kajuru"], None, None, "https://dtm.iom.int/nigeria?page=2"),
-    ("NSAG attacks – Yarkasuwa Magajin Gari, Isa South ward, Isa LGA, Sokoto (19 January 2026)", "2026-01-19", ["Sokoto"], ["Isa"], None, None, "https://dtm.iom.int/nigeria?page=2"),
+        ("NSAG attacks – Yarkasuwa Magajin Gari, Isa South ward, Isa LGA, Sokoto (19 January 2026)", "2026-01-19", ["Sokoto"], ["Isa"], None, None, "https://dtm.iom.int/nigeria?page=2"),
     ("Armed bandit attacks – Kankara and Musawa LGAs, Katsina (21 January 2026)", "2026-01-21", ["Katsina"], ["Kankara", "Musawa"], None, None, "https://dtm.iom.int/nigeria?page=2"),
     ("Armed bandit attack – DanGuro, Bungudu LGA, Zamfara (19 March 2026)", "2026-03-19", ["Zamfara"], ["Bungudu"], None, None, "https://dtm.iom.int/nigeria"),
-    ("North-west Nigeria — Zamfara State Flash Report 291 (16 June 2026)", "2026-06-16", ["Zamfara"], [], None, None, "https://dtm.iom.int/nigeria"),
+    ]
+
+
+# ---- Transhumance Tracking Tool (TTT): figures read from the published dashboards
+TTT_EW = "https://dtm.iom.int/reports/nigeria-transhumance-tracking-tool-report-early-warning-dashboard-29-adamawa-and-taraba"
+SEED_EWER = [  # number, series (states), period start, end, alerts, events, movements, extra, url
+    (None, ["Adamawa"], "2022-04-01", "2022-04-30", 285, 257, 28, {}, "https://dtm.iom.int/taxonomy/term/14?page=250"),
+    (12, ["Adamawa", "Taraba"], "2023-04-01", "2023-04-30", 155, 137, 18, {"lgas": 5, "wards": 31, "displacement_pct": 2, "casualty_pct": 27},
+     "https://reliefweb.int/report/nigeria/transhumance-tracking-tool-ttt-adamawa-state-nigeria-early-warning-systems-dashboard-12-april-2023"),
+    (18, ["Adamawa", "Taraba"], "2023-10-01", "2023-10-31", 317, 273, 44, {"displacement_pct": 5, "casualty_pct": 15},
+     "https://reliefweb.int/report/nigeria/transhumance-tracking-tool-ttt-adamawa-and-taraba-state-nigeria-early-warning-systems-dashboard-18-october-2023"),
+    (25, ["Adamawa", "Taraba"], "2024-05-01", "2024-05-31", None, None, None, {}, "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/Dashboard_TTT_040624_final.pdf"),
+    (29, ["Adamawa", "Taraba"], "2024-09-01", "2024-09-30", 220, 201, 19, {"displacement_pct": 4, "casualty_pct": 13}, TTT_EW),
+    (2, ["Katsina"], "2023-09-01", "2023-09-30", 32, None, None, {"events_pct": 100, "movements_pct": 0, "series": "Katsina – Batsari, Dan Musa, Jibia, Kankara"},
+     "https://reliefweb.int/report/nigeria/transhumance-tracking-tool-ttt-batsari-dan-musa-jibia-and-kankara-lgas-katsina-state-nigeria-early-warning-dashboard-2-september-2023"),
+    (4, ["Katsina"], "2023-11-01", "2023-11-30", None, None, None, {"events_pct": 85, "movements_pct": 15, "series": "Katsina – Batsari, Dan Musa, Jibia, Kankara"},
+     "https://reliefweb.int/report/nigeria/transhumance-tracking-tool-ttt-katsina-state-nigeria-early-warning-dashboard-4-november-2023"),
+    (4, ["Kaduna", "Katsina"], "2023-11-01", "2023-11-30", 57, None, None, {"events_pct": 35, "movements_pct": 65},
+     "https://reliefweb.int/report/nigeria/transhumance-tracking-tool-ttt-kaduna-and-katsina-states-nigeria-early-warning-dashboard-4-november-2023"),
+    (2, ["Kaduna", "Katsina"], "2023-09-01", "2023-09-30", 9, None, None, {},
+     "https://dtm.iom.int/reports/nigeria-transhumance-tracking-tool-report-early-warning-dashboard-2-kachia-and-kaura-lgas"),
+    (None, ["Kaduna", "Katsina"], "2024-03-01", "2024-03-31", 112, None, None, {"events_pct": 8, "movements_pct": 92}, "https://dtm.iom.int/product-series/other-26?page=8"),
+    (None, ["Katsina"], "2024-03-01", "2024-03-31", 91, None, None, {}, "https://dtm.iom.int/product-series/other-26?page=8"),
+    (None, ["Katsina"], "2024-04-01", "2024-04-30", 29, None, None, {"events_pct": 97, "movements_pct": 3}, "https://dtm.iom.int/product-series/other-26?page=8"),
+    (18, ["Katsina", "Zamfara"], "2025-10-01", "2025-11-30", None, None, None, {}, "https://dtm.iom.int/nigeria?body=&f=&field_report_regional_report=All&page=1&title="),
+    (19, ["Katsina", "Zamfara"], "2025-12-01", "2025-12-31", None, None, None, {}, "https://dtm.iom.int/nigeria?body=&f=&field_report_regional_report=All&page=1&title="),
+    (20, ["Katsina", "Zamfara"], "2026-01-01", "2026-01-31", None, None, None, {}, "https://dtm.iom.int/nigeria?body=&f=&field_report_regional_report=All&page=1&title="),
+    (21, ["Katsina", "Zamfara"], "2026-02-01", "2026-02-28", None, None, None, {}, "https://dtm.iom.int/reports/nigeria-north-central-north-west-flash-report-167-01-july-07-july-2024"),
+    (22, ["Katsina", "Zamfara"], "2026-03-01", "2026-03-31", None, None, None, {}, "https://dtm.iom.int/nigeria"),
+    (23, ["Katsina", "Zamfara"], "2026-04-01", "2026-04-30", None, None, None, {}, "https://dtm.iom.int/nigeria"),
+    (24, ["Katsina", "Zamfara"], "2026-05-01", "2026-05-31", None, None, None, {}, "https://dtm.iom.int/nigeria"),
+    (25, ["Katsina", "Zamfara"], "2026-06-01", "2026-06-30", None, None, None, {}, "https://dtm.iom.int/nigeria"),
+    (26, ["Katsina", "Zamfara"], "2026-07-01", "2026-07-31", None, None, None, {}, "https://dtm.iom.int/reports/nigeria-transhumance-tracking-tool-report-early-warning-dashboard-2-kachia-and-kaura-lgas"),
+    (27, ["Katsina", "Zamfara"], "2026-08-01", "2026-08-31", None, None, None, {}, "https://dtm.iom.int/reports/nigeria-north-west-nigeria-zamfara-state-flash-report-291-16-june-2026"),
+]
+SEED_FLOW = [  # number, period, {state: (herders, animals)}, counting points, extra, url
+    (None, "2024-01-01", "2024-01-31", {"Kaduna": (3548, 72011), "Katsina": (873, 21422)}, 51, {},
+     "https://reliefweb.int/report/nigeria/transhumance-tracking-tool-ttt-kaduna-and-katsina-states-nigeria-early-warning-dashboard-2-january-2024"),
+    (None, "2024-02-01", "2024-02-29", {"Kaduna": (1423, 55211), "Katsina": (600, 13684)}, 34, {}, "https://dtm.iom.int/taxonomy/term/4?page=131"),
+    (None, "2024-03-01", "2024-03-31", {"Kaduna": (1322, 43772), "Katsina": (197, 5013)}, 16, {"from_niger_pct": 3}, "https://dtm.iom.int/taxonomy/term/4?page=131"),
+    (None, "2024-04-01", "2024-04-30", {"Kaduna": (506, 22153), "Katsina": (239, 4966)}, 14, {"from_niger_pct": 6}, "https://dtm.iom.int/product-series/other-26?page=8"),
+    (8, "2024-07-01", "2024-07-31", {"Kaduna": (1817, 8662), "Katsina": (723, 2981)}, None, {"note": "herd count"}, "https://dtm.iom.int/nigeria?page=16"),
+    (None, "2024-10-01", "2024-10-31", {"Kaduna": (271, None), "Katsina": (446, None)}, None, {}, "https://dtm.iom.int/report-product-series/flow-monitoring-dashboard-0"),
+    (14, "2025-11-01", "2025-11-30", {}, None, {"states": ["Katsina", "Zamfara"]}, "https://dtm.iom.int/nigeria?body=&f=&field_report_regional_report=All&page=1&title="),
+    (15, "2025-12-01", "2025-12-31", {}, None, {"states": ["Kaduna", "Katsina"]}, "https://dtm.iom.int/nigeria?body=&f=&field_report_regional_report=All&page=1&title="),
+    (16, "2026-01-01", "2026-01-31", {}, None, {"states": ["Katsina", "Zamfara"]}, "https://dtm.iom.int/nigeria?body=&f=&field_report_regional_report=All&page=1&title="),
+    (17, "2026-02-01", "2026-02-28", {"Katsina": (357, 8020), "Zamfara": (89, 2493)}, 36, {"nigerian_pct": 74, "nigerien_pct": 26, "within_nigeria_pct": 67, "cross_border_pct": 33},
+     "https://dtm.iom.int/reports/nigeria-transhumance-tracking-tool-flow-monitoring-dashboard-17-katsina-and-zamfara-states"),
+    (18, "2026-03-01", "2026-03-31", {}, None, {"states": ["Katsina", "Zamfara"]}, "https://dtm.iom.int/nigeria"),
+    (19, "2026-04-01", "2026-04-30", {}, None, {"states": ["Katsina", "Zamfara"]}, "https://dtm.iom.int/nigeria"),
+    (20, "2026-05-01", "2026-05-31", {}, 33, {"states": ["Katsina", "Zamfara"], "note": "Kaduna→Zamfara 1,528 animals / 45 herders; Nigeria→Niger 1,316 animals / 61 herders"},
+     "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/TTT__Transhumance_Flow_Monitoring%20Report%2020_May%202026.pdf"),
+    (21, "2026-06-01", "2026-06-30", {}, 21, {"states": ["Katsina", "Zamfara"], "note": "21 flow monitoring points in Katsina; no movement recorded in Zamfara"}, "https://dtm.iom.int/nigeria"),
+    (22, "2026-07-01", "2026-07-31", {}, None, {"states": ["Katsina", "Zamfara"]}, "https://dtm.iom.int/nigeria"),
+]
+
+
+def ttt(items):
+    """Early Warning (alerts = events + movements) and Flow Monitoring (herders, animals) per report:
+    seed figures read from the dashboards, then every harvested TTT report the harvester read."""
+    ew, fl = [], []
+    for n, st, s, e, a, ev, mv, x, url in SEED_EWER:
+        ew.append({"n": n, "states": st, "ps": s, "pe": e, "alerts": a, "events": ev, "movements": mv, **x, "url": url,
+                   "title": f"TTT Early Warning Dashboard{(' ' + str(n)) if n else ''} — {' and '.join(st)} ({s[:7]})", "src": "report page"})
+    for n, s, e, by, pts, x, url in SEED_FLOW:
+        rows = [{"state": k, "herders": v[0], "animals": v[1]} for k, v in by.items()]
+        fl.append({"n": n, "ps": s, "pe": e, "by_state": rows, "states": x.pop("states", list(by)), "points": pts,
+                   "herders": sum(r["herders"] or 0 for r in rows) or None, "animals": sum(r["animals"] or 0 for r in rows) or None,
+                   **x, "url": url, "title": f"TTT Flow Monitoring Dashboard{(' ' + str(n)) if n else ''} — {' and '.join(x.get('states', list(by)) or list(by))} ({s[:7]})",
+                   "src": "report page"})
+    have_ew = {(r["n"], r["ps"][:7], tuple(r["states"])) for r in ew}
+    have_fl = {(r["n"], r["ps"][:7]) for r in fl}
+    for it in items:
+        f = it.get("figures", {})
+        if it["component"] == "ewer" or ("early warning" in it["title"].lower() and "transhumance" in it["title"].lower()):
+            k = (it.get("number"), (it.get("period_start") or it.get("published") or "")[:7], tuple(it.get("states") or []))
+            if k in have_ew:
+                continue
+            ew.append({"n": it.get("number"), "states": it.get("states", []), "ps": it.get("period_start") or it.get("published"),
+                       "pe": it.get("period_end"), "alerts": f.get("alerts"), "events": f.get("ttt_events"), "movements": f.get("ttt_movements"),
+                       "url": it["url"], "pdf": (it.get("pdfs") or [None])[0], "title": it["title"], "src": "harvested"})
+        elif it["component"] == "transhumance":
+            k = (it.get("number"), (it.get("period_start") or it.get("published") or "")[:7])
+            if k in have_fl:
+                continue
+            rows = [{"state": s, "herders": h, "animals": a} for s, (h, a) in (f.get("ttt_by_state") or {}).items()]
+            fl.append({"n": it.get("number"), "ps": it.get("period_start") or it.get("published"), "pe": it.get("period_end"),
+                       "by_state": rows, "states": it.get("states", []), "points": f.get("ttt_points"),
+                       "herders": sum(r["herders"] or 0 for r in rows) or f.get("herders"), "animals": sum(r["animals"] or 0 for r in rows) or None,
+                       "url": it["url"], "pdf": (it.get("pdfs") or [None])[0], "title": it["title"], "src": "harvested"})
+    key = lambda r: (r.get("ps") or "")
+    return {"ewer": sorted(ew, key=key), "flow": sorted(fl, key=key)}
+
+
+FR = "https://dtm.iom.int/reports/"
+SEED_FLASH2 = [  # number, incident from, to, states, lgas, displaced ind/hh, affected ind/hh, deaths, injured, communities, title, url
+    (167, "2024-07-01", "2024-07-07", ["Sokoto"], ["Gwadabawa"], None, None, None, None, None, None, None, "North-central & North-west Flash Report 167", FR + "nigeria-north-central-north-west-flash-report-167-01-july-07-july-2024"),
+    (178, "2024-09-30", "2024-09-30", ["Zamfara"], ["Maradun"], 32, None, 206, 42, None, None, 1, "North-central & North-west Conflict/Attack Flash Report 178", FR + "nigeria-north-central-north-west-conflictattack-flash-report-178-23-29-september-2024"),
+    (None, "2025-09-23", "2025-09-23", ["Katsina"], ["Kankara"], 246, 35, 354, 50, None, None, 1, "Armed bandit attack – Zango, Kankara LGA, Katsina", "https://dtm.iom.int/product-series/flash-report-0?page=3"),
+    (None, "2025-09-23", "2025-09-23", ["Zamfara"], ["Bungudu"], None, None, 2082, 416, None, None, 1, "Armed bandit attack – Samawa Babba, Bungudu LGA, Zamfara", "https://dtm.iom.int/product-series/flash-report-0?page=3"),
+    (None, "2025-10-12", "2025-10-12", ["Zamfara"], ["Bukkuyum"], 21, None, 1806, 326, None, None, 1, "Armed bandit attack – Yashi, Bukkuyum LGA, Zamfara", "https://dtm.iom.int/product-series/flash-report-0?page=3"),
+    (None, "2025-10-16", "2025-10-20", ["Zamfara"], ["Bukkuyum", "Kaura Namoda"], None, None, 2316, 462, None, None, 2, "Armed bandit attacks – Buzuzu Rayau (Bukkuyum) and Galadima (Kaura Namoda), Zamfara", "https://dtm.iom.int/product-series/flash-report-0?page=2"),
+    (270, "2025-10-25", "2025-10-26", ["Zamfara"], ["Gummi", "Kaura Namoda"], None, None, None, None, None, None, 5, "North-west Nigeria — Zamfara State Flash Report 270", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-270-25-26-october-2025"),
+    (275, "2026-01-18", "2026-01-18", ["Kaduna"], ["Kajuru"], None, None, 882, 146, None, None, 1, "North-west Nigeria — Kaduna State Flash Report 275 (Kurmin Wali)", FR + "nigeria-north-west-nigeria-kaduna-state-flash-report-275-18-january-2026"),
+    (280, "2026-03-10", "2026-03-10", ["Zamfara"], [], None, None, None, None, None, None, None, "North-west Nigeria — Zamfara State Flash Report 280", "https://dtm.iom.int/reports/nigeria-north-central-north-west-flash-report-167-01-july-07-july-2024"),
+    (281, "2026-03-13", "2026-03-13", ["Zamfara"], [], None, None, None, None, None, None, None, "Zamfara State Flash Report 281", "https://dtm.iom.int/reports/nigeria-north-central-north-west-flash-report-167-01-july-07-july-2024"),
+    (284, "2026-04-15", "2026-04-15", ["Zamfara"], ["Kaura Namoda"], 722, 136, None, None, None, None, 1, "North-west Nigeria — Zamfara State Flash Report 284 (Gegeta)", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-284-15-april-2026"),
+    (286, "2026-04-20", "2026-04-21", ["Zamfara"], ["Bukkuyum"], 1416, 288, None, None, None, None, 1, "North-west Nigeria — Zamfara State Flash Report 286 (Kairu; displaced to Kebbi State)", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-286-21-april-2026"),
+    (287, "2026-04-21", "2026-04-21", ["Katsina"], [], None, None, None, None, None, None, None, "North-west Nigeria — Katsina State Flash Report 287", FR + "nigeria-transhumance-tracking-tool-report-baseline-mapping-batsari-dan-musa-jibia-and"),
+    (None, "2026-04-23", "2026-04-24", ["Zamfara"], ["Bukkuyum", "Tsafe"], 1174, 237, None, None, None, None, 4, "Armed bandit attacks – Bukkuyum and Tsafe LGAs, Zamfara (23–24 April 2026)", "https://dtm.iom.int/taxonomy/term/15?page=9"),
+    (289, "2026-05-16", "2026-05-16", ["Zamfara"], [], None, None, None, None, None, None, None, "North-west Nigeria — Zamfara State Flash Report 289", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-286-21-april-2026"),
+    (290, "2026-05-21", "2026-06-01", ["Katsina"], [], 3830, 517, None, None, None, None, None, "North-west Nigeria — Katsina State Flash Report 290", FR + "nigeria-north-west-nigeria-katsina-state-flash-report-290-01-june-2026"),
+    (291, "2026-06-15", "2026-06-15", ["Zamfara"], ["Gummi"], 484, 101, None, None, 3, 2, 1, "North-west Nigeria — Zamfara State Flash Report 291 (Gamo Gidan Bita)", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-291-16-june-2026"),
+    (292, "2026-06-19", "2026-06-19", ["Zamfara"], [], None, None, None, None, None, None, None, "North-west Nigeria — Zamfara State Flash Report 292", FR + "nigeria-flood-situation-report-1-borno-state-13-september-2024"),
+    (293, "2026-07-25", "2026-07-28", ["Katsina"], ["Dandume"], 252, 38, None, None, None, None, 3, "North-west Nigeria — Katsina State Flash Report 293", FR + "nigeria-north-west-nigeria-katsina-state-flash-report-293-29-30-july-2026"),
+    (294, "2026-07-30", "2026-07-30", ["Zamfara"], [], None, None, None, None, None, None, None, "North-west Nigeria — Zamfara State Flash Report 294", FR + "nigeria-north-west-nigeria-katsina-state-flash-report-293-29-30-july-2026"),
+    (295, "2026-08-07", "2026-08-09", ["Katsina"], [], None, None, None, None, None, None, None, "North-west Nigeria — Katsina State Flash Report 295", FR + "nigeria-north-west-nigeria-katsina-state-flash-report-290-01-june-2026"),
+    (296, "2026-08-14", "2026-08-14", ["Katsina"], [], None, None, None, None, None, None, None, "North-west Nigeria — Katsina State Flash Report 296", FR + "nigeria-flood-situation-report-benue-state-18-september-2024"),
+    (297, "2026-08-17", "2026-08-17", ["Zamfara"], [], None, None, None, None, None, None, None, "North-west Nigeria — Zamfara State Flash Report 297", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-291-16-june-2026"),
+    (298, "2026-08-23", "2026-08-23", ["Katsina"], [], None, None, None, None, None, None, None, "North-west Nigeria — Katsina State Flash Report 298", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-291-16-june-2026"),
+    (299, "2026-08-24", "2026-08-24", ["Zamfara"], [], None, None, None, None, None, None, None, "North-west Nigeria — Zamfara State Flash Report 299", FR + "nigeria-north-west-nigeria-zamfara-state-flash-report-291-16-june-2026"),
 ]
 
 
@@ -275,6 +393,12 @@ def seed_items():
                     "component": "ett", "regions": ["North East"], "states": x["st"], "lgas": list((x.get("lga_arrivals") or {}).keys()),
                     "year": int(x["e"][:4]), "month": x["e"][:7], "week": None, "period_start": x["s"], "period_end": x["e"],
                     "number": x["n"], "figures": f, "source": "report page (read by hand)", "pdfs": []})
+    for n, s, e, st, lg, di, dh, ai, ah, dead, inj, comm, t, url in SEED_FLASH2:
+        f = {k: v for k, v in (("displaced_ind", di), ("displaced_hh", dh), ("affected_ind", ai), ("affected_hh", ah), ("deaths", dead), ("injured", inj), ("communities", comm)) if v is not None}
+        out.append({"title": t + (f" ({s}{' to ' + e if e != s else ''})"), "url": url + ("" if n and url.startswith(FR) and str(n) in url else f"#flash-{n or s}"),
+                    "published": e, "component": "flash", "regions": ["North East" if st[0] in ("Borno", "Adamawa", "Yobe") else "North Central & North West"],
+                    "states": st, "lgas": lg, "year": int(e[:4]), "month": e[:7], "week": None, "period_start": s, "period_end": e, "number": n,
+                    "figures": f, "source": "report page (read by hand)", "pdfs": []})
     for t, d, st, lg, ind, hh, url in SEED_FLASH:
         m = __import__("re").search(r"Report (\d+)", t)
         out.append({"title": t, "url": url or f"https://dtm.iom.int/nigeria#{d}", "published": d, "component": "flash",
@@ -385,6 +509,7 @@ def main():
             "datasets": datasets_list(items),
             "files": copy_files(),
             "biometric": biometric(base.get("biometric", []), items),
+            "ttt": ttt(items),
             "ett_crosscheck": ett_crosscheck(base["ett"], items)}
     payload = json.dumps(data, separators=(",", ":"))
     (DIST / "data.json").write_text(payload)

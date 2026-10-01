@@ -84,7 +84,7 @@ COMPONENTS = [
 OTHER_COMPONENT = {"id": "other", "name": "Other DTM products"}
 
 # Components that are recognised (so they are not mistaken for others) but left out of the dashboard.
-EXCLUDED_COMPONENTS = {"intention", "ses", "smi", "transhumance", "ewer", "ses_fm"}
+EXCLUDED_COMPONENTS = {"intention", "ses", "smi", "ses_fm"}
 
 # All 36 states and the FCT, by geopolitical zone
 ZONES = {
