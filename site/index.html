@@ -421,6 +421,15 @@ body{background:var(--pb-bg)}
   <div class="figs" id="mtFigs"></div>
   <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3>Summary by population group</h3><p class="sub" id="sumSub"></p></div>
     <button class="btn" data-csv="sumTable">Download CSV</button></div><div class="tw" style="max-height:560px"><table class="sumtab" id="sumTable"></table></div></div>
+  <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3>IDPs in host communities and in camps (%)</h3><p class="sub" id="hcSub"></p></div>
+    <div class="controls" style="margin:0"><label>Level<span class="seg" id="hcLevel"><button aria-pressed="true" data-v="region">Region</button><button data-v="state">States</button></span></label>
+      <button class="btn" data-csv="hcTable">Download CSV</button></div></div>
+    <div class="chart" id="hcChart"></div><div class="tw" style="margin-top:10px;max-height:460px"><table id="hcTable"></table></div></div>
+  <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3 id="spTitle">State by round</h3><p class="sub">IDPs (host communities, camps, integrated/relocated sites) and returnees, households before individuals, for every selected round.</p></div>
+    <div class="controls" style="margin:0"><label>State<select id="spState"></select></label><button class="btn" data-csv="spTable">Download CSV</button></div></div>
+    <div class="chart" id="spChart"></div><div class="tw" style="margin-top:10px;max-height:460px"><table id="spTable"></table></div></div>
+  <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3>Sex and age of IDPs (from the reports)</h3><p class="sub">Female, male and children under 18 as stated in each round's report.</p></div>
+    <button class="btn" data-csv="dgTable">Download CSV</button></div><div id="dgWrap"></div></div>
   <div class="grid">
     <div class="panel c12"><div class="panel-head"><div><h3 id="mtChartTitle"></h3><p class="sub" id="mtChartSub"></p></div></div>
       <div class="chart tall" id="mtChart"></div></div>
@@ -665,6 +674,8 @@ body{background:var(--pb-bg)}
   <p><b>IDP locations</b>, <b>camps</b> and <b>host-community locations</b> are site counts stated in reports. The datasets are ward-level, so for dataset rounds the platform also counts <b>wards with IDPs</b> and <b>wards with camp IDPs</b>; <b>return locations</b> are counted from the named return locations in the datasets. North East rounds 1–11 also covered several north-central and north-west states; those figures appear under their states.</p>
   <h3>ETT and incidents</h3>
   <p>ETT weeks are ISO weeks (Monday–Sunday), matching the weekly ETT reports. Locations receiving arrivals are distinct ward/location pairs in each period. For flash reports that cover several states or LGAs, displaced figures are split equally between them in state and LGA views.</p>
+  <h3>Reports from the DTM Nigeria IM SharePoint library</h3>
+  <p>The IM team's “Reports and Publications” library is private to IOM, so the website harvester cannot open it. To add those reports: sync the library to your computer with OneDrive (open it in SharePoint → <b>Sync</b> or <b>Add shortcut to My files</b>), then on your computer run <code>python harvest_web.py --local-folder "C:\Users\…\DTMNigeriaIMGroup - Shared Documents\2. INFORMATION MANAGEMENT\2.1. Reports and Publications" --local-only</code> followed by <code>python build_site.py</code>, and upload <code>data/harvest/reports.json</code> to GitHub. Every PDF in every sub-folder is read: households and individuals, IDPs in host communities and camps, female/male/children shares, ETT arrivals, flash report figures and transhumance alerts. You can also drop PDFs on the <b>Add data</b> page.</p>
   <h3>Components tracked</h3>
   <p id="compList"></p>
   <p class="note" id="aboutMeta"></p>
@@ -902,7 +913,7 @@ function distinctAcross(reg, rounds, grp){
 const hasSplit = reg => mob(reg).places.some(p=>p.g==="camp");
 const roundRow = (reg,rn) => mob(reg).rounds.find(r=>r.round===rn);
 const hasFig = r => r && (r.idp_ind!=null || r.ret_ind!=null);
-const NUMK=["idp_hh","idp_ind","camp_hh","camp_ind","hc_hh","hc_ind","ret_hh","ret_ind","idp_wards","camp_wards","hc_wards","ret_wards","idp_locs","camp_locs","hc_locs","ret_locations"];
+const NUMK=["idp_hh","idp_ind","camp_hh","camp_ind","hc_hh","hc_ind","int_hh","int_ind","rel_hh","rel_ind","ret_hh","ret_ind","idp_wards","camp_wards","hc_wards","ret_wards","idp_locs","camp_locs","hc_locs","ret_locations"];
 const GROUPS={idp:{name:"All IDPs",hh:"idp_hh",ind:"idp_ind",wards:"idp_wards",locs:"idp_locs"},hc:{name:"IDPs in host communities",hh:"hc_hh",ind:"hc_ind",wards:"hc_wards",locs:"hc_locs"},
   camp:{name:"IDPs in camps",hh:"camp_hh",ind:"camp_ind",wards:"camp_wards",locs:"camp_locs"},ret:{name:"Returnees",hh:"ret_hh",ind:"ret_ind",wards:"ret_wards",locs:"ret_locations"}};
 /* units (state or LGA) for a round, honouring the state filter; includes distinct LGA counts per group */
@@ -1070,7 +1081,7 @@ function renderMobility(){
   const pt=$("#mtPct"); pt._cols=[{k:"measure",h:"Measure"},...rng.map(rn=>({k:"R"+rn,h:"R"+rn,raw:r=>r["R"+rn]==null?"":r["R"+rn].toFixed(2)}))]; pt._rows=pRows;
   pt.innerHTML=`<thead><tr><th>Change vs previous round</th>${rng.map(rn=>`<th title="${ym(roundRow(reg,rn).date)}">R${rn}</th>`).join("")}</tr></thead><tbody>${pRows.map(r=>`<tr><td class="tl">${r.measure}</td>${rng.map(rn=>{ const v=r["R"+rn];
       return `<td style="${pctShade(v)}" title="R${rn}: ${v==null?"no figure":(v>0?"+":"")+v.toFixed(2)+"%"}">${v==null?"–":(v>0?"▲":v<0?"▼":"")+Math.abs(v).toFixed(1)+"%"}</td>`; }).join("")}</tr>`).join("")||`<tr><td class="tl muted">No consecutive rounds with figures in this selection.</td></tr>`}</tbody>`;
-  renderSummary(reg,rng); renderDistinct(reg,rng,T);
+  renderSummary(reg,rng); renderHC(reg,rng); renderStateProfile(reg,rng); renderDemog(reg,rng); renderDistinct(reg,rng,T);
   // compare two rounds (choices = selected data-file rounds)
   const ds=rng.filter(r=>(mob(reg).lgaByRound[r]||[]).length);
   if(!ds.includes(V.cmpB)) V.cmpB=ds[ds.length-1]; if(!ds.includes(V.cmpA)) V.cmpA=ds[Math.max(0,ds.indexOf(V.cmpB)-1)];
@@ -1116,6 +1127,62 @@ function renderMobility(){
     {k:"lgas_idp",h:"LGAs (IDPs)"},{k:"idp_wards",h:"Wards (IDPs)"},{k:"lgas_ret",h:"LGAs (returnees)"},{k:"ret_locations",h:"Return locations"},
     {k:"src",h:"Data from",cls:"tl"},{k:"links",h:"Online",cls:"tl linkchips",f:v=>linkChips(v),raw:r=>r.links.map(l=>l.u).join(" ")},
     {k:"note",h:"Note",cls:"tl wrap"}],rows,{sort:"round",dir:1});
+}
+
+/* ---------- shares that add up to exactly 100 (largest-remainder rounding) */
+function pct100(vals){ const t=vals.reduce((a,v)=>a+(v||0),0); if(!t) return vals.map(()=>null);
+  const raw=vals.map(v=>(v||0)/t*100), fl=raw.map(Math.floor); let left=100-fl.reduce((a,b)=>a+b,0);
+  raw.map((v,i)=>[v-fl[i],i]).sort((a,b)=>b[0]-a[0]).forEach(([,i])=>{ if(left>0){ fl[i]++; left--; } });
+  return fl.map((v,i)=>vals[i]==null?null:v); }
+const CATS=[["hc","Host communities","#0E4D6E"],["camp","Camps & camp-like settings","#5BA3C7"],["int","Integrated sites","#E08A1E"],["rel","Relocated / resettled sites","#8C6D46"],["oth","Other (in the report total, not broken down)","#9AA6B8"]];
+function hcRows(reg,rng,level){
+  const rows=[];
+  rng.forEach(rn=>{ const meta=roundRow(reg,rn)||{};
+    if(level==="region"){ if(F.state) return; const sp=meta.split; if(!sp) return;
+      const o={round:rn,date:meta.date,place:reg,total:sp.total,src:sp.src,diff:sp.src==="data file"&&meta.idp_ind&&sp.total!==meta.idp_ind?meta.idp_ind-sp.total:null};
+      CATS.forEach(([k])=>{ o[k]=sp.ind[k]??null; o["p_"+k]=sp.pct[k]??null; }); o.check=CATS.reduce((a,[k])=>a+(o["p_"+k]||0),0); rows.push(o); }
+    else { Object.entries(unitRows(reg,rn,"state")).forEach(([st,v])=>{ const vals={hc:v.hc_ind||null,camp:v.camp_ind||null,int:v.int_ind||null,rel:v.rel_ind||null,oth:null};
+      if(!vals.hc&&!vals.camp) return; const ks=CATS.map(c=>c[0]), pc=pct100(ks.map(k=>vals[k])); const o={round:rn,date:meta.date,place:st,total:ks.reduce((a,k)=>a+(vals[k]||0),0),src:"data file"};
+      ks.forEach((k,i)=>{ o[k]=vals[k]; o["p_"+k]=vals[k]?pc[i]:null; }); o.check=ks.reduce((a,k)=>a+(o["p_"+k]||0),0); rows.push(o); }); } });
+  return rows;
+}
+function renderHC(reg,rng){
+  const lvl=V.hcLevel||"region", rows=hcRows(reg,rng,lvl);
+  $("#hcSub").textContent=`${reg}${F.state?" · "+F.state:""} · where IDPs (individuals) live, by category. Every row adds up to exactly 100% (whole numbers, largest-remainder rounding). Region rows use the numbers stated in the round's report when the report gives the split; otherwise the round's data file — the two are never mixed. State rows come from the data files.`+(hasSplit(reg)?"":" This region's data files do not split camps from host communities, so only rounds whose reports state it are shown.");
+  const P=v=>v==null?"–":v+"%"; const used=CATS.filter(([k])=>rows.some(r=>r[k]));
+  table("hcTable",[{k:"round",h:"Round",f:v=>"R"+v},{k:"date",h:"Published",cls:"tl",f:v=>ym(v)},{k:"place",h:lvl==="region"?"Region":"State",cls:"tl"},
+    ...used.map(([k,l])=>({k,h:l})),{k:"total",h:"All IDPs"},...used.map(([k,l])=>({k:"p_"+k,h:"% "+l.toLowerCase(),f:P})),{k:"check",h:"Total %",f:P},
+    {k:"src",h:"Numbers from",cls:"tl",f:(v,r)=>v+(r.diff?` <span class="muted">(report total differs by ${fmt(r.diff)})</span>`:"")}],rows,{sort:"round",dir:1,then:["place"]});
+  const ch=lvl==="region"?rows:rows.filter(r=>r.round===rng[rng.length-1]);
+  barChart($("#hcChart"),{labels:ch.map(r=>lvl==="region"?"R"+r.round:r.place),stacked:true,yMax:100,yFmt:v=>Math.round(v)+"%",tipFmt:v=>v+"%",
+    series:used.map(([k,l,c])=>({name:l,color:c,values:ch.map(r=>r["p_"+k])})),
+    tipTitle:i=>lvl==="region"?`Round ${ch[i].round} · numbers from ${ch[i].src}`:`${ch[i].place} · R${ch[i].round}`,empty:"No host-community / camp split for this selection."});
+}
+function renderStateProfile(reg,rng){
+  const states=[...new Set(rng.flatMap(rn=>(mob(reg).lgaByRound[rn]||[]).map(r=>r.state)))].sort();
+  if(F.state&&states.includes(F.state)) V.spState=F.state; if(!states.includes(V.spState)) V.spState=states.includes("Borno")?"Borno":states[0];
+  $("#spState").innerHTML=states.map(s=>`<option ${s===V.spState?"selected":""}>${s}</option>`).join("");
+  const st=V.spState; $("#spTitle").textContent=`${st||"State"} by round`;
+  const rows=rng.map(rn=>{ const v=withF({},()=>unitRows(reg,rn,"state"))[st]; if(!v) return null; const meta=roundRow(reg,rn)||{};
+    const split=v.hc_ind||v.camp_ind; const [ph,pc,pi,pr]=split?pct100([v.hc_ind||null,v.camp_ind||null,v.int_ind||null,v.rel_ind||null]):[null,null,null,null];
+    return {round:rn,date:meta.date,idp_hh:v.idp_hh||null,idp_ind:v.idp_ind||null,hc_hh:v.hc_hh||null,hc_ind:v.hc_ind||null,camp_hh:v.camp_hh||null,camp_ind:v.camp_ind||null,
+      int_ind:v.int_ind||null,rel_ind:v.rel_ind||null,p_hc:ph,p_camp:pc,p_int:pi,p_rel:pr,check:split?[ph,pc,pi,pr].reduce((a,b)=>a+(b||0),0):null,
+      ret_hh:v.ret_hh||null,ret_ind:v.ret_ind||null,lgas:v.lgas_idp||null,src:v.src?"report":"data file"}; }).filter(Boolean);
+  const P=v=>v==null?"–":v+"%";
+  table("spTable",[{k:"round",h:"Round",f:v=>"R"+v},{k:"date",h:"Published",cls:"tl",f:v=>ym(v)},{k:"idp_hh",h:"IDP households"},{k:"idp_ind",h:"IDP individuals"},
+    {k:"hc_hh",h:"Host-comm. households"},{k:"hc_ind",h:"Host-comm. individuals"},{k:"camp_hh",h:"Camp households"},{k:"camp_ind",h:"Camp individuals"},
+    {k:"int_ind",h:"Integrated sites"},{k:"rel_ind",h:"Relocated sites"},
+    {k:"p_hc",h:"% host communities",f:P},{k:"p_camp",h:"% camps",f:P},{k:"p_int",h:"% integrated",f:P},{k:"p_rel",h:"% relocated",f:P},{k:"check",h:"Total %",f:P},{k:"ret_hh",h:"Returnee households"},{k:"ret_ind",h:"Returnee individuals"},{k:"lgas",h:"LGAs with IDPs"},{k:"src",h:"Source",cls:"tl"}],rows,{sort:"round",dir:1});
+  lineChart($("#spChart"),{labels:rows.map(r=>"R"+r.round),series:[{name:"IDPs in host communities",color:"#0E4D6E",values:rows.map(r=>r.hc_ind)},{name:"IDPs in camps",color:"#5BA3C7",values:rows.map(r=>r.camp_ind)},
+    {name:"Returnees",color:"#E08A1E",values:rows.map(r=>r.ret_ind)}].filter(s=>s.values.some(v=>v)),tipTitle:i=>`${st} · Round ${rows[i].round} · ${ym(rows[i].date)}`});
+}
+function renderDemog(reg,rng){
+  const rows=rng.map(rn=>{ const m=roundRow(reg,rn)||{}; const d=m.demog; if(!d) return null; const [f,mm]=d.female_pct!=null&&d.male_pct!=null?pct100([d.female_pct,d.male_pct]):[d.female_pct,d.male_pct];
+    return {round:rn,date:m.date,female:f??null,male:mm??null,children:d.children_pct!=null?Math.round(d.children_pct):null,src:d.src}; }).filter(Boolean);
+  if(!rows.length){ $("#dgWrap").innerHTML=`<div class="empty">No sex and age shares have been read from the reports for these rounds yet. The harvester reads them from each report's text (for example “54% female… 58% children”), and from any reports you add on the Add data page or from the IM SharePoint library (see Sources & method).</div>`; return; }
+  $("#dgWrap").innerHTML=`<div class="tw"><table id="dgTable"></table></div>`;
+  table("dgTable",[{k:"round",h:"Round",f:v=>"R"+v},{k:"date",h:"Published",cls:"tl",f:v=>ym(v)},{k:"female",h:"% female",f:v=>v==null?"–":v+"%"},{k:"male",h:"% male",f:v=>v==null?"–":v+"%"},
+    {k:"children",h:"% children under 18",f:v=>v==null?"–":v+"%"},{k:"src",h:"Report",cls:"tl",f:v=>v&&!String(v).startsWith("local:")?`<a href="${esc(v)}" target="_blank" rel="noopener">Open</a>`:"–"}],rows,{sort:"round",dir:1});
 }
 function renderSummary(reg,rng,tid="sumTable"){
   const split=hasSplit(reg);
@@ -1295,7 +1362,7 @@ function renderEttTrend(R,keys,unit){
 function flashRecords(){
   const out=[];
   (D.publications||[]).filter(p=>p.c==="flash").forEach(p=>{ const d=p.ps||p.p; if(!d) return;
-    out.push({d, states:p.s||[], lgas:p.l||[], ind:p.f.displaced_ind??null, hh:p.f.displaced_hh??null, aff_ind:p.f.affected_ind??null, aff_hh:p.f.affected_hh??null, n:p.n, deaths:p.f.deaths??null, injured:p.f.injured??null,
+    out.push({d, states:p.s||[], lgas:p.l||[], ind:p.f.displaced_ind??null, hh:p.f.displaced_hh??null, aff_ind:p.f.affected_ind??null, aff_hh:p.f.affected_hh??null, n:p.n, children:p.f.children??null, women:p.f.women??null, men:p.f.men??null, deaths:p.f.deaths??null, injured:p.f.injured??null,
       comm:p.f.communities??null, title:p.t, url:p.u, region:(p.r||[]).join(", "), src:p.src==="uploaded report"?"Uploaded PDF":"Report", pub:p.p}); });
   (D.incidents||[]).forEach(r=>out.push({d:r.d, states:[r.state], lgas:r.lga?[r.lga]:[], ind:r.ind, hh:r.hh, deaths:r.deaths, injured:r.injured, comm:r.locations,
       title:r.type||"Incident", url:null, region:regionOf(r.state), src:"Dataset", pub:null}));
@@ -1343,9 +1410,9 @@ function renderFlash(){
     {k:"hh",h:"Displaced HH"},{k:"ind",h:"Displaced ind."},{k:"dead",h:"Deaths"},{k:"comm",h:"Communities"}],Object.values(pv),{sort:"period",dir:1,then:["unit"]});
   const draw=()=>{ const q=($("#flSearch2").value||"").toLowerCase();
     table("flList",[{k:"d",h:"Incident date",cls:"tl"},{k:"wk",h:"Week",cls:"tl"},{k:"region",h:"Region",cls:"tl"},{k:"st",h:"States",cls:"tl"},{k:"lg",h:"LGAs",cls:"tl wrap"},
-      {k:"n",h:"Report no."},{k:"hh",h:"Displaced HH"},{k:"ind",h:"Displaced ind."},{k:"aff_hh",h:"Affected HH"},{k:"aff_ind",h:"Affected ind."},{k:"deaths",h:"Deaths"},{k:"injured",h:"Injured"},{k:"comm",h:"Communities"},
+      {k:"n",h:"Report no."},{k:"pc",h:"% children",f:v=>v==null?"–":v+"%"},{k:"pw",h:"% women",f:v=>v==null?"–":v+"%"},{k:"pm",h:"% men",f:v=>v==null?"–":v+"%"},{k:"hh",h:"Displaced HH"},{k:"ind",h:"Displaced ind."},{k:"aff_hh",h:"Affected HH"},{k:"aff_ind",h:"Affected ind."},{k:"deaths",h:"Deaths"},{k:"injured",h:"Injured"},{k:"comm",h:"Communities"},
       {k:"title",h:"Report / incident",cls:"tl wrap",f:(v,r)=>r.url&&!r.url.startsWith("local:")?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>`:esc(v)},{k:"src",h:"Source",cls:"tl"}],
-      P.map(r=>({...r,wk:periodOf(r.d,"week"),st:r.states.join(", "),lg:r.lgas.join(", ")})).filter(r=>!q||(r.title+" "+r.lg+" "+r.st).toLowerCase().includes(q)),{sort:"d",dir:1}); };
+      P.map(r=>{ const [pc,pw,pm]=r.children!=null?pct100([r.children,r.women,r.men]):[null,null,null]; return {...r,pc,pw,pm}; }).map(r=>({...r,wk:periodOf(r.d,"week"),st:r.states.join(", "),lg:r.lgas.join(", ")})).filter(r=>!q||(r.title+" "+r.lg+" "+r.st).toLowerCase().includes(q)),{sort:"d",dir:1}); };
   $("#flSearch2").oninput=draw; draw();
 }
 
@@ -1462,7 +1529,9 @@ function applyUploads(d){
     else if(it.kind==="pdf"){ const pub=p.pub; if(d.publications.some(x=>x.u===pub.u&&x.t===pub.t)) continue; d.publications.push(pub);
       if(pub.c==="mt_atlas"&&pub.rd){ const reg=(pub.r||[]).includes(NC)&&!(pub.r||[]).includes(NE)?NC:NE; const m=d.mob[reg]; let x=m.rounds.find(r=>r.round===pub.rd);
         if(!x){ x={round:pub.rd,date:pub.m,source:"report"}; m.rounds.push(x); }
-        ROUND_FIELDS.forEach(k=>{ if(x[k]==null&&pub.f[k]!=null) x[k]=pub.f[k]; }); }
+        ROUND_FIELDS.forEach(k=>{ if(x[k]==null&&pub.f[k]!=null) x[k]=pub.f[k]; });
+        ["camp_ind","hc_ind"].forEach(k=>{ if(pub.f[k]!=null){ x[k]=pub.f[k]; (x.fig_src||(x.fig_src={}))[k]="report"; } });
+        if(pub.f.demog) x.demog={...pub.f.demog,src:null}; }
       if(pub.c==="ett") (d.ett_reports||(d.ett_reports=[])).push({n:pub.n,t:pub.t,u:pub.u,pdf:null,p:pub.p,ps:pub.ps,pe:pub.pe,w:pub.w,m:pub.m,s:pub.s,l:pub.l,arr:pub.f.arrivals_ind??null});
       if(pub.c==="ett"&&pub.f.arrivals_ind&&pub.ps){ const lo=pub.ps, hi=pub.pe||pub.ps, st=new Set(pub.s||[]);
         (d.ett_crosscheck||(d.ett_crosscheck=[])).push({report:pub.n,title:pub.t,url:pub.u,start:lo,end:hi,reported:pub.f.arrivals_ind,states:pub.s,
@@ -1604,6 +1673,13 @@ function mineFigures(t){ t=t.replace(/\s+/g," "); const f={}; const N="(\\d{1,3}
   first(`${N}\\s*(?:fatalities|deaths|people were killed|persons were killed|killed)`,"deaths"); first(`${N}\\s*(?:injuries|people were injured|persons were injured|injured)`,"injured");
   if(/no (?:reports? of )?(?:injuries|fatalities|casualties)/i.test(t)){ if(f.deaths==null) f.deaths=0; if(f.injured==null) f.injured=0; }
   first(`total of\\s*${N}\\s*alerts`,"alerts");
+  first(`camps? and camp-like settings\\s*\\(\\s*${N}\\s*individuals`,"camp_ind"); first(`host communities\\s*\\(\\s*${N}\\s*individuals`,"hc_ind");
+  const dm={}; const grab=(k,res)=>{ for(const re of res){ const m=t.match(new RegExp(re,"i")); if(m&&+m[1]>0&&+m[1]<=100){ dm[k]=+m[1]; return; } } };
+  grab("female_pct",["(\\d{1,3}(?:\\.\\d)?)\\s*(?:%|per ?cent)\\s*(?:were\\s*|are\\s*)?(?:female|women and girls)","(?:female|women and girls)[^.%\\d]{0,30}(\\d{1,3}(?:\\.\\d)?)\\s*(?:%|per ?cent)"]);
+  grab("male_pct",["(\\d{1,3}(?:\\.\\d)?)\\s*(?:%|per ?cent)\\s*(?:were\\s*|are\\s*)?(?:male|men and boys)\\b","(?:\\bmales?\\b|men and boys)[^.%\\d]{0,30}(\\d{1,3}(?:\\.\\d)?)\\s*(?:%|per ?cent)"]);
+  grab("children_pct",["(\\d{1,3}(?:\\.\\d)?)\\s*(?:%|per ?cent)\\s*(?:of (?:the )?(?:IDPs|population|individuals)\\s*)?(?:were\\s*|are\\s*)?children","children[^.%\\d]{0,12}(?:\\(?\\s*under\\s*18\\s*\\)?)?[^.%\\d]{0,30}(\\d{1,3}(?:\\.\\d)?)\\s*(?:%|per ?cent)"]);
+  if(dm.female_pct!=null&&dm.male_pct==null) dm.male_pct=+(100-dm.female_pct).toFixed(1); if(Object.keys(dm).length) f.demog=dm;
+  const cw=t.match(new RegExp(`including\\s*${N}\\s*children,\\s*${N}\\s*women,?\\s*and\\s*${N}\\s*men`,"i")); if(cw){ f.children=toI(cw[1]); f.women=toI(cw[2]); f.men=toI(cw[3]); }
   return f; }
 function gazetteer(){ const g={}; Object.values(D.mob).forEach(m=>m.lga.forEach(r=>(g[r.state]||(g[r.state]=new Set())).add(r.lga))); D.ettL.year.forEach(r=>(g[r.state]||(g[r.state]=new Set())).add(r.lga)); return g; }
 function classifyPdf(name,text){
@@ -2146,7 +2222,7 @@ function initFilters(){
 function wireMobility(){
   seg("#mtSeg","mt",()=>{ V.cmpA=V.cmpB=null; if(F.region&&F.region!==V.mt){ F.region=""; $("#fRegion").value=""; } if(F.state&&regionOf(F.state)!==V.mt){ F.state=""; $("#fState").value=""; } });
   seg("#yoySeg","yoy"); seg("#mtUnit","mtUnit"); seg("#cmpLevel","cmpLevel"); seg("#trLevel","trLevel");
-  seg("#dcMeasure","dcMeasure"); seg("#dcGroup","dcGroup"); seg("#rsGroup","rsGroup");
+  seg("#dcMeasure","dcMeasure"); seg("#hcLevel","hcLevel"); $("#spState").onchange=e=>{ V.spState=e.target.value; render(); }; seg("#dcGroup","dcGroup"); seg("#rsGroup","rsGroup");
   $("#cmpA").onchange=e=>{V.cmpA=+e.target.value; render();}; $("#cmpB").onchange=e=>{V.cmpB=+e.target.value; render();};
   const toggle=(r,shift)=>{ const S=rSel(); const all=mtRoundOptions(V.mt);
     if(shift&&V.rAnchor!=null){ const [lo,hi]=[Math.min(V.rAnchor,r),Math.max(V.rAnchor,r)]; all.filter(x=>x>=lo&&x<=hi).forEach(x=>S.add(x)); }

@@ -251,6 +251,41 @@ def mine_figures(component, text):
         if m3:
             st[m2.group(2)][1], st[m2.group(4)][1] = to_int(m3.group(1)), to_int(m3.group(2))
         f["ttt_by_state"] = st
+    # IDPs in host communities / camps as stated in atlases (individuals, households, %)
+    first(rf"{NUM}\s*(?:individuals\s*)?(?:\(\s*\d{{1,3}}(?:\.\d)?\s*%\s*\)\s*)?(?:were\s*)?(?:living|residing|lived)\s*(?:in|among)\s*host communit", "hc_ind")
+    first(rf"{NUM}\s*(?:individuals\s*)?(?:\(\s*\d{{1,3}}(?:\.\d)?\s*%\s*\)\s*)?(?:were\s*)?(?:living|residing|lived)\s*in\s*camps", "camp_ind")
+    first(rf"host communities\s*\(\s*\d{{1,3}}(?:\.\d)?\s*%\s*(?:or\s*)?{NUM}", "hc_ind")
+    first(rf"camps(?: and camp-like settings)?\s*\(\s*\d{{1,3}}(?:\.\d)?\s*%\s*(?:or\s*)?{NUM}", "camp_ind")
+    pc = re.search(r"(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)\s*(?:of (?:the )?IDPs\s*)?(?:were\s*|are\s*)?(?:living |residing )?in host communities", t, re.I)
+    if pc:
+        f["hc_pct_reported"] = float(pc.group(1))
+    pc = re.search(r"(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)\s*(?:of (?:the )?IDPs\s*)?(?:were\s*|are\s*)?(?:living |residing )?in camps", t, re.I)
+    if pc:
+        f["camp_pct_reported"] = float(pc.group(1))
+    # sex and age (women/girls, men/boys, children under 18)
+    demog = {}
+    for key, pats in (("female_pct", [r"(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)\s*(?:were\s*|are\s*)?(?:female|women and girls|girls and women)",
+                                       r"(?:female|women and girls)\s*\(?\s*(\d{1,3}(?:\.\d)?)\s*%",
+                                       r"(?:female|women and girls)[^.%\d]{0,30}(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)"]),
+                      ("male_pct", [r"(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)\s*(?:were\s*|are\s*)?(?:male|men and boys|boys and men)\b",
+                                     r"(?:\bmale|men and boys)\s*\(?\s*(\d{1,3}(?:\.\d)?)\s*%",
+                                     r"(?:\bmales?\b|men and boys)[^.%\d]{0,30}(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)"]),
+                      ("children_pct", [r"(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)\s*(?:of (?:the )?(?:IDPs|population|individuals)\s*)?(?:were\s*|are\s*)?children",
+                                         r"children\s*(?:\(?under (?:the age of )?18(?: years)?\)?|below 18(?: years)?|aged? (?:0|under)[^)]{0,15})?\s*\(?\s*(\d{1,3}(?:\.\d)?)\s*%",
+                                         r"children[^.%\d]{0,12}(?:\(?\s*under\s*18\s*\)?)?[^.%\d]{0,30}(\d{1,3}(?:\.\d)?)\s*(?:%|per ?cent)"])):
+        for p in pats:
+            mm = re.search(p, t, re.I)
+            if mm and 0 < float(mm.group(1)) <= 100:
+                demog[key] = float(mm.group(1))
+                break
+    if demog.get("female_pct") and not demog.get("male_pct") and demog["female_pct"] < 100:
+        demog["male_pct"] = round(100 - demog["female_pct"], 1)
+    if demog:
+        f["demog"] = demog
+    # flash reports: "including 139 children, 66 women, and 47 men"
+    mm = re.search(rf"including\s*{NUM}\s*children,\s*{NUM}\s*women,?\s*and\s*{NUM}\s*men", t, re.I)
+    if mm:
+        f["children"], f["women"], f["men"] = to_int(mm.group(1)), to_int(mm.group(2)), to_int(mm.group(3))
     # reasons for displacement, e.g. "insurgency (92%)", "armed banditry (672,792 individuals or 45%)"
     reasons = {}
     for m in re.finditer(r"(insurgency|non-state armed group[s]? attacks?|communal (?:clash(?:es)?|violence)|armed banditry(?:/kidnapping| and kidnapping)?|banditry|kidnapping|"
@@ -317,7 +352,7 @@ def state_tables(pdf):
 PDF_TABLES = {}
 
 
-def pdf_text(url=None, content=None):
+def pdf_text(url=None, content=None, max_pages=None):
     if content is None:
         if not C.DOWNLOAD_PDFS:
             return ""
@@ -331,7 +366,7 @@ def pdf_text(url=None, content=None):
         import pdfplumber
         with pdfplumber.open(io.BytesIO(content)) as pdf:
             PDF_TABLES["last"] = state_tables(pdf)
-            return "\n".join((p.extract_text() or "") for p in pdf.pages[: C.PDF_MAX_PAGES])
+            return "\n".join((p.extract_text() or "") for p in pdf.pages[: (max_pages or C.PDF_MAX_PAGES)])
     except Exception as e:  # corrupted / scanned PDFs
         log(f"  pdf fail {url}: {e}")
         return ""
@@ -582,13 +617,17 @@ def enrich(item, use_pdf):
     return item
 
 
-def local_reports():
-    """PDF reports placed in data/reports/ (any sub-folder) – for reports you have but the website does not."""
-    folder = ROOT / "data" / "reports"
+def local_reports(folder=None, max_pages=None):
+    """PDF reports in data/reports/ or in any folder on your computer (for example the DTM Nigeria IM
+    SharePoint 'Reports and Publications' library synced with OneDrive). Every sub-folder is read."""
+    folder = Path(folder) if folder else ROOT / "data" / "reports"
     items = []
-    for f in sorted(folder.rglob("*.pdf")) if folder.exists() else []:
+    files = sorted(folder.rglob("*.pdf")) if folder.exists() else []
+    for k, f in enumerate(files, 1):
         content = f.read_bytes()
-        text = pdf_text(content=content)
+        text = pdf_text(content=content, max_pages=max_pages)
+        if k % 25 == 0:
+            log(f"  read {k}/{len(files)} PDFs")
         lines = [l.strip() for l in text.splitlines() if len(l.strip()) > 12]
         title = f.stem.replace("_", " ").replace("-", " ")
         pub = None
@@ -601,7 +640,7 @@ def local_reports():
         items.append({"url": f"local:{f.relative_to(folder).as_posix()}", "title": title if len(title) > 15 or not lines else lines[0][:160],
                       "published": pub, "summary": "", "pdf_text": text, "pdfs": [], "source": "uploaded report",
                       "hash": hashlib.md5(content).hexdigest()})
-    log(f"local reports: {len(items)} PDFs in data/reports/")
+    log(f"local reports: {len(items)} PDFs in {folder}")
     return items
 
 
@@ -615,10 +654,28 @@ def main():
     ap.add_argument("--max-pages", type=int, default=C.MAX_LISTING_PAGES)
     ap.add_argument("--no-pdf", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="re-process everything, ignoring the cache")
+    ap.add_argument("--local-folder", help="also read every PDF in this folder (e.g. the synced SharePoint 'Reports and Publications' library)")
+    ap.add_argument("--local-only", action="store_true", help="read local PDFs only, skip the websites")
     a = ap.parse_args()
 
     cache = {} if a.refresh or not CACHE.exists() else {x["url"]: x for x in json.loads(CACHE.read_text())}
     log(f"cache: {len(cache)} items")
+
+    if a.local_folder:
+        n_new = 0
+        for it in local_reports(a.local_folder, max_pages=30):
+            it["url"] = "local:sharepoint/" + it["url"].split(":", 1)[1]
+            it["source"] = "IM SharePoint library"
+            old = cache.get(it["url"])
+            if not old or old.get("hash") != it["hash"]:
+                cache[it["url"]] = enrich(it, False)
+                n_new += 1
+        log(f"local folder: {n_new} new or changed reports read")
+        CACHE.write_text(json.dumps(list(cache.values()), indent=1))
+        if a.local_only:
+            CACHE.write_text(json.dumps(sorted(cache.values(), key=lambda x: x.get("published") or ""), indent=1))
+            log(f"saved {len(cache)} items -> {CACHE}")
+            return
 
     # 1. DTM website
     urls = dtm_listing_urls(a.max_pages)

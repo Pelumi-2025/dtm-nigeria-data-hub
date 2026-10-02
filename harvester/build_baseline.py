@@ -154,7 +154,8 @@ def packed(rows, cols):
 LGA_COLS = ["round", "state", "lga",
             "idp_hh", "idp_ind", "camp_hh", "camp_ind", "hc_hh", "hc_ind", "ret_hh", "ret_ind",
             "idp_wards", "camp_wards", "hc_wards", "ret_wards",
-            "idp_locs", "camp_locs", "hc_locs", "ret_locations"]
+            "idp_locs", "camp_locs", "hc_locs", "ret_locations",
+            "int_hh", "int_ind", "rel_hh", "rel_ind"]
 REASON_COLS = ["round", "state", "group", "reason", "hh", "ind"]
 PLACE_COLS = ["state", "lga", "ward", "loc", "g", "rounds"]
 
@@ -254,6 +255,8 @@ def load_frames(prefix):
                     "reason": df[cm["category"]].map(reason_label) if "category" in cm else None,
                     "ret": ret.values, "camp": camp.values, "file": f.name, "origin": origin,
                     "other_site": ((~ret) & lt.str.contains("integrat|relocat|resettl")).values,
+                    "integrated": ((~ret) & lt.str.contains("integrat")).values,
+                    "relocated": ((~ret) & lt.str.contains("relocat|resettl")).values,
                     "kind": (re.search(r"(baseline|site|location|master|needs|return)", fname) or [None, "file"])[1] if origin == "online" else "attached",
                 })
                 for lab, pre in REASON_SPLIT_COLS.items():
@@ -321,7 +324,8 @@ def load_mobility(prefix, reference):
                                      pre + "_wards": ("w", "nunique"), loc_name: ("l", "nunique")}).reset_index()
 
     m = grp(idp, "idp", "idp_locs")
-    for df, pre, ln in ((camp, "camp", "camp_locs"), (hc, "hc", "hc_locs"), (ret, "ret", "ret_locations")):
+    for df, pre, ln in ((camp, "camp", "camp_locs"), (hc, "hc", "hc_locs"), (ret, "ret", "ret_locations"),
+                        (idp[idp.integrated], "int", "int_locs"), (idp[idp.relocated], "rel", "rel_locs")):
         m = m.merge(grp(df, pre, ln), how="outer", on=key)
     lga_rows = [{"round": int(a["round"]), "state": a["state"], "lga": a["lga"],
                  **{k: (I(a[k]) if k in a and not pd.isna(a[k]) and a[k] != 0 else None) for k in LGA_COLS[3:]}}
@@ -341,6 +345,8 @@ def load_mobility(prefix, reference):
             "hc_hh": I(gi[(~gi.camp) & (~gi.other_site)].hh.sum()) if gi.camp.any() else None,
             "hc_ind": I(gi[(~gi.camp) & (~gi.other_site)].ind.sum()) if gi.camp.any() else None,
             "other_site_ind": I(gi[gi.other_site].ind.sum()) if gi.other_site.any() else None,
+            "int_hh": I(gi[gi.integrated].hh.sum()) if gi.integrated.any() else None, "int_ind": I(gi[gi.integrated].ind.sum()) if gi.integrated.any() else None,
+            "rel_hh": I(gi[gi.relocated].hh.sum()) if gi.relocated.any() else None, "rel_ind": I(gi[gi.relocated].ind.sum()) if gi.relocated.any() else None,
             "ret_hh": I(gr.hh.sum()) if len(gr) else None, "ret_ind": I(gr.ind.sum()) if len(gr) else None,
             "idp_lgas": int((gi.state + gi.lga).nunique()) if len(gi) else None,
             "idp_wards": int((gi.state + gi.lga + gi.ward).nunique()) if len(gi) else None,
@@ -438,6 +444,40 @@ REPORT_CHECKS = [
 ]
 
 
+def validation_sheet():
+    """'Validation vs published' sheet of the corrected NE workbook: the IDP / returnee households and
+    individuals stated in each round's published report, with the report name."""
+    out = []
+    for f in sorted(RAW.glob("ne_mobility_*.xlsx")):
+        try:
+            x = pd.read_excel(f, sheet_name=None, header=None)
+        except Exception:
+            continue
+        for name, df in x.items():
+            if not norm(name).startswith("validation"):
+                continue
+            hdr = next((i for i in range(min(10, len(df))) if str(df.iloc[i, 0]).strip().lower() == "round"), None)
+            if hdr is None:
+                continue
+            cols = [norm(c) for c in df.iloc[hdr].tolist()]
+            def col(label):
+                return next((j for j, c in enumerate(cols) if c == label), None)
+            ci = {k: col(v) for k, v in (("idp_ind", "published idps"), ("idp_hh", "published idp households"),
+                                          ("ret_ind", "published returnees"), ("ret_hh", "published returnee households"),
+                                          ("src", "published source (round report)"))}
+            for _, row in df.iloc[hdr + 1:].iterrows():
+                rn = rnum(row.iloc[0])
+                if not rn:
+                    continue
+                rec = {"round": rn, "src": str(row.iloc[ci["src"]]).strip() if ci["src"] is not None and not pd.isna(row.iloc[ci["src"]]) else None}
+                for k in ("idp_ind", "idp_hh", "ret_ind", "ret_hh"):
+                    v = row.iloc[ci[k]] if ci[k] is not None else None
+                    rec[k] = I(pd.to_numeric(v, errors="coerce")) if v is not None else None
+                out.append(rec)
+            print(f"  validation sheet in {f.name}: {len(out)} rounds with published figures")
+    return out
+
+
 def official_comparison():
     """The 'ALL ROUNDS COMPARISM' sheet of the NE file holds the published round totals."""
     out = []
@@ -468,12 +508,13 @@ REPORTED_COUNTS = [
     (REG_NC, 15, {"idp_locations": 1690, "idp_wards": 854, "idp_lgas": 187}, "https://dtm.iom.int/reports/nigeria-north-central-and-north-west-displacement-report-round-15-december-2024"),
     (REG_NC, 16, {"idp_locations": 1761, "camps": 104, "hc_locations": 1657, "camp_ind": 239862, "hc_ind": 1082904}, "https://data.humdata.org/dataset/nigeria-displacement-data-north-central-west-site-assessment-iom-dtm"),
     (REG_NE, 18, {"camps": 235}, "https://data.humdata.org/dataset/nigeria-site-assessment-data"),
+    (REG_NE, 38, {"camp_ind": 879400, "hc_ind": 1303213}, "https://dtm.iom.int/reports/nigeria-north-east-displacement-report-38-june-july-2021"),
     (REG_NE, 19, {"camps": 242}, "https://data.humdata.org/dataset/nigeria-site-assessment-data"),
     (REG_NE, 20, {"camps": 251}, "https://data.humdata.org/dataset/nigeria-site-assessment-data"),
     (REG_NE, 41, {"idp_locations": 2365, "camps": 290, "hc_locations": 2075}, "https://data.humdata.org/dataset/nigeria-site-assessment-data"),
     (REG_NE, 44, {"idp_locations": 2482, "camp_ind": 834836, "hc_ind": 1553867}, "https://data.humdata.org/dataset/nigeria-site-assessment-data"),
     (REG_NE, 24, {"camp_ind": 753761, "camp_hh": 153049}, "https://data.humdata.org/dataset/nigeria-site-assessment-data"),
-    (REG_NE, 51, {"camp_ind": 912881, "hc_ind": 1300127, "ret_idp_ind": 2036044, "ret_abroad_ind": 217260}, "https://dtm.iom.int/product-series/displacement-report-15"),
+    (REG_NE, 51, {"camp_ind": 912881, "hc_ind": 1300127, "int_ind": 76972, "rel_ind": 43210, "ret_idp_ind": 2036044, "ret_abroad_ind": 217260}, "https://dtm.iom.int/product-series/displacement-report-15"),
     (REG_NE, 40, {"ret_idp_ind": 1802160, "ret_abroad_ind": 158398}, "https://dtm.iom.int/product-series/returnee-dashboard"),
     (REG_NC, 17, {"camp_ind": 212281, "hc_ind": 959079}, "https://dtm.iom.int/fr/nigeria"),
     (REG_NE, 45, {"camp_ind": 921201, "hc_ind": 1374333, "ret_idp_ind": 1866796, "ret_abroad_ind": 208461}, "https://dtm.iom.int/data-product-series/site-assessment-2"),
@@ -546,14 +587,30 @@ def build_region(prefix, region, reported):
             if oc["ret_ind"]:
                 rep.setdefault("ret_ind", oc["ret_ind"])
             m.setdefault("reported_src", "published round totals (comparison sheet in " + oc["source_file"] + ")")
+    # the workbook's own check against every published round report (most complete source)
+    for v in validation_sheet() if region == REG_NE else []:
+        m = meta.get(v["round"])
+        if not m:
+            continue
+        rep = m.setdefault("reported", {})
+        for k in ("idp_ind", "idp_hh", "ret_ind", "ret_hh"):
+            if v.get(k) is not None:
+                rep[k] = v[k]
+        if v.get("src"):
+            m["reported_src"] = v["src"]
+        m["validated"] = True
     for reg, rn, a, b, c, d, url in REPORT_CHECKS:
         if reg != region or rn not in meta:
             continue
         rep = meta[rn].setdefault("reported", {})
         for k, v in zip(("idp_ind", "idp_hh", "ret_ind", "ret_hh"), (a, b, c, d)):
             if v is not None:
-                rep[k] = v            # a published report outranks the summary sheet
-        meta[rn]["reported_src"] = "published report"
+                if meta[rn].get("validated"):
+                    rep.setdefault(k, v)   # the workbook's validation against the report wins
+                else:
+                    rep[k] = v            # a published report outranks the summary sheet
+        if not meta[rn].get("validated"):
+            meta[rn]["reported_src"] = "published report"
         meta[rn].setdefault("links", []).append(url)
     for rep in [r for r in reported if r["region"] == region]:
         m = meta.setdefault(rep["round"], {"round": rep["round"], "source": "report"})
@@ -577,7 +634,7 @@ def build_region(prefix, region, reported):
             m = meta.setdefault(rn, {"round": rn, "source": "report"})
             for k, v in vals.items():
                 m.setdefault("reported", {})[k] = v
-                if k in ("idp_locations", "hc_locations", "camps", "camp_ind", "hc_ind", "camp_hh") and m.get(k) is None:
+                if k in ("idp_locations", "hc_locations", "camps", "camp_ind", "hc_ind", "camp_hh", "int_ind", "rel_ind") and m.get(k) is None:
                     m[k] = v
                     m.setdefault("from_report", []).append(k)
             m.setdefault("links", []).append(url)

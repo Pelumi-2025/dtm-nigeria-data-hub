@@ -67,6 +67,11 @@ def link_rounds(region_block, items, region):
         for k in FILL_KEYS + ["idp_wards"]:
             if f.get(k) is not None and rep.get(k) is None:
                 rep[k] = f[k]
+        if f.get("demog") and not r.get("demog"):
+            r["demog"] = {**f["demog"], "src": it["url"]}
+        for k in ("hc_pct_reported", "camp_pct_reported"):
+            if f.get(k) is not None:
+                rep.setdefault(k, f[k])
         if f.get("reasons_pct") and not r.get("reasons_pct"):
             r["reasons_pct"] = f["reasons_pct"]
         keys = FILL_KEYS if r.get("source") != "dataset" else LOC_KEYS
@@ -109,7 +114,7 @@ def apply_api(base):
         base[key]["rounds"] = sorted(rounds.values(), key=lambda z: z["round"])
 
 
-HEAD_KEYS = ["idp_hh", "idp_ind", "ret_hh", "ret_ind", "camp_hh", "camp_ind", "hc_hh", "hc_ind"]
+HEAD_KEYS = ["idp_hh", "idp_ind", "ret_hh", "ret_ind", "camp_hh", "camp_ind", "hc_hh", "hc_ind", "int_ind", "rel_ind"]
 
 
 def report_first(base):
@@ -130,6 +135,49 @@ def report_first(base):
                     src[k] = "report" if (r.get("source") != "dataset" or k in (r.get("from_report") or [])) else "data file"
             # state-level figures read from report tables by the harvester
             r["fig_src"] = src
+
+
+def pct100(vals):
+    """Whole-number percentages that always add up to exactly 100 (largest remainder)."""
+    tot = sum(v for v in vals if v)
+    if not tot:
+        return [None for _ in vals]
+    raw = [(v or 0) / tot * 100 for v in vals]
+    fl = [int(x) for x in raw]
+    left = 100 - sum(fl)
+    for i in sorted(range(len(raw)), key=lambda i: raw[i] - fl[i], reverse=True)[:left]:
+        fl[i] += 1
+    return [fl[i] if vals[i] else (0 if vals[i] == 0 else None) for i in range(len(vals))]
+
+
+CATS = [("hc", "IDPs in host communities"), ("camp", "IDPs in camps and camp-like settings"),
+        ("int", "IDPs in integrated sites"), ("rel", "IDPs in relocated / resettled sites"),
+        ("oth", "Other (in the report total, not broken down in the report)")]
+
+
+def idp_split(base):
+    """Where IDPs live, per round: report numbers when the report states the split, otherwise the
+    round's data file — never mixed — with percentages that add up to exactly 100."""
+    for key in ("north_east", "nc_nw"):
+        for r in base[key]["rounds"]:
+            rep = r.get("reported") or {}
+            if rep.get("hc_ind") is not None and rep.get("camp_ind") is not None:
+                vals = {"hc": rep["hc_ind"], "camp": rep["camp_ind"], "int": rep.get("int_ind"), "rel": rep.get("rel_ind")}
+                total = rep.get("idp_ind") or r.get("idp_ind")
+                listed = sum(v for v in vals.values() if v)
+                vals["oth"] = (total - listed) if total and total > listed else None
+                total = max(total or 0, listed)
+                src = "report"
+            elif r.get("ds_hc_ind") is not None or r.get("ds_camp_ind") is not None or (r.get("source") == "dataset" and r.get("camp_ind") is not None):
+                vals = {"hc": r.get("ds_hc_ind", r.get("hc_ind")), "camp": r.get("ds_camp_ind", r.get("camp_ind")), "int": r.get("int_ind"), "rel": r.get("rel_ind"), "oth": None}
+                total = sum(v for v in vals.values() if v)
+                src = "data file"
+            else:
+                continue
+            ks = [k for k, _ in CATS]
+            pc = pct100([vals.get(k) for k in ks])
+            r["split"] = {"src": src, "total": total, "ind": {k: vals.get(k) for k in ks}, "pct": dict(zip(ks, pc)),
+                          "check": sum(p for p in pc if p)}
 
 
 def crossref(base):
@@ -376,6 +424,11 @@ SEED_FLASH2 = [  # number, incident from, to, states, lgas, displaced ind/hh, af
 ]
 
 
+# children / women / men stated in flash reports (key = report number or incident start date)
+FLASH_DEMOG = {291: (271, 129, 84), 293: (139, 66, 47), 178: (115, 50, 41), "2025-10-12": (1010, 438, 358),
+               "2025-10-16": (1296, 562, 458), "2026-04-23": (655, 299, 220)}
+
+
 def seed_items():
     """Reports read by hand from dtm.iom.int / ReliefWeb pages; the harvester's own copies replace them."""
     out = []
@@ -395,6 +448,9 @@ def seed_items():
                     "number": x["n"], "figures": f, "source": "report page (read by hand)", "pdfs": []})
     for n, s, e, st, lg, di, dh, ai, ah, dead, inj, comm, t, url in SEED_FLASH2:
         f = {k: v for k, v in (("displaced_ind", di), ("displaced_hh", dh), ("affected_ind", ai), ("affected_hh", ah), ("deaths", dead), ("injured", inj), ("communities", comm)) if v is not None}
+        dm = FLASH_DEMOG.get(n) or FLASH_DEMOG.get(s)
+        if dm:
+            f["children"], f["women"], f["men"] = dm
         out.append({"title": t + (f" ({s}{' to ' + e if e != s else ''})"), "url": url + ("" if n and url.startswith(FR) and str(n) in url else f"#flash-{n or s}"),
                     "published": e, "component": "flash", "regions": ["North East" if st[0] in ("Borno", "Adamawa", "Yobe") else "North Central & North West"],
                     "states": st, "lgas": lg, "year": int(e[:4]), "month": e[:7], "week": None, "period_start": s, "period_end": e, "number": n,
@@ -501,6 +557,7 @@ def main():
     link_rounds(base["nc_nw"], items, NC)
     xr = crossref(base)          # compare before the report figures replace the data-file ones
     report_first(base)
+    idp_split(base)
     data = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "harvest_count": len(items), **base,
             "publications": [slim(x) for x in items],
