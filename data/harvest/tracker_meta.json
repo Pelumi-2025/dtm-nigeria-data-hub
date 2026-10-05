@@ -1,0 +1,98 @@
+{
+ "generated_at": "2026-10-02T22:56:42Z",
+ "count": 1841,
+ "components": [
+  {
+   "key": "compendium",
+   "label": "Compendium Reports"
+  },
+  {
+   "key": "ewer",
+   "label": "Early Warning & Early Response Dashboard"
+  },
+  {
+   "key": "ett",
+   "label": "Emergency Tracking Tool (ETT)"
+  },
+  {
+   "key": "return_intention",
+   "label": "Return Intention & Camp Closure Reports"
+  },
+  {
+   "key": "joint_flood",
+   "label": "Joint Flood Reports"
+  },
+  {
+   "key": "flash",
+   "label": "Incident / Flash Report"
+  },
+  {
+   "key": "flood",
+   "label": "Post-Flood Situation Report (Ad-Hoc)"
+  },
+  {
+   "key": "biometric",
+   "label": "Biometric Registration Report"
+  },
+  {
+   "key": "intention_state",
+   "label": "State-wide Intention Surveys"
+  },
+  {
+   "key": "intention",
+   "label": "Intention Surveys (general / regional)"
+  },
+  {
+   "key": "smi",
+   "label": "Solutions Mobility Index"
+  },
+  {
+   "key": "si",
+   "label": "Stability Index"
+  },
+  {
+   "key": "ses_fm",
+   "label": "Socio-Economic Survey & Facility Mapping"
+  },
+  {
+   "key": "ses",
+   "label": "Socio Economic Survey"
+  },
+  {
+   "key": "covid_sa",
+   "label": "COVID-19 Situational Analysis Reports"
+  },
+  {
+   "key": "poe",
+   "label": "Point of Entry (POE) Reports"
+  },
+  {
+   "key": "climate",
+   "label": "Climate & Environmental Vulnerability Reports"
+  },
+  {
+   "key": "mt_dash",
+   "label": "Mobility Tracking \u2013 Dashboards"
+  },
+  {
+   "key": "needs",
+   "label": "Mobility Tracking \u2013 Needs Monitoring"
+  },
+  {
+   "key": "transhumance",
+   "label": "Transhumance Flow Monitoring Report"
+  },
+  {
+   "key": "fmp",
+   "label": "Flow Monitoring (migrants) \u2013 extra category"
+  },
+  {
+   "key": "atlas",
+   "label": "Mobility Tracking \u2013 IDP & Returnee Atlas"
+  },
+  {
+   "key": "other",
+   "label": "Other / Unclassified"
+  }
+ ]
+}

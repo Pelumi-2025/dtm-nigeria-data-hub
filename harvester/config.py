@@ -124,3 +124,62 @@ def region_of_state(state: str) -> str:
     if s in REGIONS["North Central & North West"] or s in ZONES["North Central"] or s in ZONES["North West"]:
         return "North Central & North West"
     return "Other"
+
+
+# ---------------------------------------------------------------- single source of truth for publications
+# The DTM Nigeria Publications Tracker (separate repository, harvested every hour) is the reference list
+# of reports published on dtm.iom.int: publication date, report type, region and states. The Data Hub
+# reads it on every run so both platforms show the same counts. Set the TRACKER_REPORTS environment
+# variable to a local file path to use a downloaded copy instead (useful offline).
+TRACKER_REPORTS_URL = "https://raw.githubusercontent.com/Pelumi-2025/dtm-nigeria-tracker/main/data/reports.json"
+TRACKER_TAXONOMY_URL = "https://raw.githubusercontent.com/Pelumi-2025/dtm-nigeria-tracker/main/config/taxonomy.json"
+
+# Tracker report type -> the Data Hub's own product (drives the Mobility, ETT, Flash, TTT, Flood and
+# Biometric pages). None = keep the Data Hub's own classification.
+TRACK2HUB = {
+    "ett": "ett", "flash": "flash", "ewer": "ewer", "transhumance": "transhumance", "biometric": "biometric",
+    "flood": "flood", "joint_flood": "flood", "needs": "mt_needs", "atlas": "mt_atlas", "mt_dash": None,
+    "return_intention": "intention", "intention": "intention", "intention_state": "intention",
+    "smi": "smi", "si": "smi", "ses": "ses", "ses_fm": "ses_fm",
+    "fmp": "other", "poe": "other", "covid_sa": "other", "compendium": "other", "climate": "other", "other": None,
+}
+
+# Report types used on the Publications page (same list and order as the Publications Tracker).
+# Replaced by the tracker's own list whenever it can be downloaded.
+PUB_CATEGORIES = [
+    ["compendium", "Compendium Reports"], ["ewer", "Early Warning & Early Response Dashboard"],
+    ["ett", "Emergency Tracking Tool (ETT)"], ["return_intention", "Return Intention & Camp Closure Reports"],
+    ["joint_flood", "Joint Flood Reports"], ["flash", "Incident / Flash Report"],
+    ["flood", "Post-Flood Situation Report (Ad-Hoc)"], ["biometric", "Biometric Registration Report"],
+    ["intention_state", "State-wide Intention Surveys"], ["intention", "Intention Surveys (general / regional)"],
+    ["smi", "Solutions Mobility Index"], ["si", "Stability Index"],
+    ["ses_fm", "Socio-Economic Survey & Facility Mapping"], ["ses", "Socio Economic Survey"],
+    ["covid_sa", "COVID-19 Situational Analysis Reports"], ["poe", "Point of Entry (POE) Reports"],
+    ["climate", "Climate & Environmental Vulnerability Reports"], ["mt_dash", "Mobility Tracking – Dashboards"],
+    ["needs", "Mobility Tracking – Needs Monitoring"], ["transhumance", "Transhumance Flow Monitoring Report"],
+    ["fmp", "Flow Monitoring (migrants) – extra category"], ["atlas", "Mobility Tracking – IDP & Returnee Atlas"],
+    ["other", "Other / Unclassified"],
+]
+# Data Hub product -> report type, used only for items the tracker does not list (yet)
+HUB2TRACK = {"mt_atlas": "atlas", "mt_needs": "needs", "flash": "flash", "ett": "ett", "transhumance": "transhumance",
+             "ewer": "ewer", "flood": "flood", "biometric": "biometric", "intention": "intention", "ses": "ses",
+             "ses_fm": "ses_fm", "smi": "smi", "other": "other"}
+
+FIRST_VALID_DATE = "2014-01-01"   # DTM Nigeria started in July 2014; earlier dates on the site are typos
+
+
+def pub_regions(zones=None, states=None):
+    """Zones (North East, North Central, North West, South ...) or states -> the Data Hub's three regions."""
+    out = []
+    zs = set(zones or [])
+    for s in states or []:
+        for z, sts in ZONES.items():
+            if s in sts:
+                zs.add(z)
+    if "North East" in zs:
+        out.append("North East")
+    if zs & {"North Central", "North West", "North Central & North West"}:
+        out.append("North Central & North West")
+    if zs & {"South East", "South South", "South West", "Southern states", "Other"}:
+        out.append("Southern states")
+    return out

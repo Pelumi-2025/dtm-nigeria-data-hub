@@ -396,7 +396,7 @@ body{background:var(--pb-bg)}
   <div class="grid" style="margin-top:6px">
     <div class="panel c12"><h3 class="pt">Displacement trend – all rounds</h3><div id="curve" class="chart"></div></div>
     <div class="panel c8"><h3 class="pt">Year-on-year change</h3><p class="sub">Last round published in each year.</p><div class="chart" id="yoyChart"></div></div>
-    <div class="panel c4"><h3 class="pt">Publications by component</h3><div id="ovPubs"></div></div>
+    <div class="panel c4"><h3 class="pt">Publications by report type</h3><div id="ovPubs"></div></div>
     <div class="panel c6"><h3 class="pt">Emergency tracking – arrivals per month</h3><div class="chart" id="ovEtt"></div></div>
     <div class="panel c6"><h3 class="pt">Flood impact by year</h3><div class="chart" id="ovFlood"></div></div>
   </div>
@@ -598,13 +598,13 @@ body{background:var(--pb-bg)}
 <!-- ============================================================ PUBS -->
 <section id="s-pubs" hidden>
   <h2>Publications, datasets and data files</h2>
-  <p class="lede">Every report and dataset published by IOM DTM Nigeria, with links, counted by year, component, region and state.</p>
-  <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3>Data files</h3><p class="sub">The files this platform is built from — downloadable from the hosted site.</p></div><button class="btn" data-csv="fileTable">Download list</button></div>
-    <div class="tw"><table id="fileTable"></table></div></div>
-  <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3>Datasets online</h3><p class="sub">Dataset pages on dtm.iom.int and HDX, with the files the harvester downloaded from them.</p></div>
+  <p class="lede">Every report and dataset published by IOM DTM Nigeria on dtm.iom.int, with links, counted by year, report type, region and state. The report list is the same as the <a href="https://pelumi-2025.github.io/dtm-nigeria-tracker/" target="_blank" rel="noopener">DTM Nigeria Publications Tracker</a>, so both platforms show the same numbers.</p>
+  <div id="pubBody"></div>
+  <div class="panel" id="dsPanel" style="margin:16px 0"><div class="panel-head"><div><h3>Datasets published</h3><p class="sub">Dataset pages on dtm.iom.int and DTM Nigeria datasets on HDX, with the files the harvester downloaded from them. Follows the year and region filters.</p></div>
     <div class="tools"><input type="search" id="dsSearch" placeholder="Search datasets…"><button class="btn" data-csv="dsTable">Download list</button></div></div>
     <div id="dsWrap"></div></div>
-  <div id="pubBody"></div>
+  <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h3>Data files</h3><p class="sub">The files this platform is built from — downloadable from the hosted site.</p></div><button class="btn" data-csv="fileTable">Download list</button></div>
+    <div class="tw"><table id="fileTable"></table></div></div>
 </section>
 
 <!-- ============================================================ ADD DATA -->
@@ -671,6 +671,7 @@ body{background:var(--pb-bg)}
   <p>The <b>datasets</b> are the ward-level Mobility Tracking files (North East and North Central & North West), the Emergency Tracking Tool records and the post-flood community assessments. The <b>web harvester</b> crawls dtm.iom.int/nigeria, the dtm.iom.int sitemap, response.reliefweb.int/nigeria/data, the ReliefWeb API and HDX, sorts every publication into a component, and reads headline figures, LGAs and communities out of the report text and PDFs. Files and figures added on the “Add data” tab are merged on top.</p>
   <p>Rounds without a dataset are filled from the figures stated in the published reports. Values not yet available show as a dash; nothing is estimated.</p>
   <h3>Locations</h3>
+  <p><b>Publications and their dates.</b> The list of reports, each report's publication date on dtm.iom.int, its report type, region and states come from the <a href="https://pelumi-2025.github.io/dtm-nigeria-tracker/" target="_blank" rel="noopener">DTM Nigeria Publications Tracker</a>, which checks dtm.iom.int every hour; the Data Hub reads that list on every run, so the two platforms always show the same counts. Regional reports that only mention Nigeria, second pages of a report and copies on other websites are listed but not counted. <b>Datasets</b> are counted separately: every dataset page on dtm.iom.int (dated from the dataset listing on dtm.iom.int) and every DTM Nigeria dataset on HDX.</p>
   <p><b>IDP locations</b>, <b>camps</b> and <b>host-community locations</b> are site counts stated in reports. The datasets are ward-level, so for dataset rounds the platform also counts <b>wards with IDPs</b> and <b>wards with camp IDPs</b>; <b>return locations</b> are counted from the named return locations in the datasets. North East rounds 1–11 also covered several north-central and north-west states; those figures appear under their states.</p>
   <h3>ETT and incidents</h3>
   <p>ETT weeks are ISO weeks (Monday–Sunday), matching the weekly ETT reports. Locations receiving arrivals are distinct ward/location pairs in each period. For flash reports that cover several states or LGAs, displaced figures are split equally between them in state and LGA views.</p>
@@ -743,7 +744,7 @@ function spanKeys(keys,gran){ if(!keys.length) return keys; keys=[...new Set(key
 
 /* ================================================================= state */
 const F = {region:"", state:"", from:null, to:null};
-const V = {tab:"home", pop:"both", pubComp:"", rSel:{}, dcMeasure:"lgas", dcGroup:"idp", rsGroup:"IDPs", rAnchor:null, yoy:NE, mt:NE, rFrom:null, rTo:null, mtPop:"both", mtUnit:"ind", cmpA:null, cmpB:null, cmpLevel:"state",
+const V = {tab:"home", pop:"both", pubComp:"", pubBasis:"pub", pubMonth:null, rSel:{}, dcMeasure:"lgas", dcGroup:"idp", rsGroup:"IDPs", rAnchor:null, yoy:NE, mt:NE, rFrom:null, rTo:null, mtPop:"both", mtUnit:"ind", cmpA:null, cmpB:null, cmpLevel:"state",
   trLevel:"state", trSel:{}, eGran:"month", eFrom:null, eTo:null, eLevel:"state", eA:null, eB:null, eSel:{}, flGran:"month", flLevel:"state", flA:null, flB:null};
 const inYears = y => y!=null && (F.from==null || +y>=F.from) && (F.to==null || +y<=F.to);
 const stateOk = s => (!F.state || s===F.state) && (!F.region || regionOf(s)===F.region);
@@ -820,10 +821,11 @@ function barChart(box,o){
       r.addEventListener("mousemove",e=>{ const rows=o.series.filter(q=>q.values[i]!=null&&q.values[i]!==0).map(q=>`<div><span style="color:${q.colorOf?q.colorOf(q.values[i]):q.color}">●</span> ${esc(q.name)}: <b>${(o.tipFmt||fmt)(q.values[i])}</b></div>`).join("");
         showTip(`<b>${o.tipTitle?o.tipTitle(i):esc(l)}</b>${rows}${o.stacked&&o.series.length>1?`<div>Total: <b>${fmt(tot[i])}</b></div>`:""}`,e);});
       r.addEventListener("mouseleave",hideTip);
+      if(o.onClick){ r.style.cursor="pointer"; r.addEventListener("click",()=>o.onClick(i)); if(o.picked!=null&&o.picked!==i) r.setAttribute("opacity",.35); }
       if(!hz && !o.stacked && o.topLabels){ el("text",{x:b0+off+sw/2,y:m.t+ih-p1-4,"text-anchor":"middle","font-size":10,"font-weight":600,fill:css("--ink")},svg).textContent=short(v); }
       if(hz && !o.stacked && o.valueLabels!==false){ const endx=v<0?m.l+p0-4:m.l+p1+4; el("text",{x:endx,y:b0+off+sw/2+4,"text-anchor":v<0?"end":"start","font-size":10.5,fill:txt},svg).textContent=(o.labelFmt||short)(v); }
     });
-    if(hz){ el("text",{x:m.l-6,y:b0+bw/2+4,"text-anchor":"end","font-size":11.5,fill:css("--ink-2")},svg).textContent=l;
+    if(hz){ const lt=el("text",{x:m.l-6,y:b0+bw/2+4,"text-anchor":"end","font-size":11.5,fill:css("--ink-2")},svg); lt.textContent=l; if(o.onClick){ lt.style.cursor="pointer"; lt.addEventListener("click",()=>o.onClick(i)); }
       if(o.stacked && o.valueLabels!==false) el("text",{x:m.l+sc(tot[i])+4,y:b0+bw/2+4,"font-size":10.5,fill:txt},svg).textContent=short(tot[i]); }
   });
   if(!hz) xTicks(svg,o,n,i=>m.l+i*band+band/2,H,txt,iw);
@@ -894,7 +896,7 @@ function prepare(raw){
       places:unpack(m.places).map(p=>({...p,rs:rset(p.rounds)}))}; });
   d.ettL={week:unpack(d.ett.lga_week), month:unpack(d.ett.lga_month), year:unpack(d.ett.lga_year)};
   d.floodL=d.flood.lga_year||[];
-  d.publications=(d.publications||[]).filter(p=>!EXCLUDED.includes(p.c)); d.incidents=d.incidents||[];
+  d.publications=d.publications||[]; d.datasets=d.datasets||[]; d.incidents=d.incidents||[];
   applyUploads(d);
   Object.values(d.mob).forEach(m=>{ m.rounds.sort((a,b)=>a.round-b.round); m.rounds.forEach(r=>{ if(!r.year&&r.date) r.year=+r.date.slice(0,4); });
     m.lgaByRound={}; m.lga.forEach(r=>(m.lgaByRound[r.round]||(m.lgaByRound[r.round]=[])).push(r)); });
@@ -1015,8 +1017,8 @@ function renderOverview(){
     {name:"Returnee households",color:"#7DB8D6",values:ly.map(r=>r.ret_hh||null)},{name:"Returnees (individuals)",color:"#5BA3C7",values:ly.map(r=>r.ret_ind||null)}],tipTitle:i=>`${ly[i].year} · Round ${ly[i].round} (${ym(ly[i].date)})`});
   const P=pubs(); const box=$("#ovPubs");
   if(!P.length) box.innerHTML=`<div class="empty">Publications appear after the harvester's run.</div>`;
-  else { const c={}; P.forEach(p=>c[p.c]=(c[p.c]||0)+1); const rows=COMPONENTS.filter(([k])=>c[k]).sort((a,b)=>c[b[0]]-c[a[0]]);
-    barChart(box,{labels:rows.map(r=>r[1].replace("Mobility Tracking – ","MT – ")),horizontal:true,legend:false,series:[{name:"Publications",color:"#1F5F7A",values:rows.map(r=>c[r[0]])}]}); }
+  else { const c={}; P.forEach(p=>c[p.pc]=(c[p.pc]||0)+1); const rows=PUBCATS().filter(([k])=>c[k]).sort((a,b)=>c[b[0]]-c[a[0]]);
+    barChart(box,{labels:rows.map(r=>r[1].replace("Mobility Tracking – ","MT – ")),horizontal:true,legend:false,series:[{name:"Reports",color:"#1F5F7A",values:rows.map(r=>c[r[0]])}]}); }
   const em={}; D.ett.monthly.forEach(r=>{ if(stateOk(r.state)&&inYears(r.month.slice(0,4))) em[r.month]=(em[r.month]||0)+r.ind; });
   const ek=spanKeys(Object.keys(em),"month"); lineChart($("#ovEtt"),{labels:ek,series:[{name:"Arrivals",color:"#1F5F7A",values:ek.map(k=>em[k]||0),area:true,dot:0}],yearTicks:true,tipTitle:i=>ym(ek[i])});
   const fy={}; D.floodL.forEach(r=>{ if(!inYears(r.year)||!floodOk(r)) return; const o=fy[r.year]||(fy[r.year]={h:0,a:0,dh:0,d:0}); o.h+=r.aff_hh; o.a+=r.aff_ind; o.dh+=r.dis_hh; o.d+=r.dis_ind; });
@@ -1438,59 +1440,109 @@ function renderFlood(){
 }
 
 /* ================================================================= PUBLICATIONS */
-const pubs = () => (D.publications||[]).filter(p=>{ if(!inYears(p.y)) return false;
-  if(F.region && !(p.r||[]).includes(F.region)) return false; if(F.state && !(p.s||[]).includes(F.state)) return false; return true; });
+// A "publication" here is a report page on dtm.iom.int counted by the Publications Tracker (same list, same
+// dates, same report types). Datasets are counted separately. Pages that are not counted (regional reports,
+// second pages of a report, ReliefWeb copies) stay available to the other pages of the dashboard.
+const isCounted = p => p.k==="report" && /^counted/.test(p.st||"");
+const PUBCATS = () => (D.pub_categories&&D.pub_categories.length) ? D.pub_categories : COMPONENTS;
+const pcName = k => (PUBCATS().find(c=>c[0]===k)||[k,k])[1];
+const fullRange = () => (F.from==null||F.from<=2014) && (F.to==null||F.to>=new Date().getFullYear());
+const pubY = p => V.pubBasis==="period" ? p.y : p.py;
+const pubM = p => V.pubBasis==="period" ? p.m : p.pm;
+const regionOk = arr => !F.region || (arr||[]).includes(F.region);
+const pubs = () => (D.publications||[]).filter(p=>{ if(!isCounted(p)) return false; const y=pubY(p);
+  if(y==null ? !fullRange() : !inYears(y)) return false;
+  if(!regionOk(p.pr)) return false; if(F.state && !(p.ss||[]).includes(F.state)) return false; return true; });
+const dsets = () => (D.datasets||[]).filter(x=>(x.y==null ? fullRange() : inYears(x.y)) && regionOk(x.r));
 function renderFiles(){
   table("fileTable",[{k:"name",h:"File",cls:"tl",f:(v,r)=>`<a href="${esc(r.path)}" download>${esc(v)}</a>`,raw:r=>r.path},{k:"origin",h:"Source",cls:"tl"},{k:"kb",h:"Size (KB)"}],D.files||[],{sort:"name",dir:1});
-  const DS=(D.datasets||[]).filter(x=>!EXCLUDED.includes(x.c)); const q=($("#dsSearch").value||"").toLowerCase();
-  if(!DS.length){ $("#dsWrap").innerHTML=`<div class="empty">Dataset pages are listed after the harvester's first run (Mobility Tracking site assessments, baseline assessments, master lists, location assessments and their Excel files).</div>`; return; }
-  $("#dsWrap").innerHTML=`<div class="tw"><table id="dsTable"></table></div>`;
-  table("dsTable",[{k:"p",h:"Published",cls:"tl"},{k:"rd",h:"Round",f:v=>v?"R"+v:"–"},{k:"reg",h:"Region",cls:"tl"},{k:"t",h:"Dataset",cls:"tl wrap",f:(v,r)=>`<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(v)}</a>`,raw:r=>r.t},
-    {k:"files",h:"Files",cls:"tl linkchips",f:(v,r)=>v.length?v.map(f=>`<a href="${esc(f.link)}" target="_blank" rel="noopener" title="${esc(f.name)}">${f.round?"R"+f.round:"download"}</a>`).join(""):(r.restricted?"Request access on dtm.iom.int":"–"),raw:r=>r.files.map(f=>f.link).join(" ")},
-    {k:"u",h:"Page link",cls:"tl",raw:r=>r.u,f:v=>`<a href="${esc(v)}" target="_blank" rel="noopener">Open</a>`}],
-    DS.map(x=>({...x,reg:(x.r||[]).join(", ")})).filter(x=>!q||x.t.toLowerCase().includes(q)),{sort:"p",dir:1});
+  if(!(D.datasets||[]).length){ $("#dsWrap").innerHTML=`<div class="empty">Dataset pages are listed after the harvester's first run (Mobility Tracking site assessments, baseline assessments, master lists, location assessments and their Excel files).</div>`; return; }
+  const DS=dsets(), q=($("#dsSearch").value||"").toLowerCase(), keepType=($("#dsType")||{}).value||"";
+  const byT={}; DS.forEach(x=>{ const t=x.dt||"Other datasets"; byT[t]=(byT[t]||0)+1; });
+  const nDtm=DS.filter(x=>/dtm\.iom\.int/.test(x.u)).length, nHdx=DS.length-nDtm, nFiles=DS.reduce((a,x)=>a+(x.files||[]).length,0);
+  const undated=DS.filter(x=>!x.p).length;
+  const years=[...new Set(DS.map(x=>x.y).filter(Boolean))].sort();
+  $("#dsWrap").innerHTML=`<div class="figs">${figHTML("",fmt(DS.length),"datasets published",`${fmt(nDtm)} on dtm.iom.int · ${fmt(nHdx)} on HDX`)+
+      figHTML("",fmt(nFiles),"data files linked","Excel / CSV downloads from the dataset pages")+
+      Object.entries(byT).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([t,n])=>figHTML("",fmt(n),esc(t),"")).join("")}</div>
+    ${years.length?`<div class="tw" style="margin-bottom:10px"><table class="heat" id="dsYear"><thead><tr><th>Datasets published per year</th>${years.map(y=>`<th>${y}</th>`).join("")}<th>Total</th></tr></thead>
+      <tbody><tr><td class="tl">Datasets</td>${years.map(y=>`<td>${DS.filter(x=>x.y===y).length||""}</td>`).join("")}<td><b>${DS.filter(x=>x.y).length}</b></td></tr></tbody></table></div>`:""}
+    ${undated?`<p class="note" style="margin:0 0 8px">${fmt(undated)} dataset page${undated>1?"s have":" has"} no publication date yet; the harvester reads it from dtm.iom.int on its next run. They are counted in the total.</p>`:""}
+    <div class="panel-head" style="margin:4px 0 2px"><div><h3 style="margin:0">Datasets published – bar chart</h3><p class="sub">Click a bar to list those datasets and their links below; click it again to show all.</p></div>
+      <div class="tools"><label>Bars by <select id="dsBy"><option value="type">dataset type</option><option value="year">year published</option><option value="region">region</option><option value="source">website</option></select></label></div></div>
+    <div class="chart" id="dsBar"></div>
+    <div class="tools" style="margin:10px 0 8px"><select id="dsType"><option value="">All dataset types</option>${Object.keys(byT).sort().map(t=>`<option ${t===keepType?"selected":""}>${esc(t)}</option>`).join("")}</select>
+      <span id="dsPickNote" class="muted"></span></div>
+    <div class="tw"><table id="dsTable"></table></div>`;
+  const grp={type:x=>x.dt||"Other datasets", year:x=>x.y?String(x.y):"Date not yet known", region:x=>(x.r||[]).length?(x.r||[]).join(" + "):"National / global", source:x=>/humdata/.test(x.u)?"HDX (data.humdata.org)":"dtm.iom.int"};
+  const by=V.dsBy||"type"; $("#dsBy").value=by; const gf=grp[by]; const cnt={}; DS.forEach(x=>{ const k=gf(x); cnt[k]=(cnt[k]||0)+1; });
+  let labels=Object.keys(cnt); labels = by==="year" ? labels.sort((a,b)=>(a.length>4)-(b.length>4)||a.localeCompare(b)) : labels.sort((a,b)=>cnt[b]-cnt[a]);
+  if(V.dsPick&&!labels.includes(V.dsPick)) V.dsPick=null;
+  const drawBar=()=>barChart($("#dsBar"),{labels,horizontal:by!=="year",legend:false,topLabels:true,picked:V.dsPick?labels.indexOf(V.dsPick):null,
+    series:[{name:"Datasets published",color:css("--iom"),values:labels.map(l=>cnt[l])}],
+    tipTitle:i=>`${esc(labels[i])} – click to list the datasets`,
+    onClick:i=>{ V.dsPick=V.dsPick===labels[i]?null:labels[i]; drawBar(); draw(); if(V.dsPick) $("#dsTable").scrollIntoView({behavior:"smooth",block:"start"}); }});
+  $("#dsBy").onchange=e=>{ V.dsBy=e.target.value; V.dsPick=null; renderFiles(); };
+  const draw=()=>{ const ty=$("#dsType").value;
+    $("#dsPickNote").innerHTML=V.dsPick?`Showing <b>${esc(V.dsPick)}</b> (${fmt(cnt[V.dsPick])}) · <a href="#" id="dsPickClear">show all</a>`:"";
+    if(V.dsPick) $("#dsPickClear").onclick=e=>{ e.preventDefault(); V.dsPick=null; drawBar(); draw(); };
+    table("dsTable",[{k:"p",h:"Published",cls:"tl",f:(v,r)=>v?esc(v):`<span class="muted" title="${esc(r.db||"")}">not yet known</span>`},{k:"dt",h:"Type",cls:"tl"},{k:"rd",h:"Round",f:v=>v?"R"+v:"–"},{k:"reg",h:"Region",cls:"tl"},
+      {k:"t",h:"Dataset",cls:"tl wrap",f:(v,r)=>`<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(v)}</a>`,raw:r=>r.t},
+      {k:"files",h:"Files",cls:"tl linkchips",f:(v,r)=>v.length?v.map(f=>`<a href="${esc(f.link)}" target="_blank" rel="noopener" title="${esc(f.name)}">${f.round?"R"+f.round:"download"}</a>`).join(""):(r.restricted?"Request access on dtm.iom.int":"–"),raw:r=>r.files.map(f=>f.link).join(" ")},
+      {k:"u",h:"Link",cls:"tl",raw:r=>r.u,f:v=>`<a href="${esc(v)}" target="_blank" rel="noopener">${/humdata/.test(v)?"HDX":"dtm.iom.int"}</a>`},{k:"src",h:"Source",cls:"tl"}],
+      DS.filter(x=>(!ty||(x.dt||"Other datasets")===ty)&&(!q||x.t.toLowerCase().includes(q))&&(!V.dsPick||gf(x)===V.dsPick)).map(x=>({...x,reg:(x.r||[]).join(", ")})),{sort:"p",dir:-1,then:["t"]}); };
+  $("#dsType").onchange=draw; drawBar(); draw();
 }
 function renderPubs(){
   renderFiles();
   const box=$("#pubBody"), P=pubs();
-  if(!(D.publications||[]).length){ box.innerHTML=`<div class="empty"><h3>No publications harvested yet</h3>
-    This page counts every DTM Nigeria report and dataset by year, component, region and state. It fills in after the harvester's first run (daily on the hosted site), or when you add report PDFs on the <a href="#" data-go="add">Add data</a> tab.</div>`; return; }
-  const years=[...new Set(P.map(p=>p.y).filter(Boolean))].sort();
-  const mat={}; P.forEach(p=>{ (mat[p.c]||(mat[p.c]={}))[p.y]=((mat[p.c]||{})[p.y]||0)+1; });
-  const comps=COMPONENTS.filter(([k])=>mat[k]); const mx=Math.max(1,...comps.flatMap(([k])=>years.map(y=>mat[k][y]||0)));
+  if(!(D.publications||[]).some(isCounted)){ box.innerHTML=`<div class="empty"><h3>No publications harvested yet</h3>
+    This page counts every DTM Nigeria report by year, report type, region and state. It fills in after the harvester's first run (daily on the hosted site).</div>`; return; }
+  const cats=PUBCATS(); const years=[...new Set(P.map(pubY).filter(Boolean))].sort();
+  const mat={}; P.forEach(p=>{ const y=pubY(p); (mat[p.pc]||(mat[p.pc]={}))[y]=((mat[p.pc]||{})[y]||0)+1; });
+  const comps=cats.filter(([k])=>mat[k]); const mx=Math.max(1,...comps.flatMap(([k])=>years.map(y=>mat[k][y]||0)));
   const shade=v=>`background:color-mix(in srgb, var(--iom) ${Math.round(Math.sqrt(v/mx)*80)}%, transparent);color:${v/mx>.35?"#fff":"inherit"}`;
-  const byReg={}; P.forEach(p=>(p.r||[]).forEach(r=>byReg[r]=(byReg[r]||0)+1));
-  const bySt={}; P.forEach(p=>(p.s||[]).forEach(s=>bySt[s]=(bySt[s]||0)+1)); const sk=ALL_STATES.filter(s=>bySt[s]).sort((a,b)=>bySt[b]-bySt[a]);
-  box.innerHTML=`<div class="figs">${figHTML("",fmt(P.length),"Publications","selected filters")+figHTML("",fmt(P.filter(p=>p.k==="dataset").length),"Datasets","")+
-     Object.entries(byReg).map(([r,n])=>figHTML("",fmt(n),esc(r),"")).join("")}</div>
-   <div class="grid"><div class="panel c12"><div class="panel-head"><div><h3>Component × year</h3><p class="sub">Number of publications.</p></div><button class="btn" data-csv="pubMat">Download CSV</button></div>
+  const RG=[NE,NC,"Southern states"]; const byReg={}; P.forEach(p=>{ const r=(p.pr||[]); if(!r.length) byReg["Region not stated"]=(byReg["Region not stated"]||0)+1; r.forEach(x=>byReg[x]=(byReg[x]||0)+1); });
+  const bySt={}; P.forEach(p=>(p.ss||[]).forEach(s=>bySt[s]=(bySt[s]||0)+1)); const sk=ALL_STATES.filter(s=>bySt[s]).sort((a,b)=>bySt[b]-bySt[a]);
+  const latest=P.filter(p=>p.p).sort((a,b)=>b.p.localeCompare(a.p))[0];
+  const nc=(D.publications||[]).filter(p=>p.k==="report"&&!isCounted(p)&&p.st!=="hand-read seed"&&(p.py==null||inYears(p.py)));
+  const tr=D.tracker||{};
+  box.innerHTML=`<div class="figs">${figHTML("",fmt(P.length),"reports published",V.pubBasis==="period"?"by period in the report title":"by publication date on dtm.iom.int")+
+     figHTML("",fmt(dsets().length),"datasets published",`<a href="#dsPanel">see the list below</a>`)+
+     figHTML("",latest?esc(latest.p):"–","latest report",latest?esc(latest.t.slice(0,70)):"")+
+     RG.concat(["Region not stated"]).filter(r=>byReg[r]).map(r=>figHTML("",fmt(byReg[r]),esc(r),"")).join("")}</div>
+   <p class="note" style="margin:-6px 0 12px">Report list, publication dates and report types come from the Publications Tracker${tr.generated_at?` (checked ${esc(new Date(tr.generated_at).toLocaleString("en-GB",{day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"}))})`:""}.
+     <label style="margin-left:8px">Count reports by <select id="pubBasis"><option value="pub">publication date on dtm.iom.int</option><option value="period">period in the report title</option></select></label></p>
+   <div class="grid"><div class="panel c12"><div class="panel-head"><div><h3>Report type × year</h3><p class="sub">Number of reports.</p></div><button class="btn" data-csv="pubMat">Download CSV</button></div>
      <div class="tw"><table class="heat" id="pubMat"></table></div></div>
-   <div class="panel c12"><div class="panel-head"><div><h3>Publication calendar</h3><p class="sub">Publications per month. Select a cell to list those reports below.</p></div><button class="btn" data-csv="pubCal">Download counts</button></div>
+   <div class="panel c12"><div class="panel-head"><div><h3>Publication calendar</h3><p class="sub">Reports per month. Select a cell to list those reports below.</p></div><button class="btn" data-csv="pubCal">Download counts</button></div>
      <div class="tw"><table class="heat cal" id="pubCal"></table></div></div>
-   <div class="panel c6"><h3>Per year, by region</h3><div class="chart" id="pubYear"></div></div>
-   <div class="panel c6"><h3>By state</h3><p class="sub">Publications mentioning each state.</p><div class="chart" id="pubState"></div></div>
-   <div class="panel c12"><div class="panel-head"><h3>Catalogue</h3><div class="tools"><select id="pubComp"><option value="">All components</option>${comps.map(([k,n])=>`<option value="${k}">${n}</option>`).join("")}</select>
-     <input type="search" id="pubSearch" placeholder="Search titles…"><button class="btn" data-csv="pubList">Download CSV</button></div></div><div class="tw"><table id="pubList"></table></div></div></div>`;
-  const pm=$("#pubMat"); pm._cols=[{k:"name",h:"Component"},...years.map(y=>({k:y,h:String(y)})),{k:"total",h:"Total"}];
+   <div class="panel c6"><h3>Per year, by region</h3><p class="sub">A report covering both regions counts in each.</p><div class="chart" id="pubYear"></div></div>
+   <div class="panel c6"><h3>By state</h3><p class="sub">Reports naming each state; a report covering several states counts once in each.</p><div class="chart" id="pubState"></div></div>
+   <div class="panel c12"><div class="panel-head"><h3>Catalogue</h3><div class="tools"><select id="pubComp"><option value="">All report types</option>${comps.map(([k,n])=>`<option value="${k}">${esc(n)}</option>`).join("")}</select>
+     <input type="search" id="pubSearch" placeholder="Search titles…"><button class="btn" data-csv="pubList">Download CSV</button></div></div><div class="tw"><table id="pubList"></table></div></div>
+   ${nc.length?`<div class="panel c12"><details><summary><b>${fmt(nc.length)} other pages found but not counted</b> <span class="muted">– regional reports that only mention Nigeria, second pages of a counted report, copies on other websites</span></summary><div class="tw" style="margin-top:8px"><table id="pubNot"></table></div></details></div>`:""}</div>`;
+  $("#pubBasis").value=V.pubBasis||"pub"; $("#pubBasis").onchange=e=>{ V.pubBasis=e.target.value; V.pubMonth=null; renderPubs(); };
+  const pm=$("#pubMat"); pm._cols=[{k:"name",h:"Report type"},...years.map(y=>({k:y,h:String(y)})),{k:"total",h:"Total"}];
   pm._rows=comps.map(([k,n])=>({name:n,...mat[k],total:years.reduce((a,y)=>a+(mat[k][y]||0),0)}));
-  pm.innerHTML=`<thead><tr><th>Component</th>${years.map(y=>`<th>${y}</th>`).join("")}<th>Total</th></tr></thead><tbody>${comps.map(([k,n])=>`<tr><td class="tl">${n}</td>${years.map(y=>{const v=mat[k][y]||0; return `<td style="${shade(v)}">${v||""}</td>`;}).join("")}<td><b>${years.reduce((a,y)=>a+(mat[k][y]||0),0)}</b></td></tr>`).join("")}
-   <tr><td class="tl"><b>All components</b></td>${years.map(y=>`<td><b>${P.filter(p=>p.y===y).length}</b></td>`).join("")}<td><b>${P.length}</b></td></tr></tbody>`;
-  barChart($("#pubYear"),{labels:years,stacked:true,series:Object.keys(byReg).sort().map(r=>({name:r,color:r===NE?css("--idp"):r===NC?css("--ret"):css("--ink-3"),values:years.map(y=>P.filter(p=>p.y===y&&(p.r||[]).includes(r)).length)}))});
-  barChart($("#pubState"),{labels:sk,horizontal:true,legend:false,series:[{name:"Publications",color:css("--iom"),values:sk.map(s=>bySt[s])}]});
-  const cn=Object.fromEntries(COMPONENTS);
-  const MN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; const cal={}; P.forEach(p=>{ if(p.m) cal[p.m]=(cal[p.m]||0)+1; });
+  pm.innerHTML=`<thead><tr><th>Report type</th>${years.map(y=>`<th>${y}</th>`).join("")}<th>Total</th></tr></thead><tbody>${comps.map(([k,n])=>`<tr><td class="tl">${esc(n)}</td>${years.map(y=>{const v=mat[k][y]||0; return `<td style="${shade(v)}">${v||""}</td>`;}).join("")}<td><b>${years.reduce((a,y)=>a+(mat[k][y]||0),0)}</b></td></tr>`).join("")}
+   <tr><td class="tl"><b>All report types</b></td>${years.map(y=>`<td><b>${P.filter(p=>pubY(p)===y).length}</b></td>`).join("")}<td><b>${P.filter(p=>pubY(p)).length}</b></td></tr></tbody>`;
+  barChart($("#pubYear"),{labels:years,series:RG.filter(r=>byReg[r]).map(r=>({name:r,color:r===NE?css("--idp"):r===NC?css("--ret"):css("--ink-3"),values:years.map(y=>P.filter(p=>pubY(p)===y&&(p.pr||[]).includes(r)).length)}))});
+  barChart($("#pubState"),{labels:sk,horizontal:true,legend:false,series:[{name:"Reports",color:css("--iom"),values:sk.map(s=>bySt[s])}]});
+  const MN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; const cal={}; P.forEach(p=>{ const m=pubM(p); if(m) cal[m]=(cal[m]||0)+1; });
   const cmx=Math.max(1,...Object.values(cal)); const pc=$("#pubCal");
   pc._cols=[{k:"y",h:"Year"},...MN.map((m,i)=>({k:String(i+1).padStart(2,"0"),h:m})),{k:"t",h:"Total"}];
   pc._rows=years.map(y=>{ const o={y,t:0}; MN.forEach((m,i)=>{ const k=String(i+1).padStart(2,"0"); o[k]=cal[`${y}-${k}`]||0; o.t+=o[k]; }); return o; });
   pc.innerHTML=`<thead><tr><th>Year</th>${MN.map(m=>`<th>${m}</th>`).join("")}<th>Total</th></tr></thead><tbody>${pc._rows.map(o=>`<tr><td class="tl"><b>${o.y}</b></td>${MN.map((m,i)=>{ const k=String(i+1).padStart(2,"0"), v=o[k];
     return `<td data-m="${o.y}-${k}" style="background:color-mix(in srgb, var(--iom) ${Math.round(Math.sqrt(v/cmx)*80)}%, transparent);color:${v/cmx>.35?"#fff":"inherit"}">${v||""}</td>`; }).join("")}<td><b>${o.t}</b></td></tr>`).join("")}</tbody>`;
   pc.onclick=e=>{ const td=e.target.closest("td[data-m]"); if(!td) return; V.pubMonth=V.pubMonth===td.dataset.m?null:td.dataset.m; draw(); $("#pubList").scrollIntoView({behavior:"smooth",block:"start"}); };
-  if(V.pubComp){ $("#pubComp").value=V.pubComp; V.pubComp=""; }
+  if(V.pubComp){ const k={mt_atlas:"atlas",mt_needs:"needs"}[V.pubComp]||V.pubComp; if(comps.some(c=>c[0]===k)) $("#pubComp").value=k; V.pubComp=""; }
   const draw=()=>{ const q=($("#pubSearch").value||"").toLowerCase(), c=$("#pubComp").value;
-    table("pubList",[{k:"p",h:"Published",cls:"tl"},{k:"cn",h:"Component",cls:"tl"},{k:"reg",h:"Region",cls:"tl"},{k:"st",h:"States",cls:"tl"},{k:"rd",h:"Round"},
-      {k:"t",h:"Title",cls:"tl wrap",f:(v,r)=>r.u&&!r.u.startsWith("local:")?`<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(v)}</a>`:esc(v)},{k:"src",h:"Source",cls:"tl"},{k:"pdf",h:"PDF",cls:"tl",f:v=>v?`<a href="${esc(v)}" target="_blank" rel="noopener">PDF</a>`:"–"}],
-      P.filter(p=>(!c||p.c===c)&&(!q||p.t.toLowerCase().includes(q))&&(!V.pubMonth||p.m===V.pubMonth)).map(p=>({...p,cn:cn[p.c],reg:(p.r||[]).join(", "),st:(p.s||[]).join(", ")})),{sort:"p",dir:1}); };
+    table("pubList",[{k:"p",h:"Published",cls:"tl"},{k:"cn",h:"Report type",cls:"tl"},{k:"reg",h:"Region",cls:"tl"},{k:"st2",h:"States",cls:"tl"},{k:"rd",h:"Round"},
+      {k:"t",h:"Title",cls:"tl wrap",f:(v,r)=>r.u&&!r.u.startsWith("local:")?`<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(v)}</a>`:esc(v),raw:r=>r.t},{k:"u",h:"Link",cls:"tl",f:v=>v?`<a href="${esc(v)}" target="_blank" rel="noopener">dtm.iom.int</a>`:"–",raw:r=>r.u},{k:"pdf",h:"PDF",cls:"tl",f:v=>v?`<a href="${esc(v)}" target="_blank" rel="noopener">PDF</a>`:"–",raw:r=>r.pdf}],
+      P.filter(p=>(!c||p.pc===c)&&(!q||p.t.toLowerCase().includes(q))&&(!V.pubMonth||pubM(p)===V.pubMonth)).map(p=>({...p,cn:pcName(p.pc),reg:(p.pr||[]).join(", "),st2:(p.ss||[]).join(", ")})),{sort:"p",dir:-1,then:["t"]}); };
   $("#pubSearch").oninput=draw; $("#pubComp").onchange=draw; draw();
+  if(nc.length) table("pubNot",[{k:"p",h:"Date",cls:"tl"},{k:"st",h:"Why not counted",cls:"tl"},{k:"t",h:"Title",cls:"tl wrap",f:(v,r)=>/^https?:/.test(r.u)?`<a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(v)}</a>`:esc(v),raw:r=>r.t},{k:"src",h:"Source",cls:"tl"}],nc,{sort:"st",dir:1,then:["t"]});
 }
 function renderAbout(){
   $("#compList").textContent=COMPONENTS.slice(0,-1).map(c=>c[1]).join("; ")+".";
@@ -1785,9 +1837,10 @@ function renderHome(){ /* excluded components are not shown */
   const [n1]=latestWith(mob(NE).rounds,"idp_ind"), [c1]=latestWith(mob(NC).rounds,"idp_ind"); const P=pubs();
   const latest=P.filter(p=>p.p).sort((a,b)=>b.p.localeCompare(a.p))[0];
   const T=D.ttt||{ewer:[],flow:[]}; const bioN=new Set((D.biometric||[]).map(b=>b.title)).size;
-  const all=[...P.map(p=>({d:p.p,t:p.t})),...T.ewer.map(r=>({d:r.pe||r.ps,t:r.title})),...T.flow.map(r=>({d:r.pe||r.ps,t:r.title}))].filter(x=>x.d).sort((a,b)=>b.d.localeCompare(a.d));
+  const all=P.map(p=>({d:p.p,t:p.t})).filter(x=>x.d).sort((a,b)=>b.d.localeCompare(a.d));
   const nRounds=mob(NE).rounds.filter(r=>(r.links||[]).length||hasFig(r)).length+mob(NC).rounds.filter(r=>(r.links||[]).length||hasFig(r)).length;
-  $("#homeFigs").innerHTML=figHTML("",fmt(P.length+T.ewer.length+T.flow.length+bioN+nRounds),"reports tracked",`incl. ${nRounds} mobility tracking rounds`)+
+  const nDS=dsets().length;
+  $("#homeFigs").innerHTML=figHTML("",fmt(P.length),"reports published",`and ${fmt(nDS)} datasets · same count as the Publications Tracker`)+
     figHTML("","7","data products","Mobility, ETT, Flash, TTT, Floods, Biometric, Map")+
     figHTML("",all[0]?esc(all[0].d):"–","latest publication",all[0]?esc(all[0].t.slice(0,70)):"")+
     figHTML("",new Date(D.generated).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}),"last checked on dtm.iom.int","");
@@ -1854,7 +1907,7 @@ const TOOLS = [
   inputSchema:{type:"object",properties:{}},
   execute:()=>({regions:[NE,NC], rounds:Object.fromEntries([NE,NC].map(r=>[r,mob(r).rounds.map(x=>({round:x.round,date:x.date,has_figures:hasFig(x),has_lga_data:!!(mob(r).lgaByRound[x.round]||[]).length}))])),
     ett:{first_date:D.ett.first_date,last_date:D.ett.last_date,states:[...new Set(D.ettL.year.map(x=>x.state))],reports_listed:(D.ett_reports||[]).length},
-    flash_records:flashRecordsAll().length, flood_years:[...new Set(D.floodL.map(x=>x.year))], biometric_reports:(D.biometric||[]).length, publications:(D.publications||[]).length,
+    flash_records:flashRecordsAll().length, flood_years:[...new Set(D.floodL.map(x=>x.year))], biometric_reports:(D.biometric||[]).length, reports_published:(D.publications||[]).filter(isCounted).length, datasets_published:(D.datasets||[]).length,
     notes:"Households are always given before individuals. Headline round figures come from published reports; values marked source 'data file' are not stated in a report. Population groups: IDPs (host communities, camps, integrated/relocated sites) and returnees."})},
  {name:"mobility_rounds", description:"Round totals for a region (North East R1–R52, North Central & North West R1–R19), optionally for one state: households and individuals for all IDPs, IDPs in camps, in host communities, in integrated/relocated sites, returnees; sites/locations reported; distinct LGAs/wards; publication date; source of each figure; report/dataset links; % change vs previous round.",
   inputSchema:{type:"object",properties:{region:{type:"string",description:"North East or North Central & North West"},rounds:{type:"array",items:{type:"integer"},description:"Round numbers; omit for all"},state:{type:"string"}},required:["region"]},
@@ -1925,11 +1978,16 @@ const TOOLS = [
  {name:"biometric", description:"Biometric registration reports (Borno, Adamawa, Yobe, Benue): households and individuals registered, by LGA/site, locations, vulnerable individuals, report links; in publication order (latest last).",
   inputSchema:{type:"object",properties:{state:{type:"string"}}},
   execute:({state})=>({reports:(D.biometric||[]).filter(b=>!state||b.state===state)})},
- {name:"publications", description:"Reports and datasets published by DTM Nigeria (harvested): counts by component/year/state and matching titles with links. Components: mt_atlas, mt_needs, flash, ett, flood, biometric, other.",
-  inputSchema:{type:"object",properties:{component:{type:"string"},year:{type:"integer"},state:{type:"string"},search:{type:"string"}}},
-  execute:({component,year,state,search})=>{ const P=(D.publications||[]).filter(p=>(!component||p.c===component)&&(!year||p.y===year)&&(!state||(p.s||[]).includes(state))&&(!search||p.t.toLowerCase().includes(search.toLowerCase())));
-    const by={}; P.forEach(p=>{ const k=p.c+" "+(p.y||""); by[k]=(by[k]||0)+1; });
-    return {count:P.length,by_component_year:by,...clip(P.map(p=>({date:p.p,component:p.c,title:p.t,link:p.u,pdf:p.pdf,states:p.s,round:p.rd})),40),data_files:(D.files||[]).map(f=>f.name),datasets:(D.datasets||[]).length}; }},
+ {name:"publications", description:"Reports published by DTM Nigeria on dtm.iom.int (same list as the Publications Tracker), counted by publication date: counts by report type/year/state and matching titles with links. Report types: compendium, ewer, ett, return_intention, joint_flood, flash, flood, biometric, intention_state, intention, smi, si, ses_fm, ses, covid_sa, poe, climate, mt_dash, needs, transhumance, fmp, atlas, other.",
+  inputSchema:{type:"object",properties:{report_type:{type:"string"},year:{type:"integer"},month:{type:"string",description:"YYYY-MM"},state:{type:"string"},search:{type:"string"}}},
+  execute:({report_type,year,month,state,search})=>{ const P=(D.publications||[]).filter(p=>isCounted(p)&&(!report_type||p.pc===report_type)&&(!year||p.py===year)&&(!month||p.pm===month)&&(!state||(p.ss||[]).includes(state))&&(!search||p.t.toLowerCase().includes(search.toLowerCase())));
+    const by={}; P.forEach(p=>{ const k=p.pc+" "+(p.py||""); by[k]=(by[k]||0)+1; });
+    return {count:P.length,by_type_year:by,...clip(P.map(p=>({date:p.p,report_type:pcName(p.pc),title:p.t,link:p.u,pdf:p.pdf,states:p.ss,round:p.rd})),40),datasets_published:(D.datasets||[]).length}; }},
+ {name:"datasets", description:"Datasets published by DTM Nigeria (dtm.iom.int dataset pages and HDX): count, publication date, type (site/baseline/location assessment, master list, KMZ…), round, region, page link and downloadable files.",
+  inputSchema:{type:"object",properties:{year:{type:"integer"},type:{type:"string"},region:{type:"string"},round:{type:"integer"},search:{type:"string"}}},
+  execute:({year,type,region,round,search})=>{ const L=(D.datasets||[]).filter(x=>(!year||x.y===year)&&(!type||(x.dt||"").toLowerCase().includes(type.toLowerCase()))&&(!region||(x.r||[]).includes(region))&&(!round||x.rd===round)&&(!search||x.t.toLowerCase().includes(search.toLowerCase())));
+    const by={}; L.forEach(x=>by[x.dt]=(by[x.dt]||0)+1);
+    return {count:L.length,by_type:by,...clip(L.map(x=>({published:x.p,type:x.dt,round:x.rd,region:(x.r||[]).join(", "),title:x.t,link:x.u,files:(x.files||[]).map(f=>f.link)})),60)}; }},
  {name:"crosscheck", description:"Cross-check of data files vs published report figures vs DTM API per round and measure (status Matches/Differs, % difference, link).",
   inputSchema:{type:"object",properties:{region:{type:"string"},round:{type:"integer"},status:{type:"string",enum:["Matches","Differs","Only one source"]}}},
   execute:({region,round,status})=>clip((D.crossref||[]).filter(x=>(!region||x.region===regName(region))&&(!round||x.round===round)&&(!status||x.status===status)),60)},
@@ -2052,7 +2110,7 @@ function reportCount(){
     return `<b>${fmt(ew.length)}</b> Early Warning dashboards${a?` – latest ${a}`:""} · <b>${fmt(fl.length)}</b> Flow Monitoring dashboards${b?` – latest ${b}`:""} (${esc(place)})`; }
   if(V.tab==="bio"){ const B=(D.biometric||[]).filter(b=>(!F.state||b.state===F.state)&&(!F.region||regionOf(b.state)===F.region)); const titles=new Set(B.map(b=>b.title));
     return `<b>${fmt(titles.size)}</b> biometric registration reports (${esc(place)})`+(P.length?"":" <span class=\"muted\">(more are added by the harvester)</span>"); }
-  const L=P.filter(p=>inP(p)&&okR(p)&&okS(p)); return `${N(L,"reports and datasets")} in total (${esc(place)}). Pick a data product to see its count.`+tail;
+  return `${N(pubs(),"reports")} and <b>${fmt(dsets().length)}</b> datasets published (${esc(place)}). Pick a data product to see its count.`+tail;
 }
 function linkPop(box,list,empty){ box.innerHTML=list.length?list.slice(0,60).map(l=>`<a href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)}<small>${l.d?esc(l.d)+" · ":""}${esc(l.u.replace(/^https?:\/\//,"").slice(0,70))}</small></a>`).join(""):`<p class="muted" style="padding:8px">${empty}</p>`; }
 function wireTopbar(){

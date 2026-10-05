@@ -27,15 +27,41 @@ LOC_KEYS = ["idp_locations", "camps", "hc_locations", "ret_locations", "camp_ind
 
 
 def load_harvest():
+    """(every publication, items used by the analytical pages). Components in EXCLUDED_COMPONENTS have no
+    analytical page, but they are still DTM Nigeria publications and are counted on the Publications page."""
     if not HARV.exists():
-        return []
+        return [], []
     import config as C
-    items = [x for x in json.loads(HARV.read_text()) if not x.get("duplicate_of") and x["component"] not in C.EXCLUDED_COMPONENTS]
+    allx = [x for x in json.loads(HARV.read_text()) if not x.get("duplicate_of")]
+    items = [x for x in allx if x["component"] not in C.EXCLUDED_COMPONENTS]
     for it in items:
         if it.get("regions") == ["National / multi-region"] and it["component"].startswith("mt_") \
                 and (it.get("year") or 9999) < 2019:
             it["regions"] = ["North East"]
-    return items
+    return allx, items
+
+
+def ckey(u):
+    from urllib.parse import unquote, urlparse
+    if not u or not u.startswith("http"):
+        return u
+    x = urlparse(u)
+    return unquote("https://" + x.netloc.lower().replace("www.", "") + x.path.rstrip("/")).lower()
+
+
+def kind_of(it):
+    u = it.get("url") or ""
+    return "dataset" if (it.get("kind") == "dataset" or "/datasets/" in u or "humdata.org" in u) else "report"
+
+
+def pub_categories():
+    import config as C
+    meta = ROOT / "data" / "harvest" / "tracker_meta.json"
+    if meta.exists():
+        m = json.loads(meta.read_text())
+        if m.get("components"):
+            return [[c["key"], c["label"]] for c in m["components"]], m
+    return C.PUB_CATEGORIES, {}
 
 
 def op_region(it):
@@ -479,29 +505,76 @@ def ett_reports(items):
     return sorted(rows, key=lambda r: (r["ps"] or r["p"] or ""))
 
 
+DATASET_TYPES = [  # (type, title keywords) – first match wins
+    ("Site & location maps (KMZ)", ["kmz", "location of idps", "host community locations", "idp locations kmz"]),
+    ("Master list", ["master list"]),
+    ("Return assessment", ["return assessment", "[returnees]", "return locations"]),
+    ("Baseline assessment", ["baseline"]),
+    ("Location assessment", ["location assessment"]),
+    ("Site assessment", ["site assessment", "sites assessment"]),
+    ("Displacement report data", ["displacement report"]),
+    ("DTM API extract", [" api"]),
+]
+
+
+def dataset_type(title):
+    t = " " + (title or "").lower()
+    return next((name for name, kws in DATASET_TYPES if any(k in t for k in kws)), "Other datasets")
+
+
+def dataset_region(title):
+    import re
+    t = (title or "").lower()
+    if re.search(r"north[\s-]*central|north[\s-]*west|central & west", t):
+        return [NC]
+    if "global" in t or " api" in t:
+        return []
+    return [NE]
+
+
+def dataset_round(title):
+    import re
+    m = re.search(r"\b(?:round|dataset)\s*(\d{1,3})\b", (title or "").lower())
+    return int(m.group(1)) if m else None
+
+
 def datasets_list(items):
+    """Every dataset page published by DTM Nigeria (dtm.iom.int) plus DTM Nigeria datasets on HDX, with the
+    publication date, the period the data covers, and the files the harvester downloaded from each page."""
     rows, man = [], {}
     mf = ROOT / "data" / "raw" / "online" / "manifest.json"
     if mf.exists():
-        man = json.loads(mf.read_text())
+        man = {ckey(k): v for k, v in json.loads(mf.read_text()).items()}
     for it in items:
-        if it.get("kind") == "dataset" or "/datasets/" in it["url"] or "humdata.org" in it["url"]:
-            m = man.get(it["url"], {})
-            rows.append({"t": it["title"], "u": it["url"], "p": it.get("published"), "c": it["component"], "rd": it.get("round"),
-                         "r": it.get("regions", []), "src": it.get("source"),
-                         "files": [{"name": f["file"], "link": f["link"], "local": "files/online/" + f["file"]} for f in m.get("files", [])],
-                         "restricted": m.get("restricted", False)})
-    seen = {r["u"] for r in rows}
-    for page, m in man.items():
-        if page in seen:
+        if kind_of(it) != "dataset":
             continue
+        m = man.get(ckey(it["url"]), {})
+        pub = it.get("published")
+        rows.append({"t": it["title"], "u": it["url"], "p": pub, "y": int(pub[:4]) if pub else None, "m": pub[:7] if pub else None,
+                     "db": it.get("date_basis") or ("source listing" if pub else "not stated"),
+                     "pd": it.get("period_covered") or [it.get("period_start"), it.get("period_end")],
+                     "c": it["component"], "pc": it.get("pub_cat"), "dt": dataset_type(it["title"]),
+                     "rd": it.get("round") or dataset_round(it["title"]),
+                     "r": dataset_region(it["title"]), "src": it.get("source"),
+                     "files": [{"name": f["file"], "link": f["link"], "local": "files/online/" + f["file"], "round": f.get("round")} for f in m.get("files", [])],
+                     "restricted": m.get("restricted", False)})
+    import re
+    tkey = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()  # noqa: E731
+    seen = {ckey(r["u"]) for r in rows} | {ckey(x["url"]) for x in json.loads(HARV.read_text())} if HARV.exists() else {ckey(r["u"]) for r in rows}
+    seen_t = {tkey(r["t"]) for r in rows}
+    for page, m in json.loads(mf.read_text()).items() if mf.exists() else []:
+        if ckey(page) in seen or tkey(m.get("title")) in seen_t:
+            continue
+        seen.add(ckey(page))
+        seen_t.add(tkey(m.get("title")))
         rds = sorted({f.get("round") for f in m.get("files", []) if f.get("round")})
-        rows.append({"t": m.get("title") or page, "u": page, "p": m.get("checked"), "c": "mt_atlas",
-                     "rd": (rds[0] if len(rds) == 1 else None), "rounds": rds,
+        rows.append({"t": m.get("title") or page, "u": page, "p": None, "y": None, "m": None, "db": "not stated",
+                     "pd": [None, None], "c": "mt_atlas", "pc": "atlas", "dt": dataset_type(m.get("title") or page),
+                     "rd": (rds[0] if len(rds) == 1 else dataset_round(m.get("title"))), "rounds": rds,
                      "r": ["North Central & North West" if m.get("region") == "nwnc" else "North East"], "src": m.get("source", "dtm.iom.int"),
                      "files": [{"name": f["file"], "link": f["link"], "local": "files/online/" + f["file"], "round": f.get("round")} for f in m.get("files", [])],
                      "restricted": m.get("restricted", False)})
-    return sorted(rows, key=lambda r: r["p"] or "")
+    return sorted(rows, key=lambda r: (r["p"] or "", r["t"]))
 
 
 def copy_files():
@@ -537,33 +610,41 @@ def biometric(seed, items):
 
 
 def slim(it):
-    return {"t": it["title"], "u": it["url"], "p": it.get("published"), "c": it["component"],
+    pub = it.get("published")
+    return {"t": it["title"], "u": it["url"], "p": pub, "c": it["component"],
+            "st": it.get("pub_status") or ("hand-read seed" if it.get("source") == "report page (read by hand)" else "other source"),
+            "pc": it.get("pub_cat") or "other", "pr": it.get("pub_regions") or [], "ss": it.get("pub_states") or it.get("states", []),
+            "py": int(pub[:4]) if pub else None, "pm": pub[:7] if pub else None, "db": it.get("date_basis"),
             "r": it.get("regions", []), "s": it.get("states", []), "y": it.get("year"), "m": it.get("month"),
             "w": it.get("week"), "ps": it.get("period_start"), "pe": it.get("period_end"),
             "rd": it.get("round"), "n": it.get("number"), "f": it.get("figures", {}), "src": it.get("source"),
-            "k": it.get("kind", "report"), "l": it.get("lgas", []), "pdf": (it.get("pdfs") or [None])[0]}
+            "k": kind_of(it), "l": it.get("lgas", []), "pdf": (it.get("pdfs") or [None])[0]}
 
 
 def main():
     DIST.mkdir(exist_ok=True)
     base = json.loads(BASE.read_text())
-    items = load_harvest()
+    allx, items = load_harvest()
     have = {(i["component"], i.get("number"), i.get("period_start"), tuple(i.get("states") or [])) for i in items}
     for s_ in seed_items():
         if (s_["component"], s_.get("number"), s_.get("period_start"), tuple(s_["states"])) not in have:
             items.append(s_)
+            allx.append(s_)
     apply_api(base)
     link_rounds(base["north_east"], items, NE)
     link_rounds(base["nc_nw"], items, NC)
     xr = crossref(base)          # compare before the report figures replace the data-file ones
     report_first(base)
     idp_split(base)
+    cats, tmeta = pub_categories()
     data = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "harvest_count": len(items), **base,
-            "publications": [slim(x) for x in items],
+            "publications": [slim(x) for x in allx],
+            "pub_categories": cats,
+            "tracker": {"generated_at": tmeta.get("generated_at"), "count": tmeta.get("count")},
             "crossref": xr,
             "ett_reports": ett_reports(items),
-            "datasets": datasets_list(items),
+            "datasets": datasets_list(allx),
             "files": copy_files(),
             "biometric": biometric(base.get("biometric", []), items),
             "ttt": ttt(items),
@@ -580,7 +661,8 @@ def main():
         if (SITE / f).exists():
             shutil.copy(SITE / f, DIST / f)
     (DIST / ".nojekyll").write_text("")
-    print(f"built dist/ – {len(items)} publications, {len(data['crossref'])} cross-check rows, index.html {len(html)/1024:.0f} KB")
+    npub = sum(1 for x in allx if (x.get("pub_status") or "").startswith("counted"))
+    print(f"built dist/ – {npub} reports counted as publications, {len(data['datasets'])} datasets, {len(data['crossref'])} cross-check rows, index.html {len(html)/1024:.0f} KB")
 
 
 if __name__ == "__main__":

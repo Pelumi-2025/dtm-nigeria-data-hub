@@ -55,3 +55,19 @@ page's built-in Claude access; on GitHub Pages each viewer adds their own Anthro
 The Map page shades Nigeria's 37 states by the chosen product, measure and round/period, on OpenStreetMap or
 ArcGIS Online basemaps (Light Gray, Topographic, Imagery). `site/vendor/` holds Leaflet 1.9.4 and the state
 boundaries (Natural Earth, public domain); both are built into the page, so the shading also works offline.
+
+## Same counts as the Publications Tracker
+
+The **Publications** page counts exactly the reports listed by the
+[DTM Nigeria Publications Tracker](https://pelumi-2025.github.io/dtm-nigeria-tracker/): every run of
+`harvester/harvest_web.py` downloads the tracker's `data/reports.json` and copies each report's publication
+date, report type, region and states. Change the source in `TRACKER_REPORTS_URL` (`harvester/config.py`).
+
+* Report pages and dataset pages are separate publications, even with the same title.
+* `?close=true` copies of a page are folded into the clean URL.
+* Regional reports that only mention Nigeria, second pages of a report and ReliefWeb copies are listed under
+  "other pages found but not counted".
+* **Datasets** (dtm.iom.int dataset pages + DTM Nigeria datasets on HDX) are counted separately, dated from the
+  dtm.iom.int dataset listing, with links to every page and downloaded file.
+* Intention surveys, Socio-economic surveys and the Solutions Mobility / Stability Index have no analytical page
+  but are counted on the Publications page.
