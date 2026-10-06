@@ -71,10 +71,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "component_was": "other",
   "pub_status": "counted"
  },
@@ -124,13 +121,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -286,14 +277,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -371,14 +355,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Taraba"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -643,14 +621,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -974,13 +945,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -1133,14 +1099,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -1212,16 +1171,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe",
-   "FCT"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -1257,13 +1208,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -1384,14 +1330,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -1587,14 +1526,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -1750,14 +1682,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -2459,14 +2384,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -3170,14 +3088,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -3267,14 +3178,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -3389,11 +3293,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -3471,14 +3371,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -3593,17 +3486,8 @@
   "date_basis": "Publications Tracker (date in title (page shows no publication date))",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -3641,12 +3525,8 @@
   "date_basis": "Publications Tracker (date in title (page shows no publication date))",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -3684,12 +3564,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -3727,12 +3603,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -3772,17 +3644,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -3930,14 +3793,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -4162,14 +4019,8 @@
   "date_basis": "Publications Tracker (date in title (page shows no publication date))",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -4210,9 +4061,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -4285,17 +4134,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -4500,8 +4340,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -4538,14 +4382,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "biometric",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -4588,8 +4426,13 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -4626,7 +4469,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -4667,8 +4512,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -4709,8 +4558,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -4752,8 +4605,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5087,12 +4944,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -5132,17 +4985,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -5185,14 +5029,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -5238,7 +5075,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa"
+   "Borno"
   ],
   "pub_status": "counted"
  },
@@ -5282,8 +5119,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5365,8 +5206,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5414,8 +5259,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5495,8 +5344,13 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5541,8 +5395,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5619,8 +5477,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -5773,8 +5635,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6175,12 +6041,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -6220,11 +6082,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -6268,8 +6126,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6315,8 +6177,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6469,7 +6335,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -6593,8 +6461,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6630,13 +6502,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -6685,8 +6552,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6735,8 +6606,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6814,14 +6689,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -6873,8 +6741,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -6914,12 +6786,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -6967,8 +6835,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7115,13 +6987,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -7171,8 +7038,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7220,8 +7091,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7270,8 +7145,13 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7361,8 +7241,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7431,13 +7315,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -7488,8 +7367,13 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7533,8 +7417,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -7577,14 +7465,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -7628,14 +7509,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -7938,9 +7812,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -8014,7 +7886,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -8054,8 +7928,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -8091,13 +7969,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -8488,13 +8361,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -8739,14 +8607,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -9307,13 +9168,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -9349,12 +9205,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "biometric",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -9411,8 +9263,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
   "pub_status": "counted"
  },
  {
@@ -9613,8 +9469,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -9871,14 +9731,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -10144,13 +9997,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -10442,10 +10290,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -10689,10 +10534,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -10760,10 +10602,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -11228,14 +11067,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -11412,14 +11244,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -11487,8 +11313,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -11556,8 +11381,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -11594,13 +11418,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -11637,7 +11456,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -11739,8 +11560,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -11777,8 +11597,13 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -11814,8 +11639,13 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -11923,7 +11753,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -11992,8 +11821,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -12061,8 +11889,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -12098,12 +11925,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Kano"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -12174,8 +11997,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -12219,14 +12041,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -12384,17 +12199,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -12762,8 +12568,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -12799,12 +12604,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "biometric",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -12874,11 +12675,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -12948,7 +12745,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13020,7 +12816,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13065,9 +12860,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -13103,14 +12896,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -13247,7 +13034,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13319,7 +13105,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13391,7 +13176,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13463,7 +13247,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13501,14 +13284,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -13579,7 +13356,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -13809,14 +13585,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -13927,14 +13696,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -14005,7 +13767,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14077,7 +13838,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14152,7 +13912,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14227,7 +13986,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14262,12 +14020,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -14341,7 +14095,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14416,7 +14169,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14491,7 +14243,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14567,7 +14318,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -14602,12 +14352,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -14681,10 +14427,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -14844,14 +14587,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -15095,10 +14831,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15170,10 +14903,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15209,7 +14939,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -15243,12 +14975,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -15321,10 +15049,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15396,10 +15121,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15502,10 +15224,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15574,10 +15293,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15610,12 +15326,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -15685,10 +15397,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15757,10 +15466,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -15829,10 +15535,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16029,14 +15732,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16241,10 +15937,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16347,10 +16040,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16417,12 +16107,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -16492,10 +16178,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16598,10 +16281,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16670,10 +16350,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16742,10 +16419,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16778,12 +16452,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -16892,10 +16562,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -16931,7 +16598,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -16968,7 +16637,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -17038,10 +16709,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17110,10 +16778,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17146,12 +16811,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -17221,10 +16882,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17293,10 +16951,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17365,10 +17020,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17431,10 +17083,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17470,14 +17119,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -17538,10 +17181,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17602,10 +17242,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17726,14 +17363,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -17917,14 +17547,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -17961,7 +17584,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -18024,10 +17649,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18060,12 +17682,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -18126,10 +17744,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18187,10 +17802,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18259,10 +17871,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18331,10 +17940,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18403,10 +18009,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18439,12 +18042,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -18514,10 +18113,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18627,10 +18223,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18699,12 +18292,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "other",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18773,10 +18362,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18884,10 +18470,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -18962,14 +18545,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -19039,10 +18616,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19147,10 +18721,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19190,17 +18761,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "mt_dash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19235,12 +18797,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "biometric",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19309,10 +18867,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19428,10 +18983,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19467,14 +19019,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -19544,10 +19090,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19616,10 +19159,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19847,14 +19387,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -19965,14 +19498,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -20084,10 +19610,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20156,10 +19679,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20192,12 +19712,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -20303,10 +19819,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20422,10 +19935,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20465,12 +19975,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20542,10 +20048,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20616,10 +20119,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20657,12 +20157,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20695,12 +20191,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -20773,11 +20265,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20885,10 +20373,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -20995,10 +20480,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21066,10 +20548,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21102,12 +20581,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -21176,10 +20651,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21339,14 +20811,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -21390,14 +20855,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21601,10 +21059,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21672,10 +21127,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21713,12 +21165,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "flash",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "other",
   "pub_status": "counted"
  },
@@ -21786,10 +21234,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -21825,14 +21270,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -21940,10 +21379,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -22011,10 +21447,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -22050,7 +21483,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -22314,10 +21749,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -22388,10 +21820,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -22500,10 +21929,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -22536,12 +21962,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -22658,10 +22080,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -23048,10 +22467,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -23119,10 +22535,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -23158,7 +22571,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -23195,7 +22610,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -23229,12 +22646,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -23271,7 +22684,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -23632,7 +23047,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -23669,7 +23086,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -23740,12 +23159,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -23814,10 +23229,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -24043,11 +23455,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -24151,7 +23559,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24188,7 +23598,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24225,7 +23637,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24262,7 +23676,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24296,12 +23712,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -24338,7 +23750,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24375,7 +23789,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24412,7 +23828,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24573,14 +23991,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -24789,7 +24200,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24900,7 +24313,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -24972,7 +24387,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25009,7 +24426,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25043,12 +24462,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -25116,10 +24531,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -25155,7 +24567,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25192,7 +24606,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25229,7 +24645,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25590,7 +25008,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25624,12 +25044,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -25666,7 +25082,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25737,7 +25155,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25774,7 +25194,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -25818,14 +25240,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -25964,12 +25379,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -26076,7 +25487,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -26113,13 +25526,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "poe",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -26223,10 +25631,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -26481,7 +25886,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -26667,7 +26074,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -26851,7 +26260,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -26888,7 +26299,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -26999,7 +26412,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -27180,7 +26595,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -27651,7 +27068,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -27761,7 +27180,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -27883,13 +27304,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "poe",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -27994,7 +27410,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -28028,12 +27446,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -28249,7 +27663,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -28359,7 +27775,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -28469,7 +27887,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -28650,12 +28070,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -28692,7 +28108,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -28946,7 +28364,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -29059,7 +28479,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -29169,7 +28591,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -29603,7 +29027,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -29713,7 +29139,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -29823,7 +29251,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -30002,7 +29432,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -30112,7 +29544,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -30484,7 +29918,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -30628,7 +30064,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -30773,7 +30211,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -30919,7 +30359,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31029,7 +30471,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31178,7 +30622,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31355,7 +30801,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31500,7 +30948,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31610,7 +31060,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31720,7 +31172,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -31865,7 +31319,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -32009,7 +31465,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -32155,7 +31613,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -32382,7 +31842,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -32772,7 +32234,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -32918,7 +32382,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -33067,7 +32533,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -33255,7 +32723,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -33362,10 +32832,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "FCT",
-   "Nasarawa"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -33440,7 +32907,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -34042,7 +33511,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -34446,7 +33917,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -34634,7 +34107,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -34824,7 +34299,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -34974,7 +34451,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -35198,7 +34677,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -35536,7 +35017,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -35805,7 +35288,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -35992,7 +35477,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -36296,7 +35783,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -36849,7 +36338,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -37118,7 +36609,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -37355,7 +36848,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -37618,7 +37113,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -38103,7 +37600,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -38254,7 +37753,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -38480,7 +37981,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -38705,7 +38208,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -38899,7 +38404,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -39134,7 +38641,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -39285,7 +38794,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -39436,14 +38947,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -39612,7 +39116,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -40239,7 +39745,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -40388,7 +39896,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -40537,7 +40047,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -40696,11 +40208,9 @@
   "date_v": 2,
   "pub_cat": "si",
   "pub_regions": [
-   "North Central & North West"
+   "North East"
   ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -40736,7 +40246,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -40952,7 +40464,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -41103,7 +40617,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -41174,7 +40690,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -41320,7 +40838,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -41394,10 +40914,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -41845,7 +41362,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -41923,10 +41442,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -41994,10 +41510,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42046,12 +41559,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42090,10 +41598,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42132,10 +41637,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42202,10 +41704,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42244,10 +41743,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42286,10 +41782,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42334,9 +41827,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42401,10 +41892,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42443,10 +41931,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42485,10 +41970,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42531,10 +42013,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42597,10 +42076,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42639,10 +42115,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42681,10 +42154,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -42892,14 +42362,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -43112,10 +42575,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43154,10 +42614,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43336,10 +42793,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43384,16 +42838,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43436,14 +42881,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43482,10 +42920,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43595,10 +43030,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43637,10 +43069,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43745,10 +43174,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43833,10 +43259,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43875,10 +43298,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -43984,10 +43404,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -44065,10 +43482,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -44135,10 +43549,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -44213,10 +43624,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -44420,14 +43828,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -44643,10 +44044,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45080,10 +44478,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45297,7 +44692,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -45377,10 +44774,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45419,10 +44813,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45500,10 +44891,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45561,10 +44949,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45642,10 +45027,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45709,7 +45091,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -45750,10 +45131,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45902,10 +45280,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -45971,7 +45346,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -46012,10 +45386,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -46081,7 +45452,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -46171,16 +45541,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -46409,10 +45770,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -46451,10 +45809,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -46557,7 +45912,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -46643,10 +45997,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -46711,7 +46062,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -46799,10 +46149,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -46911,7 +46258,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -46952,10 +46298,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -47066,7 +46409,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -47151,14 +46493,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -47197,10 +46532,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -47311,7 +46643,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -47352,10 +46683,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -47404,16 +46732,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -47551,7 +46870,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -47590,9 +46911,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -47737,7 +47056,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -48052,14 +47373,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -48176,9 +47490,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -48292,7 +47604,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -48422,9 +47736,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -48485,8 +47797,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -48663,7 +47979,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -48759,9 +48077,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -48799,9 +48115,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -48967,16 +48281,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -49214,9 +48519,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49251,12 +48554,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49319,8 +48618,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -49450,9 +48753,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49512,8 +48813,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -49553,11 +48858,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49618,8 +48919,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -49657,9 +48962,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49754,14 +49057,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49808,9 +49104,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49848,9 +49142,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49910,8 +49202,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -49949,9 +49245,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -49989,9 +49283,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50040,10 +49332,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50106,10 +49395,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50144,12 +49430,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50187,9 +49469,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50249,8 +49529,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -50335,9 +49619,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50400,8 +49682,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -50439,9 +49725,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50554,7 +49838,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -50632,9 +49918,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50685,11 +49969,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna",
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -50750,7 +50030,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -50912,9 +50194,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -51013,8 +50293,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -51091,9 +50375,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -51351,14 +50633,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -51503,7 +50778,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -51640,14 +50917,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -51714,8 +50985,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -51753,9 +51028,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -51868,8 +51141,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -51966,14 +51243,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -52036,8 +51306,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -52191,7 +51465,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -52227,12 +51503,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -52268,14 +51540,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -52507,7 +51773,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -52708,7 +51976,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -52975,10 +52245,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -53087,7 +52354,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -53196,7 +52462,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -53303,7 +52571,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -53485,9 +52755,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -53637,7 +52905,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -53673,12 +52943,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -53865,11 +53131,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Plateau",
-   "Kano",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -53934,7 +53196,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -53982,10 +53246,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54052,10 +53313,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54141,14 +53399,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -54212,10 +53464,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54263,10 +53512,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54301,12 +53547,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54371,10 +53613,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54423,10 +53662,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54526,10 +53762,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54567,9 +53800,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54628,7 +53859,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -54733,9 +53966,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54800,7 +54031,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -54836,12 +54069,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54892,11 +54121,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina",
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -54929,12 +54154,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Niger"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -55000,10 +54221,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55070,14 +54288,12 @@
   "date_v": 2,
   "pub_cat": "ett",
   "pub_regions": [
-   "North East",
-   "North Central & North West"
+   "North East"
   ],
   "pub_states": [
    "Adamawa",
    "Borno",
-   "Yobe",
-   "Niger"
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -55127,10 +54343,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55191,10 +54404,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55296,8 +54506,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -55383,9 +54597,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55447,7 +54659,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -55483,12 +54697,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55593,7 +54803,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -55631,15 +54843,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "fmp",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Nasarawa",
-   "Niger",
-   "Kano",
-   "Sokoto"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "component_was": "transhumance",
   "pub_status": "counted"
  },
@@ -55705,11 +54910,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55834,9 +55035,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55902,11 +55101,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -55941,12 +55136,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56027,9 +55218,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56079,11 +55268,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Plateau",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56129,9 +55314,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56174,9 +55357,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56237,10 +55418,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56284,9 +55462,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56347,10 +55523,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56661,10 +55834,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56709,9 +55879,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -56945,10 +56113,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -57000,7 +56165,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -57051,9 +56218,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -57115,7 +56280,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -57272,7 +56439,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -57407,11 +56576,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -57470,7 +56635,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -57517,9 +56684,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Nasarawa"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -57578,7 +56743,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -57717,9 +56884,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Plateau"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -57825,10 +56990,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -57969,10 +57131,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -58034,7 +57193,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -58082,10 +57243,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -58147,7 +57305,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -58208,7 +57368,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -58346,9 +57508,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -58402,7 +57562,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -58450,14 +57612,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -58596,9 +57751,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -58661,7 +57814,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -58710,16 +57865,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -58769,9 +57915,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -58879,7 +58023,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -58929,9 +58075,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59042,7 +58186,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -59088,9 +58234,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59151,8 +58295,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -59201,9 +58349,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59260,8 +58406,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -59311,9 +58461,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59371,7 +58519,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -59418,9 +58568,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Plateau"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59564,7 +58712,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -59664,7 +58814,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -59713,9 +58865,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59862,9 +59012,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -59969,10 +59117,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60152,7 +59297,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -60248,11 +59395,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Plateau",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60310,7 +59453,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -60415,10 +59560,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60488,14 +59630,10 @@
   "date_v": 2,
   "pub_cat": "ett",
   "pub_regions": [
-   "North East",
-   "North Central & North West"
+   "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe",
-   "Niger"
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -60544,10 +59682,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Nasarawa",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60596,10 +59731,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina",
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60658,7 +59790,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -60785,9 +59919,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60849,7 +59981,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -60886,13 +60020,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Taraba"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -60953,10 +60082,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61001,10 +60127,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61109,7 +60232,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61168,7 +60293,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61291,9 +60418,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61352,7 +60477,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61389,13 +60516,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Taraba"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61440,10 +60562,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61504,7 +60623,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61603,7 +60724,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61647,9 +60770,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61697,10 +60818,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -61758,7 +60876,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61859,7 +60979,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -61968,7 +61090,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -62068,7 +61192,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -62135,7 +61261,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -62202,7 +61330,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -62344,8 +61474,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno"
+  ],
   "pub_status": "counted"
  },
  {
@@ -62451,7 +61585,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -62590,7 +61726,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -62702,9 +61840,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -62769,10 +61905,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -62812,11 +61945,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63000,11 +62129,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63073,11 +62198,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63146,11 +62267,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63213,11 +62330,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63514,13 +62627,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Taraba"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63664,10 +62772,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63732,10 +62837,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63859,10 +62961,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -63924,8 +63023,7 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
-   "Borno"
+   "Adamawa"
   ],
   "pub_status": "counted"
  },
@@ -63964,13 +63062,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ewer",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Taraba"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -64026,10 +63119,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -64096,10 +63186,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -64259,16 +63346,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -64340,10 +63418,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -64393,14 +63468,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -65397,8 +64465,7 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno",
-   "Yobe"
+   "Borno"
   ],
   "pub_status": "counted"
  },
@@ -65621,11 +64688,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -65803,10 +64866,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -65874,7 +64934,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -65920,9 +64981,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -66092,16 +65151,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -66146,9 +65196,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -66308,9 +65356,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -66378,7 +65424,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -66509,10 +65556,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -66582,7 +65626,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -66675,9 +65720,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -66747,7 +65790,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -66861,7 +65905,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -67205,7 +66250,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -67255,10 +66301,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -67296,9 +66339,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Borno"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -67507,10 +66548,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -67580,7 +66618,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -67943,9 +66982,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -68054,7 +67091,6 @@
    "North East"
   ],
   "pub_states": [
-   "Adamawa",
    "Borno"
   ],
   "pub_status": "counted"
@@ -68778,9 +67814,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -68901,18 +67935,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -68998,10 +68021,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -69120,9 +68140,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -69519,10 +68537,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -69570,10 +68585,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -69849,11 +68861,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -70117,11 +69125,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -70416,12 +69420,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Kaduna",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -70701,11 +69700,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -70924,11 +69919,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "FCT",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -71069,10 +70060,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -71423,11 +70411,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kaduna",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -71478,11 +70462,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -72772,9 +71752,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -73187,10 +72165,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -73468,11 +72443,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Niger",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -73519,18 +72490,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "flood",
   "pub_status": "counted"
  },
@@ -73711,10 +72671,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Niger"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -73858,10 +72815,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -73950,9 +72904,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -74461,18 +73413,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -74671,12 +73612,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Niger",
-   "Kaduna",
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -74876,9 +73812,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -75038,12 +73972,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Niger",
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -75208,13 +74137,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Niger",
-   "Katsina",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -76310,31 +75233,8 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "joint_flood",
-  "pub_regions": [
-   "North East",
-   "North Central & North West",
-   "Southern states"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Taraba",
-   "Kogi",
-   "Kwara",
-   "Nasarawa",
-   "Niger",
-   "Jigawa",
-   "Kebbi",
-   "Anambra",
-   "Ebonyi",
-   "Enugu",
-   "Imo",
-   "Bayelsa",
-   "Cross River",
-   "Delta",
-   "Edo",
-   "Rivers",
-   "Oyo"
-  ],
+  "pub_regions": [],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -76575,9 +75475,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Katsina"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -76692,16 +75590,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -77790,11 +76679,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Niger",
-   "Jigawa"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -77840,10 +76725,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -78505,9 +77387,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Kaduna"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -78651,9 +77531,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -79187,14 +78065,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -79347,17 +78218,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -79475,18 +78336,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -79766,7 +78616,8 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno"
+   "Borno",
+   "Yobe"
   ],
   "pub_status": "counted"
  },
@@ -80018,9 +78869,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Plateau"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -80154,10 +79003,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -80350,9 +79196,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Sokoto"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -80402,9 +79246,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -80451,9 +79293,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -80684,10 +79524,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -80929,8 +79766,7 @@
   ],
   "pub_states": [
    "Adamawa",
-   "Borno",
-   "Yobe"
+   "Borno"
   ],
   "pub_status": "counted"
  },
@@ -80972,11 +79808,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -85801,11 +84633,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -86813,18 +85641,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "component_was": "mt_atlas",
   "pub_status": "counted"
  },
@@ -89085,8 +87902,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -89142,8 +87963,12 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "ett",
-  "pub_regions": [],
-  "pub_states": [],
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa"
+  ],
   "pub_status": "counted"
  },
  {
@@ -90190,18 +89015,7 @@
   "pub_regions": [
    "North Central & North West"
   ],
-  "pub_states": [
-   "Benue",
-   "Kogi",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
@@ -92086,14 +90900,7 @@
   "pub_regions": [
    "North East"
   ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe"
-  ],
+  "pub_states": [],
   "pub_status": "counted"
  },
  {
