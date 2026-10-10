@@ -426,7 +426,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-site-assessment-data": {
   "title": "Nigeria Displacement - [IDPs]  - Site Assessment [IOM DTM]",
@@ -935,7 +935,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-location-assessment-data": {
   "title": "Nigeria Displacement - [IDPs] - Location Assessment [IOM DTM]",
@@ -1234,7 +1234,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-displacement-data-north-central-west-site-assessment-iom-dtm": {
   "title": "Nigeria Displacement Data - North Central & West Zones - Site Assessment [IOM DTM]",
@@ -1483,7 +1483,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-iom-dtm-datasets": {
   "title": "Nigeria - IOM DTM R3-R7 datasets - Baseline and Site assessment data",
@@ -1512,7 +1512,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-displacement-data-north-central-west-baeline-assessment-iom-dtm": {
   "title": "Nigeria Displacement Data - North Central & West Zones - Baseline Assessment [IOM DTM]",
@@ -1651,7 +1651,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-displacements-returnees-iom-dtm": {
   "title": "Nigeria Displacement - [Returnees] - [IOM DTM]",
@@ -1680,7 +1680,7 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-cdw-baseline-assessments-dec14-oct17": {
   "title": "Nigeria_CDW_Baseline_Assessments_Dec14_Oct17",
@@ -1688,7 +1688,7 @@
   "region": "ne",
   "files": [],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nga-iom-dtm-from-api": {
   "title": "Nigeria IOM Displacement Tracking Matrix (DTM) from API",
@@ -1696,7 +1696,7 @@
   "region": "ne",
   "files": [],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/global-iom-dtm-from-api": {
   "title": "Global IOM Displacement Tracking Matrix (DTM) from API",
@@ -1704,7 +1704,7 @@
   "region": "ne",
   "files": [],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://data.humdata.org/dataset/nigeria-displacement-data-north-central-west-location-assessment-iom-dtm": {
   "title": "Nigeria Displacement Data - North Central & West Zones - Location Assessment [IOM DTM]",
@@ -1723,14 +1723,14 @@
    }
   ],
   "source": "HDX",
-  "checked": "2026-10-09"
+  "checked": "2026-10-10"
  },
  "https://dtm.iom.int/datasets/nigeria-north-east-displacement-report-round-52-march-2026": {
   "title": "Nigeria \u2014 North-East Displacement Report Round 52 (March 2026)",
   "page": "https://dtm.iom.int/datasets/nigeria-north-east-displacement-report-round-52-march-2026",
   "round": 52,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1739,7 +1739,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-19",
   "round": 19,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1748,7 +1748,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-18",
   "round": 18,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1757,7 +1757,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-east-displacement-report-round-51-october-2025",
   "round": 51,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1766,7 +1766,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-17",
   "round": 17,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1775,7 +1775,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-50-north-east-idps-and-returnee",
   "round": 50,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1784,7 +1784,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-49-north-east-idps-and-returnee",
   "round": 49,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1793,7 +1793,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-16",
   "round": 16,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1802,7 +1802,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-48-north-east-idps-and-returnee",
   "round": 48,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1811,7 +1811,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-15",
   "round": 15,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1820,7 +1820,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-14",
   "round": 14,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1829,7 +1829,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-47-north-east-idps-and-returnee",
   "round": 47,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1838,7 +1838,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-13",
   "round": 13,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1847,7 +1847,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-12",
   "round": 12,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1856,7 +1856,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-46-north-east-idps",
   "round": 46,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1865,7 +1865,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-45-north-east-idps",
   "round": 45,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1874,7 +1874,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-44-north-east-idps",
   "round": 44,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1883,7 +1883,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-11",
   "round": 11,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1892,7 +1892,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-master-list-idp-locations-round-43-north-east",
   "round": 43,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1901,7 +1901,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-master-list-return-locations-round-43-north-east",
   "round": 43,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1910,7 +1910,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-10",
   "round": 10,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1919,7 +1919,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-42-north-east",
   "round": 42,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1928,7 +1928,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-41-north-east",
   "round": 41,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1937,7 +1937,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-41-north-east",
   "round": 41,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1946,7 +1946,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-return-locations-round-41-north-east",
   "round": 41,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1955,7 +1955,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-location-assessment-round-40-north-east-0",
   "round": 40,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1964,7 +1964,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-40-north-east-0",
   "round": 40,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1973,7 +1973,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-40-north-east",
   "round": 40,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1982,7 +1982,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-baseline-assessment-round-9-march-2022",
   "round": 9,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -1991,7 +1991,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-location-assessment-round-39-north-east",
   "round": 39,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2000,7 +2000,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-39-north-east",
   "round": 39,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2009,7 +2009,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-39-north-east",
   "round": 39,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2018,7 +2018,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-baseline-assessment-round-8",
   "round": 8,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2027,7 +2027,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-location-assessment-round-8",
   "round": 8,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2036,7 +2036,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-north-central-and-north-west-zones-site-assessment-round-8",
   "round": 8,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2045,7 +2045,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-baseline-assessment-round-7",
   "round": 7,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2054,7 +2054,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-38",
   "round": 38,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2063,7 +2063,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-site-assessment-round-7",
   "round": 7,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2072,7 +2072,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-38",
   "round": 38,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2081,7 +2081,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-location-assessment-round-7",
   "round": 7,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2090,7 +2090,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-location-assessment-round-38",
   "round": 38,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2099,7 +2099,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-37",
   "round": 37,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2108,7 +2108,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-37",
   "round": 37,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2117,7 +2117,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-37",
   "round": 37,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2126,7 +2126,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-%E2%80%94-round-36",
   "round": 36,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2135,7 +2135,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-baseline-assessment-round-6",
   "round": 6,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2144,7 +2144,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-location-assessment-round-6",
   "round": 6,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2153,7 +2153,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-36",
   "round": 36,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2162,7 +2162,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-site-assessment-round-6",
   "round": 6,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2171,7 +2171,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-36",
   "round": 36,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2180,7 +2180,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-location-assessment-round-5",
   "round": 5,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2189,7 +2189,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-%E2%80%94-round-35",
   "round": 35,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2198,7 +2198,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-35",
   "round": 35,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2207,7 +2207,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-site-assessment-round-5",
   "round": 5,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2216,7 +2216,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-baseline-assessment-round-5",
   "round": 5,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2225,7 +2225,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-location-assessment-round-4",
   "round": 4,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2234,7 +2234,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-baseline-assessment-round-4",
   "round": 4,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2243,7 +2243,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-site-assessment-round-4",
   "round": 4,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2252,7 +2252,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-location-assessment-round-3",
   "round": 3,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2261,7 +2261,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-baseline-assessment-round-3",
   "round": 3,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2270,7 +2270,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-site-assessment-round-3",
   "round": 3,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2279,7 +2279,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-%E2%80%94-baseline-assessment-%E2%80%94-round-1",
   "round": 1,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2288,7 +2288,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-baseline-assessment-round-2",
   "round": 2,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2297,7 +2297,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-site-assessment-round-2",
   "round": 2,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2306,7 +2306,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-north-central-and-north-west-zones-location-assessment-round-2",
   "round": 2,
   "region": "nwnc",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2315,7 +2315,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-8",
   "round": 8,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2324,7 +2324,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-9",
   "round": 9,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2333,7 +2333,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-10",
   "round": 10,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2342,7 +2342,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-11",
   "round": 11,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2351,7 +2351,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-12",
   "round": 12,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2360,7 +2360,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-13",
   "round": 13,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2369,7 +2369,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-8",
   "round": 8,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2378,7 +2378,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-9",
   "round": 9,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2387,7 +2387,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-10",
   "round": 10,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2396,7 +2396,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-11",
   "round": 11,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2405,7 +2405,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-12",
   "round": 12,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2414,7 +2414,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-13-0",
   "round": 13,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2423,7 +2423,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-2",
   "round": 2,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2432,7 +2432,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-3",
   "round": 3,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2441,7 +2441,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-4",
   "round": 4,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2450,7 +2450,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-5",
   "round": 5,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2459,7 +2459,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-6",
   "round": 6,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2468,7 +2468,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-7",
   "round": 7,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2477,7 +2477,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-14",
   "round": 14,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2486,7 +2486,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-15",
   "round": 15,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2495,7 +2495,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-16",
   "round": 16,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2504,7 +2504,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-17",
   "round": 17,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2513,7 +2513,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-14-0",
   "round": 14,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2522,7 +2522,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-16-0",
   "round": 16,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2531,7 +2531,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-2",
   "round": 2,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2540,7 +2540,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-3",
   "round": 3,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2549,7 +2549,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-4",
   "round": 4,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2558,7 +2558,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-5",
   "round": 5,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2567,7 +2567,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-6",
   "round": 6,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2576,7 +2576,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-7",
   "round": 7,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2585,7 +2585,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-15",
   "round": 15,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2594,7 +2594,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-17",
   "round": 17,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2603,7 +2603,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-18",
   "round": 18,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2612,7 +2612,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-18",
   "round": 18,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2621,7 +2621,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-18",
   "round": 18,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2630,7 +2630,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-19",
   "round": 19,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2639,7 +2639,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-19",
   "round": 19,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2648,7 +2648,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-19",
   "round": 19,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2657,7 +2657,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-20",
   "round": 20,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2666,7 +2666,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-20",
   "round": 20,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2675,7 +2675,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-location-assessment-round-20",
   "round": 20,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2684,7 +2684,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-21",
   "round": 21,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2693,7 +2693,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-21",
   "round": 21,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2702,7 +2702,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-21",
   "round": 21,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2711,7 +2711,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-baseline-assessment-round-22",
   "round": 22,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2720,7 +2720,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-location-assessment-round-22",
   "round": 22,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2729,7 +2729,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-22",
   "round": 22,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2738,7 +2738,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-23",
   "round": 23,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2747,7 +2747,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-23",
   "round": 23,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2756,7 +2756,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-23",
   "round": 23,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2765,7 +2765,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-24",
   "round": 24,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2774,7 +2774,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-24",
   "round": 24,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2783,7 +2783,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-24",
   "round": 24,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2792,7 +2792,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-25",
   "round": 25,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2801,7 +2801,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-25",
   "round": 25,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2810,7 +2810,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-25",
   "round": 25,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2819,7 +2819,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-26",
   "round": 26,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2828,7 +2828,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-26",
   "round": 26,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2837,7 +2837,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-26-0",
   "round": 26,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2846,7 +2846,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-27",
   "round": 27,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2855,7 +2855,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-27",
   "round": 27,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2864,7 +2864,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-27",
   "round": 27,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2873,7 +2873,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-28",
   "round": 28,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2882,7 +2882,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-28",
   "round": 28,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2891,7 +2891,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-28",
   "round": 28,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2900,7 +2900,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-%E2%80%94-round-29",
   "round": 29,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2909,7 +2909,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-%E2%80%94-round-29",
   "round": 29,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2918,7 +2918,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-%E2%80%94-round-29",
   "round": 29,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2927,7 +2927,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-%E2%80%94-round-30",
   "round": 30,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2936,7 +2936,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-%E2%80%94-round-30",
   "round": 30,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2945,7 +2945,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-%E2%80%94-round-30",
   "round": 30,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2954,7 +2954,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-%E2%80%94-round-31",
   "round": 31,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2963,7 +2963,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-%E2%80%94-round-31",
   "round": 31,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2972,7 +2972,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-%E2%80%94-round-31",
   "round": 31,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2981,7 +2981,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-%E2%80%94-round-32",
   "round": 32,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2990,7 +2990,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-%E2%80%94-round-32",
   "round": 32,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -2999,7 +2999,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-%E2%80%94-round-32",
   "round": 32,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3008,7 +3008,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-%E2%80%94-round-32-0",
   "round": 32,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3017,7 +3017,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-%E2%80%94-round-33",
   "round": 33,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3026,7 +3026,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-%E2%80%94-round-33",
   "round": 33,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3035,7 +3035,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-%E2%80%94-round-33",
   "round": 33,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3044,7 +3044,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-baseline-assessment-round-34",
   "round": 34,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3053,7 +3053,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-location-assessment-round-34",
   "round": 34,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3062,7 +3062,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-34",
   "round": 34,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3071,7 +3071,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-35",
   "round": 35,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3080,7 +3080,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-location-assessment-round-40-north-east",
   "round": 40,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  },
@@ -3089,7 +3089,7 @@
   "page": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-40-north-east",
   "round": 40,
   "region": "ne",
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "files": [],
   "restricted": false
  }
