@@ -656,6 +656,14 @@ def main():
     html = html.replace("/*__LEAFLET_JS__*/", (vend / "leaflet.js").read_text().replace("</script", "<\\/script"))
     html = html.replace("/*__LEAFLET_CSS__*/", (vend / "leaflet.css").read_text())
     html = html.replace("/*__GEO__*/null", (vend / "nigeria_states.geojson").read_text())
+    # IOM DTM Nigeria logo: put the official file in site/assets/ (png, svg, jpg or webp)
+    import base64
+    for ext, mime in (("svg", "image/svg+xml"), ("png", "image/png"), ("jpg", "image/jpeg"), ("webp", "image/webp")):
+        logo = SITE / "assets" / f"iom-dtm-nigeria-logo.{ext}"
+        if logo.exists():
+            uri = f"data:{mime};base64," + base64.b64encode(logo.read_bytes()).decode()
+            html = html.replace('src="assets/iom-dtm-nigeria-logo.png"', f'src="{uri}"')
+            break
     (DIST / "index.html").write_text(html)
     for f in ("sw.js", "manifest.webmanifest", "_headers"):
         if (SITE / f).exists():
