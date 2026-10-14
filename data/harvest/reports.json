@@ -91717,5 +91717,51 @@
   ],
   "pub_status": "second page of a counted report",
   "date_v": 2
+ },
+ {
+  "url": "https://dtm.iom.int/reports/nigeria-transhumance-tracking-tool-flow-monitoring-dashboard-23-katsina-and-zamfara-states",
+  "title": "Nigeria \u2014 Transhumance Tracking Tool \u2014 Flow Monitoring Dashboard 23 \u2014 Katsina and Zamfara States (August 2026)",
+  "published": "2026-10-13",
+  "date_basis": "Publications Tracker (publication date)",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/TTT__Transhumance_Flow_Monitoring%20Report%20No%2023_August%202026.pdf"
+  ],
+  "source": "dtm.iom.int",
+  "kind": "report",
+  "component": "transhumance",
+  "component_name": "Transhumance Flow Monitoring",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Katsina",
+   "Zamfara"
+  ],
+  "round": null,
+  "number": 23,
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-01",
+  "year": 2026,
+  "month": "2026-08",
+  "week": "2026-W31",
+  "figures": {
+   "herders": 22
+  },
+  "text_hash": "de52e31256133b0fe117636b2632ad1e",
+  "harvested": "2026-10-14T06:50:20Z",
+  "snippet": "  View all bookmarks IOM, through its Displacement Tracking Matrix (DTM), developed the Transhumance Tracking Tool (TTT) with four major components, including Transhumance Flow Monitoring. This tool collects data on transhumant migration flows, countries of origin and destinations, offering a comprehensive overview of livestock movements vital for sustainable coexistence and effective policy devel",
+  "in_tracker": true,
+  "pub_cat": "transhumance",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Katsina",
+   "Zamfara"
+  ],
+  "pub_status": "counted",
+  "duplicate_of": null
  }
 ]
