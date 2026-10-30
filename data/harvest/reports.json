@@ -72211,9 +72211,7 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "climate",
-  "pub_regions": [
-   "North Central & North West"
-  ],
+  "pub_regions": [],
   "pub_states": [],
   "component_was": "flood",
   "pub_status": "counted"
@@ -74116,7 +74114,7 @@
   "in_tracker": true,
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
-  "pub_cat": "fmp",
+  "pub_cat": "other",
   "pub_regions": [],
   "pub_states": [],
   "component_was": "transhumance",
