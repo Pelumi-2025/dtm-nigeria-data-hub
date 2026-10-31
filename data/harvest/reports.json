@@ -91201,59 +91201,6 @@
   "pub_status": "counted"
  },
  {
-  "url": "https://dtm.iom.int/reports/nigeria-multi-sectoral-location-assessment-energy-access",
-  "title": "NIGERIA \u2014 MULTI-SECTORAL LOCATION ASSESSMENT: ENERGY ACCESS",
-  "published": "2026-09-24",
-  "pdfs": [
-   "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20MSLA%20R7%20and%20R38%20-%20SUMMARY%20REPORT%20ON%20ENERGY%20ACCESS%20-%20Nigeria%2011_2021.pdf"
-  ],
-  "source": "dtm.iom.int",
-  "component": "mt_atlas",
-  "component_name": "Mobility Tracking \u2013 IDP & Returnee Atlas",
-  "regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe",
-   "Benue",
-   "Nasarawa",
-   "Plateau",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Sokoto",
-   "Zamfara"
-  ],
-  "round": null,
-  "number": null,
-  "period_start": null,
-  "period_end": null,
-  "year": 2026,
-  "month": "2026-09",
-  "week": "2026-W39",
-  "figures": {},
-  "text_hash": "a69fc39e35064489dc492b5f596b4ba1",
-  "harvested": "2026-09-30T14:41:08Z",
-  "snippet": "  View all bookmarks This report presents a summary of the analysis of the Round 7 data collection of the Displacement Tracking Matrix (DTM) Multi-Sectoral Location Assessment (MLSA) in the North Central and North West Geopolitical Zones of Nigeria and Round 38 of the DTM MSLA in the North East Geopolitical Zone. For the first time, these assessments specifically included energy-related questions.",
-  "duplicate_of": null,
-  "in_tracker": true,
-  "date_basis": "Publications Tracker (no date on the site (counted on the day it was read))",
-  "date_v": 2,
-  "pub_cat": "other",
-  "pub_regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "pub_states": [],
-  "pub_status": "counted"
- },
- {
   "url": "https://dtm.iom.int/reports/nigeria-transhumance-tracking-tool-report-early-warning-dashboard-27-katsina-and-zamfara",
   "title": "Nigeria \u2014 Transhumance Tracking Tool Report \u2014 Early Warning Dashboard 27 \u2014 Katsina and Zamfara States (August 2026)",
   "published": "2026-09-24",
@@ -91485,5 +91432,55 @@
   ],
   "pub_status": "counted",
   "duplicate_of": null
+ },
+ {
+  "url": "https://dtm.iom.int/reports/nigeria-multi-sectoral-location-assessment-energy-access",
+  "title": "NIGERIA \u2014 MULTI-SECTORAL LOCATION ASSESSMENT: ENERGY ACCESS",
+  "published": "2026-10-30",
+  "pdfs": [
+   "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20MSLA%20R7%20and%20R38%20-%20SUMMARY%20REPORT%20ON%20ENERGY%20ACCESS%20-%20Nigeria%2011_2021.pdf"
+  ],
+  "source": "dtm.iom.int",
+  "component": "mt_atlas",
+  "component_name": "Mobility Tracking \u2013 IDP & Returnee Atlas",
+  "regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe",
+   "Taraba",
+   "Yobe",
+   "Benue",
+   "Nasarawa",
+   "Plateau",
+   "Kaduna",
+   "Kano",
+   "Katsina",
+   "Sokoto",
+   "Zamfara"
+  ],
+  "round": null,
+  "number": null,
+  "period_start": null,
+  "period_end": null,
+  "year": 2026,
+  "month": "2026-10",
+  "week": "2026-W44",
+  "figures": {},
+  "text_hash": "a69fc39e35064489dc492b5f596b4ba1",
+  "harvested": "2026-09-30T14:41:08Z",
+  "snippet": "  View all bookmarks This report presents a summary of the analysis of the Round 7 data collection of the Displacement Tracking Matrix (DTM) Multi-Sectoral Location Assessment (MLSA) in the North Central and North West Geopolitical Zones of Nigeria and Round 38 of the DTM MSLA in the North East Geopolitical Zone. For the first time, these assessments specifically included energy-related questions.",
+  "duplicate_of": null,
+  "in_tracker": true,
+  "date_basis": "Publications Tracker (no date on the site (counted on the day it was read))",
+  "date_v": 2,
+  "pub_cat": "other",
+  "pub_regions": [],
+  "pub_states": [],
+  "pub_status": "counted"
  }
 ]
