@@ -33,130 +33,6 @@
   "date_v": 2
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-524-adamawa-state-19-25-january-2026",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 524 \u2014 Adamawa State (19\u201325 January 2026)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/70985603-f1b4-505e-b80c-d5fb0f829e2c/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "round": null,
-  "number": 524,
-  "period_start": "2026-01-19",
-  "period_end": "2026-01-25",
-  "year": 2026,
-  "month": "2026-01",
-  "week": "2026-W04",
-  "figures": {
-   "reasons_pct": {
-    "Climate-related disaster": 3.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Mubi North",
-   "Yola North",
-   "Shelleng",
-   "Madagali",
-   "Michika",
-   "Lamurde",
-   "Fufore",
-   "Vimtim",
-   "Maiha",
-   "Numan",
-   "Guyuk",
-   "Girei",
-   "Gombi",
-   "Hong",
-   "",
-   "Shani",
-   "Gwoza",
-   "Jere",
-   "Bama",
-   "Balanga"
-  ],
-  "text_hash": "0f74d99c47d591f1688d9b8a21f32af0",
-  "harvested": "2026-11-19T09:38:39Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 524 DATA COLLECTION: 19 \u201325 January 2026 DATE OF PUBLICATION: 02 FEBRUARY 2026\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to collect\n1,413 information on large and sudden population movements, provide",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-524-adamawa-state-19-25-january-2026"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-54-benue-state-19-25-january-2026",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 54 \u2014 Benue State (19\u201325 January 2026)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/2280d0c7-6412-5225-bf18-f107b671f753/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North Central & North West"
-  ],
-  "states": [
-   "Benue"
-  ],
-  "round": null,
-  "number": 54,
-  "period_start": "2026-01-19",
-  "period_end": "2026-01-25",
-  "year": 2026,
-  "month": "2026-01",
-  "week": "2026-W04",
-  "figures": {
-   "ett_farm_ind": 21
-  },
-  "lgas": [
-   "Tarka",
-   "Guma"
-  ],
-  "text_hash": "9615a677a12bd1767010bd8bb6f5638f",
-  "harvested": "2026-11-19T09:38:43Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE\nDASHBOARD: 54 DATA COLLECTION: 19 \u201325 January 2026 DATE OF PUBLICATION: 30 JANUARY 2026\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOG Y\nThe DTM EmergencyTracking Tool (ETT) is deployedto collect\n215 informationon largeandsuddenpopulationmovements,provide\nfrequentupda",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Benue"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-54-benue-state-19-25-january-2026"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-state-dashboard-523-19-25-january-2026",
   "title": "Nigeria: Displacement Tracking Matrix (DTM) Emergency Tracking Tool (ETT) - Summary of Movements in Borno State, Dashboard: 523 (19 - 25 January 2026)",
   "published": null,
@@ -981,59 +857,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-511-08-14-december-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report #511 (08 \u2013 14 December 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/791a6ae0-55a1-5168-82b6-d82582aef631/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": null,
-  "period_start": "2025-12-08",
-  "period_end": "2025-12-14",
-  "year": 2025,
-  "month": "2025-12",
-  "week": "2025-W50",
-  "figures": {
-   "arrivals_ind": 413,
-   "demog": {
-    "children_pct": 43.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Gujba",
-   "Fune"
-  ],
-  "text_hash": "6e76d62cf38e9a642787ea7241e9ec39",
-  "harvested": "2026-11-19T09:39:37Z",
-  "snippet": "Nigeria Between 08 and 14 December 2025, 484 new arrivals of internally displaced persons were recorded at seven locations in Yobe State. The new arrivals were recorded in the Fune (413 individuals), Gujba (43 individuals) and Damaturu (28 individuals) local government areas (LGAs). The ETT assessments identified attacks as the trigger of the movement for all the 484 individuals. The new arrivals ",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-511-08-14-december-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-state-dashboard-509-1-7-december-2025",
   "title": "Nigeria: Displacement Tracking Matrix (DTM) Emergency Tracking Tool (ETT) - Summary of Movements in Borno State, Dashboard: 509 (1 - 7 December 2025)",
   "published": null,
@@ -1300,164 +1123,6 @@
   ],
   "pub_status": "other source",
   "duplicate_of": null
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-505-adamawa-state-17-23-november-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 505 \u2014 Adamawa State (17 - 23 November 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/17d68c1a-475e-5ac4-ba8a-2bed279649c6/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Benue"
-  ],
-  "round": null,
-  "number": 505,
-  "period_start": "2025-11-17",
-  "period_end": "2025-11-23",
-  "year": 2025,
-  "month": "2025-11",
-  "week": "2025-W47",
-  "figures": {
-   "arrivals_ind": 842,
-   "ett_idp_ind": 411,
-   "ett_ret_ind": 414,
-   "ett_farm_ind": 17,
-   "reasons_pct": {
-    "Climate-related disaster": 12.0,
-    "Communal clashes": 3.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Mubi North",
-   "Yola North",
-   "Shelleng",
-   "Madagali",
-   "Michika",
-   "Lamurde",
-   "Fufore",
-   "Maiha",
-   "Numan",
-   "Demsa",
-   "Guyuk",
-   "Gombi",
-   "Song",
-   "Hong",
-   "",
-   "Toro",
-   "Konduga",
-   "Monguno",
-   "Chibok",
-   "Shani",
-   "Gwoza",
-   "Bama",
-   "Kwande"
-  ],
-  "text_hash": "55de1b5399424444f78e7f03b0510f58",
-  "harvested": "2026-11-19T09:40:04Z",
-  "snippet": "Nigeria Between 17 and 23 November 2025, 842 new arrivals were recorded in locations across Adamawa State. The new arrivals were recorded at locations in the Yola South (101 individuals), Michika (89 individuals), Hong (86 individuals), Fufore (80 individuals), Maiha (61 individuals), Demsa (57 individuals), Numan (57 individuals), Guyuk (55 individuals), Madagali (54 individuals), Mubi South (42 ",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Benue"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-505-adamawa-state-17-23-november-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-504-borno-state-17-23-november-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 504 \u2014 Borno State (17 - 23 November 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/821201e1-e8fa-5bdf-99a4-7a6757ccee36/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "round": null,
-  "number": 504,
-  "period_start": "2025-11-17",
-  "period_end": "2025-11-23",
-  "year": 2025,
-  "month": "2025-11",
-  "week": "2025-W47",
-  "figures": {
-   "ett_idp_ind": 137,
-   "ett_ret_ind": 158,
-   "demog": {
-    "children_pct": 60.0
-   }
-  },
-  "lgas": [
-   "Mubi North",
-   "Madagali",
-   "Hong",
-   "",
-   "Askira/Uba",
-   "Konduga",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Hawul",
-   "Gwoza",
-   "Bayo",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Gujba"
-  ],
-  "text_hash": "20e1a278d1f07da73ad266c4ccdb26b3",
-  "harvested": "2026-11-19T09:40:28Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 504 DATA COLLECTION: 17 \u201323 November 2025 DATE OF PUBLICATION:25 November 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to collect\ninformation on large and sudden population movements, provide\n295\nfre",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-504-borno-state-17-23-november-2025"
  },
  {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-state-dashboard-503-10-16-november-2025",
@@ -2179,77 +1844,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-493-borno-state-13-19-october-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 493 \u2014 Borno State (13 - 19 October 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/1a0bbc74-53e2-5575-9ef9-a546d4ca3858/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe"
-  ],
-  "round": null,
-  "number": 493,
-  "period_start": "2025-10-13",
-  "period_end": "2025-10-19",
-  "year": 2025,
-  "month": "2025-10",
-  "week": "2025-W42",
-  "figures": {
-   "demog": {
-    "children_pct": 68.0
-   }
-  },
-  "lgas": [
-   "Madagali",
-   "Michika",
-   "Gombi",
-   "",
-   "Askira/Uba",
-   "Maiduguri",
-   "Guzamala",
-   "Monguno",
-   "Shani",
-   "Gwoza",
-   "Kaga",
-   "Jere",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Akko"
-  ],
-  "text_hash": "ecc84ab86570c4449912e2de6406669f",
-  "harvested": "2026-11-19T09:41:25Z",
-  "snippet": "Nigeria Between 13 and 19 October 2025, 440 new IDP, returnee and farmers arrivals were recorded in locations across Borno State. The new arrivals were found in Askira/Uba, Bama, Biu, Gwoza, Kaga, Monguno and Shani local government areas (LGAs). The ETT assessments identified the following movement triggers: improved security in place of origin (227 individuals, 52%), poor living conditions (95 in",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-493-borno-state-13-19-october-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-adamawa-state-dashboard-490-6-12-october-2025",
   "title": "Nigeria: Displacement Tracking Matrix (DTM) Emergency Tracking Tool (ETT) - Summary of Movements in Adamawa State, Dashboard: 490 (6 - 12 October 2025)",
   "published": null,
@@ -2702,134 +2296,6 @@
   ],
   "pub_status": "other source",
   "duplicate_of": null
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-485-borno-state-22-28-september-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 485 \u2014 Borno State (22 - 28 September 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/995e1ae2-f40f-5296-8d61-a7677944d983/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "round": null,
-  "number": 485,
-  "period_start": "2025-09-22",
-  "period_end": "2025-09-28",
-  "year": 2025,
-  "month": "2025-09",
-  "week": "2025-W39",
-  "figures": {
-   "demog": {
-    "children_pct": 65.0
-   }
-  },
-  "lgas": [
-   "Madagali",
-   "Song",
-   "",
-   "Askira/Uba",
-   "Maiduguri",
-   "Guzamala",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Damboa",
-   "Gwoza",
-   "Kaga",
-   "Bayo",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Gujba"
-  ],
-  "text_hash": "cd0530c950bff78e1928ec97cdc2e903",
-  "harvested": "2026-11-19T09:42:54Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 485 DATA COLLECTION: 22 \u201328 September 2025 DATE OF PUBLICATION:30 September 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to collect\ninformation on large and sudden population movements, provide\n206\nf",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-485-borno-state-22-28-september-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-487-yobe-state-22-28-september-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 487 \u2014 Yobe State (22 - 28 September 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/85d9c010-b281-5f55-a156-57aa3ab123ef/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "states": [
-   "Yobe",
-   "Jigawa",
-   "Kano"
-  ],
-  "round": null,
-  "number": 487,
-  "period_start": "2025-09-22",
-  "period_end": "2025-09-28",
-  "year": 2025,
-  "month": "2025-09",
-  "week": "2025-W39",
-  "figures": {
-   "demog": {
-    "children_pct": 52.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Gujba",
-   "Bagwai"
-  ],
-  "text_hash": "5824ae4bd46b932032dcb1207e8e6e62",
-  "harvested": "2026-11-19T09:43:02Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 487 DATA COLLECTION: 22 \u201328 September 2025 DATE OF PUBLICATION: 2 October 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n274 collect information on large and sudden population movements,\npr",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Yobe",
-   "Jigawa",
-   "Kano"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-487-yobe-state-22-28-september-2025"
  },
  {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-state-dashboard-483-15-21-september-2025",
@@ -3302,58 +2768,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-475-yobe-state-18-24-august-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 475 \u2014 Yobe State (18 - 24 August 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/29389626-c9ee-569c-93c5-470acb0d73aa/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 475,
-  "period_start": "2025-08-18",
-  "period_end": "2025-08-24",
-  "year": 2025,
-  "month": "2025-08",
-  "week": "2025-W34",
-  "figures": {
-   "demog": {
-    "children_pct": 37.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Geidam",
-   "Gujba"
-  ],
-  "text_hash": "6fb9298a52adec7acb40bb1369b833a8",
-  "harvested": "2026-11-19T09:43:47Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 475 DATA COLLECTION: 18 \u201324 August 2025 DATE OF PUBLICATION: 29 August 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n87 collect information on large and sudden population movements,\nprovid",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-475-yobe-state-18-24-august-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-adamawa-state-dashboard-474-18-24-august-2025",
   "title": "Nigeria: Displacement Tracking Matrix (DTM) Emergency Tracking Tool (ETT) - Summary of Movements in Adamawa State, Dashboard: 474 (18 - 24 August 2025)",
   "published": null,
@@ -3436,538 +2850,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-467-borno-state-4-10-august-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 467 \u2014 Borno State (4 - 10 August 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/fcb0c275-1f4b-511b-bbc2-d5e3f5490160/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "round": null,
-  "number": 467,
-  "period_start": "2025-08-04",
-  "period_end": "2025-08-10",
-  "year": 2025,
-  "month": "2025-08",
-  "week": "2025-W32",
-  "figures": {
-   "demog": {
-    "children_pct": 61.0
-   },
-   "reasons_pct": {
-    "Climate-related disaster": 10.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Maiha",
-   "Girei",
-   "",
-   "Kwaya Kusar",
-   "Kwaya/Kusar",
-   "Askira/Uba",
-   "Maiduguri",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Damboa",
-   "Shani",
-   "Ngala",
-   "Gwoza",
-   "Dikwa",
-   "Marte",
-   "Kaga",
-   "Bama",
-   "Biu",
-   "Uba"
-  ],
-  "text_hash": "9e65d268747ae577298bb91e5a6c4066",
-  "harvested": "2026-11-19T09:43:54Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 467 DATA COLLECTION: 4 \u201310 August 2025 DATE OF PUBLICATION: 13 AUGUST 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n3",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-467-borno-state-4-10-august-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-466-adamawa-state-28-july-03-august-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 466 \u2014 Adamawa State (28 July - 03 August 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/c5493b6e-fe48-5fd8-899d-e33d5eedd32f/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "round": null,
-  "number": 466,
-  "period_start": "2025-07-28",
-  "period_end": "2025-08-03",
-  "year": 2025,
-  "month": "2025-08",
-  "week": "2025-W31",
-  "figures": {
-   "demog": {
-    "children_pct": 57.0
-   },
-   "reasons_pct": {
-    "Climate-related disaster": 19.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Mubi North",
-   "Mayo-Belwa",
-   "Yola North",
-   "Shelleng",
-   "Madagali",
-   "Michika",
-   "Lamurde",
-   "Fufore",
-   "Maiha",
-   "Numan",
-   "Demsa",
-   "Ganye",
-   "Guyuk",
-   "Song",
-   "Jada",
-   "Hong",
-   "",
-   "Monguno",
-   "Mobbar",
-   "Gwoza",
-   "Bama",
-   "Balanga"
-  ],
-  "text_hash": "397a00cf9a23f7d442f49b0d7bd15d64",
-  "harvested": "2026-11-19T09:43:58Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 466 DATA COLLECTION: 28 July \u201303 August 2025 DATE OF PUBLICATION: 07 AUGUST 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES SEX BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements,\n2,34",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-466-adamawa-state-28-july-03-august-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-470-borno-state-11-17-august-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 470 \u2014 Borno State (11 - 17 August 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/e1bacad7-bd88-55e8-9627-ba6a181b83f3/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Borno",
-   "Yobe"
-  ],
-  "round": null,
-  "number": 470,
-  "period_start": "2025-08-11",
-  "period_end": "2025-08-17",
-  "year": 2025,
-  "month": "2025-08",
-  "week": "2025-W33",
-  "figures": {
-   "demog": {
-    "children_pct": 60.0
-   }
-  },
-  "lgas": [
-   "Askira/Uba",
-   "Maiduguri",
-   "Konduga",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Hawul",
-   "Gwoza",
-   "Marte",
-   "Kaga",
-   "Bayo",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Bursari"
-  ],
-  "text_hash": "e5657c181732f0587c08093bc6e51e45",
-  "harvested": "2026-11-19T09:44:02Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 470 DATA COLLECTION: 11\u201317August 2025 DATE OF PUBLICATION: 19 AUGUST 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n15",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Borno",
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-470-borno-state-11-17-august-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-465-borno-state-28-july-3-august-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 465 \u2014 Borno State (28 July - 3 August 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/6c74c7bf-4f84-53d8-83a2-34c315ea01c1/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "round": null,
-  "number": 465,
-  "period_start": "2025-07-28",
-  "period_end": "2025-08-03",
-  "year": 2025,
-  "month": "2025-08",
-  "week": "2025-W31",
-  "figures": {
-   "demog": {
-    "children_pct": 60.0
-   },
-   "reasons_pct": {
-    "Climate-related disaster": 16.0
-   }
-  },
-  "lgas": [
-   "Mubi North",
-   "Yola North",
-   "Gombi",
-   "",
-   "Askira/Uba",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Damboa",
-   "Gubio",
-   "Hawul",
-   "Gwoza",
-   "Dikwa",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Akko"
-  ],
-  "text_hash": "398ca0ea05b44395223b1fee3c4bfe1f",
-  "harvested": "2026-11-19T09:44:07Z",
-  "snippet": "Nigeria Between 28 July and 3 August 2025, 451 new IDP and returnee arrivals were recorded in locations across Borno State. The new arrivals were found in Askira/Uba, Bama, Biu, Chibok, Damboa, Dikwa, Gubio, Gwoza, Hawul and Monguno local government areas (LGAs). The ETT assessments identified the following movement triggers: fear of attack (217 individuals or 48%), poor living conditions (103 ind",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-465-borno-state-28-july-3-august-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-51-benue-state-21-27-july-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 51 \u2014 Benue State (21 - 27 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/5ca5a39f-2d58-5bb4-9937-bc7ae42c3de4/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Report%20No%2051_v3.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North Central & North West"
-  ],
-  "states": [
-   "Benue"
-  ],
-  "round": null,
-  "number": 51,
-  "period_start": "2025-07-21",
-  "period_end": "2025-07-27",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W30",
-  "figures": {
-   "arrivals_ind": 175,
-   "demog": {
-    "children_pct": 30.0
-   }
-  },
-  "lgas": [
-   "Vandeikya",
-   "Guma",
-   "Ukum"
-  ],
-  "text_hash": "5f2cf51625bbb9fd151a25d8a144772a",
-  "harvested": "2026-11-19T09:44:10Z",
-  "snippet": "Nigeria Between 21 and 27 July 2025, 175 new arrivals were recorded in locations across Benue State. The new arrivals were recorded in the Guma, Ukum and Vandeikya local government areas (LGAs) of Benue State. The ETT assessments identified communal clashes as the main trigger for these movements in the state. The new arrivals were recorded across various locations in Guma, Ukum and Vandeikya LGAs",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Benue"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-51-benue-state-21-27-july-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-462-yobe-state-21-27-july-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 462 \u2014 Yobe State (21 - 27 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/ee77cb2e-b819-5d4e-b1a6-bf417ddecc21/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 462,
-  "period_start": "2025-07-21",
-  "period_end": "2025-07-27",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W30",
-  "figures": {
-   "demog": {
-    "children_pct": 32.0
-   },
-   "reasons_pct": {
-    "Armed banditry / kidnapping": 9.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Tarmuwa",
-   "Fune"
-  ],
-  "text_hash": "1cba6811f77e3a6454c2f907c7f6e353",
-  "harvested": "2026-11-19T09:44:14Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 462 DATA COLLECTION: 21 \u2013 27 July 2025 DATE OF PUBLICATION: 30 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n154 collect information on large and sudden population movements,\nprovide ",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-462-yobe-state-21-27-july-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-461-borno-state-21-27-july-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 461 \u2014 Borno State (21 - 27 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/919beb69-b5ff-541b-a911-46636aabc3c6/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "round": null,
-  "number": 461,
-  "period_start": "2025-07-21",
-  "period_end": "2025-07-27",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W30",
-  "figures": {
-   "demog": {
-    "children_pct": 66.0
-   }
-  },
-  "lgas": [
-   "Hong",
-   "",
-   "Kwaya/Kusar",
-   "Kala Balge",
-   "Askira/Uba",
-   "Maiduguri",
-   "Konduga",
-   "Monguno",
-   "Chibok",
-   "Damboa",
-   "Shani",
-   "Gwoza",
-   "Dikwa",
-   "Marte",
-   "Kaga",
-   "Jere",
-   "Bayo",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Kwami"
-  ],
-  "text_hash": "082d25715d2fd1dc47d55564dab0d5bf",
-  "harvested": "2026-11-19T09:44:18Z",
-  "snippet": "Nigeria Between 21 and 27 July 2025, 1,875 new IDP, returnee and farmer arrivals were recorded in locations across Borno State. The new arrivals were found in Askira/Uba, Bama, Bayo, Biu, Damboa, Dikwa, Gwoza, Kaga, Kala Balge, Kwaya/Kusar, Monguno and Shani local government areas (LGAs). The ETT assessments identified the following movement triggers: attack (1,590 individuals or 85%), fear of att",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-461-borno-state-21-27-july-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-459-yobe-state-14-20-july-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 459 - Yobe State (14 - 20 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/5c23a8c3-d15a-5969-ab6d-1d6c9cf11359/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 459,
-  "period_start": "2025-07-14",
-  "period_end": "2025-07-20",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W29",
-  "figures": {
-   "demog": {
-    "children_pct": 43.0
-   },
-   "reasons_pct": {
-    "Armed banditry / kidnapping": 15.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Tarmuwa",
-   "Gujba"
-  ],
-  "text_hash": "14b3b727c1ed2aa3e5f078a1c11aab64",
-  "harvested": "2026-11-19T09:44:21Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 459 DATA COLLECTION: 14 \u2013 20 July 2025 DATE OF PUBLICATION: 23 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n1,343 collect information on large and sudden population movements,\nprovid",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-459-yobe-state-14-20-july-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-458-borno-state-14-july-20-july-2025",
   "title": "Nigeria \u2014 Emergency Tracking Tool Report 458 \u2014 Borno State (14 July - 20 July 2025)",
   "published": null,
@@ -4038,79 +2920,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-456-borno-state-07-july-13-july-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 456 \u2014 Borno State (07 July - 13 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/59bf6389-46fd-5f82-8b39-16d1c41cae22/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "round": null,
-  "number": 456,
-  "period_start": "2025-07-07",
-  "period_end": "2025-07-13",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W28",
-  "figures": {
-   "demog": {
-    "children_pct": 62.0
-   }
-  },
-  "lgas": [
-   "Madagali",
-   "Michika",
-   "Hong",
-   "",
-   "Kwaya Kusar",
-   "Askira/Uba",
-   "Nganzai",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Damboa",
-   "Gubio",
-   "Hawul",
-   "Gwoza",
-   "Bayo",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Damaturu",
-   "Gujba"
-  ],
-  "text_hash": "3fbf3635a9c2091cda1e73654ea069da",
-  "harvested": "2026-11-19T09:44:28Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 456 DATA COLLECTION: 7 \u201313 July 2025 DATE OF PUBLICATION: 17 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide\n399\nfrequentupda",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-456-borno-state-07-july-13-july-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-451-yobe-state-30-june-6-july-2025",
   "title": "Nigeria \u2014 Emergency Tracking Tool Report 451 \u2014 Yobe State (30 June - 6 July 2025)",
   "published": null,
@@ -4160,129 +2969,6 @@
   ],
   "pub_status": "other source",
   "duplicate_of": null
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-453-yobe-state-30-june-6-july-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 453 \u2014 Yobe State (30 June - 6 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/06814b66-5f58-56e1-8fa6-4cd78b113760/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 453,
-  "period_start": "2025-06-30",
-  "period_end": "2025-07-06",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W27",
-  "figures": {
-   "demog": {
-    "children_pct": 46.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Gujba"
-  ],
-  "text_hash": "a3393d9ebd398be232272f0775d1f898",
-  "harvested": "2026-11-19T09:44:36Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 453 DATA COLLECTION: 30 June \u201306 July 2025 DATE OF PUBLICATION: 11 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide\n121\nfrequen",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-453-yobe-state-30-june-6-july-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-452-borno-state-30-june-6-july-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 452 \u2014 Borno State (30 June - 6 July 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/de873ebc-5c5c-575a-80be-573dd4512c2b/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "round": null,
-  "number": 452,
-  "period_start": "2025-06-30",
-  "period_end": "2025-07-06",
-  "year": 2025,
-  "month": "2025-07",
-  "week": "2025-W27",
-  "figures": {
-   "demog": {
-    "children_pct": 64.0
-   }
-  },
-  "lgas": [
-   "Mubi North",
-   "Madagali",
-   "Hong",
-   "",
-   "Askira/Uba",
-   "Maiduguri",
-   "Magumeri",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Gubio",
-   "Hawul",
-   "Gwoza",
-   "Dikwa",
-   "Jere",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Gujba"
-  ],
-  "text_hash": "86498bd03d85ea2cd892ac7c1c0d130b",
-  "harvested": "2026-11-19T09:44:43Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 452 DATA COLLECTION: 30 June \u20136 July 2025 DATE OF PUBLICATION: 11 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-452-borno-state-30-june-6-july-2025"
  },
  {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-state-dashboard-449-23-29-june-2025",
@@ -4355,144 +3041,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-442-adamawa-state-02-08-june-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 442 \u2014 Adamawa State (02 - 08 June 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/5e8e6563-8c61-5660-a7c7-e92bb0e6a683/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Taraba"
-  ],
-  "round": null,
-  "number": 442,
-  "period_start": "2025-06-02",
-  "period_end": "2025-06-08",
-  "year": 2025,
-  "month": "2025-06",
-  "week": "2025-W23",
-  "figures": {
-   "demog": {
-    "female_pct": 57.0,
-    "male_pct": 43.0
-   },
-   "reasons_pct": {
-    "Armed banditry / kidnapping": 3.0,
-    "Communal clashes": 3.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Mubi North",
-   "Yola North",
-   "Mayo Bani",
-   "Shelleng",
-   "Madagali",
-   "Michika",
-   "Lamurde",
-   "Fufore",
-   "Maiha",
-   "Numan",
-   "Guyuk",
-   "Girei",
-   "Gombi",
-   "Song",
-   "Hong",
-   "",
-   "Alkaleri",
-   "Askira/Uba",
-   "Monguno",
-   "Chibok",
-   "Mobbar",
-   "Gwoza",
-   "Bama"
-  ],
-  "text_hash": "9602d50924edd28150f8526be060e7a9",
-  "harvested": "2026-11-19T09:44:52Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 442 DATA COLLECTION: 26 May \u201301 June 2025 DATE OF PUBLICATION: 03 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provid",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Taraba"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-442-adamawa-state-02-08-june-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-44-benue-state-26-may-1-june-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 44 \u2014 Benue State (26 May - 1 June 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/2ac79b6a-6ac4-5bd8-85a6-d1e530fb8e4e/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2044.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North Central & North West"
-  ],
-  "states": [
-   "Benue",
-   "Katsina"
-  ],
-  "round": null,
-  "number": 44,
-  "period_start": "2025-05-26",
-  "period_end": "2025-06-01",
-  "year": 2025,
-  "month": "2025-06",
-  "week": "2025-W22",
-  "figures": {},
-  "lgas": [
-   "Katsina-Ala",
-   "Gwer East",
-   "Gwer West",
-   "Makurdi",
-   "Guma",
-   "Logo"
-  ],
-  "text_hash": "0f1118ff6fa7f7021149cdae8c516046",
-  "harvested": "2026-11-19T09:44:56Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE\nDASHBOARD: 44 DATA COLLECTION: 26 MAY -1 JUNE,2025 DATE OF PUBLICATION: 5 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide frequent\n1,504",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Benue",
-   "Katsina"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-44-benue-state-26-may-1-june-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-45-benue-state-19-25-may-2025",
   "title": "Nigeria \u2014 Emergency Tracking Tool Report 45 \u2014 Benue State (19 - 25 May 2025)",
   "published": null,
@@ -4542,621 +3090,6 @@
   ],
   "pub_status": "other source",
   "duplicate_of": null
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-443-borno-state-02-june-8-june-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 443 \u2014 Borno State (02 June - 8 June 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/09e5d178-d43c-5a57-b932-4a3d37d47edf/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "round": null,
-  "number": 443,
-  "period_start": "2025-06-02",
-  "period_end": "2025-06-08",
-  "year": 2025,
-  "month": "2025-06",
-  "week": "2025-W23",
-  "figures": {
-   "arrivals_ind": 290,
-   "demog": {
-    "children_pct": 59.0
-   }
-  },
-  "lgas": [
-   "Girei",
-   "Hong",
-   "",
-   "Askira/Uba",
-   "Chibok",
-   "Hawul",
-   "Gwoza",
-   "Jere",
-   "Bama",
-   "Biu",
-   "Uba"
-  ],
-  "text_hash": "e585fb4c3c61640315d87c24678ee70f",
-  "harvested": "2026-11-19T09:45:05Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 443 DATA COLLECTION: 2 \u20138 June 2025 DATE OF PUBLICATION: 10 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n290\nfr",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-443-borno-state-02-june-8-june-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-444-adamawa-state-02-08-june-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 444 \u2014 Adamawa State (02 - 08 June 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/6ce48e82-de66-57d6-859e-07ed60d73210/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe",
-   "Taraba"
-  ],
-  "round": null,
-  "number": 444,
-  "period_start": "2025-06-02",
-  "period_end": "2025-06-08",
-  "year": 2025,
-  "month": "2025-06",
-  "week": "2025-W23",
-  "figures": {
-   "arrivals_ind": 1037,
-   "demog": {
-    "female_pct": 55.0,
-    "children_pct": 1.0,
-    "male_pct": 45.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Mubi North",
-   "Shelleng",
-   "Madagali",
-   "Michika",
-   "Lamurde",
-   "Fufore",
-   "Vimtim",
-   "Toungo",
-   "Maiha",
-   "Numan",
-   "Guyuk",
-   "Gombi",
-   "Song",
-   "Hong",
-   "",
-   "Askira/Uba",
-   "Konduga",
-   "Monguno",
-   "Chibok",
-   "Mobbar",
-   "Shani",
-   "Gwoza",
-   "Bama"
-  ],
-  "text_hash": "d44f0e24dd91d9b432c4ee015aa7c6a0",
-  "harvested": "2026-11-19T09:45:11Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 444 DATA COLLECTION: 02 \u201308 June,2025 DATE OF PUBLICATION: 11 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements,\n1,037\nprov",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe",
-   "Taraba"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-444-adamawa-state-02-08-june-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-440-yobe-state-26-may-1-june-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 440 \u2014 Yobe State (26 May - 1 June 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/acc8ed33-eada-5a8d-89e4-9788e6023ec5/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 440,
-  "period_start": "2025-05-26",
-  "period_end": "2025-06-01",
-  "year": 2025,
-  "month": "2025-06",
-  "week": "2025-W22",
-  "figures": {
-   "arrivals_ind": 45
-  },
-  "lgas": [
-   "Potiskum",
-   "Damaturu"
-  ],
-  "text_hash": "e17266dd782b33b4bc7459ab8387d475",
-  "harvested": "2026-11-19T09:45:15Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 26 MAY \u2013 1 JUNE 2025\nDASHBOARD: 440 DATA COLLECTION: WEEK 22, 2025 DATE OF PUBLICATION: 3 JUNE 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provid",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-440-yobe-state-26-may-1-june-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-441-borno-state-26-may-1-june-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 441 \u2014 Borno State (26 May - 1 June 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/155da7a6-55e2-5b73-9c47-8e312a699558/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "round": null,
-  "number": 441,
-  "period_start": "2025-05-26",
-  "period_end": "2025-06-01",
-  "year": 2025,
-  "month": "2025-06",
-  "week": "2025-W22",
-  "figures": {
-   "demog": {
-    "children_pct": 1.0
-   }
-  },
-  "lgas": [
-   "Yola North",
-   "Girei",
-   "Hong",
-   "",
-   "Kala Balge",
-   "Askira/Uba",
-   "Kala/Balge",
-   "Maiduguri",
-   "Magumeri",
-   "Nganzai",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Damboa",
-   "Mobbar",
-   "Ngala",
-   "Gubio",
-   "Gwoza",
-   "Marte",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Kwami"
-  ],
-  "text_hash": "971299dbb00200926d41b3f479552d0f",
-  "harvested": "2026-11-19T09:45:19Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE, 26 MAY \u2013 1 JUNE 2025\nDASHBOARD: 441 DATA COLLECTION: WEEK 22, 2025 DATE OF PUBLICATION: 3 JUNE 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movem",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-441-borno-state-26-may-1-june-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-439-adamawa-state-19-25-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 439 \u2014 Adamawa State (19 - 25 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/cda95ac8-1cdb-5437-b49d-750d533dba04/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "round": null,
-  "number": 439,
-  "period_start": "2025-05-19",
-  "period_end": "2025-05-25",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W21",
-  "figures": {
-   "arrivals_ind": 421,
-   "demog": {
-    "female_pct": 57.0,
-    "children_pct": 72.0,
-    "male_pct": 43.0
-   },
-   "reasons_pct": {
-    "Communal clashes": 12.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Yola North",
-   "Shelleng",
-   "Madagali",
-   "Michika",
-   "Fufore",
-   "Toungo",
-   "Maiha",
-   "Numan",
-   "Ganye",
-   "Girei",
-   "Hong",
-   "",
-   "Monguno",
-   "Chibok",
-   "Mobbar",
-   "Gwoza",
-   "Marte",
-   "Bama"
-  ],
-  "text_hash": "2023e48b3a5f597ddaac3243da5914d0",
-  "harvested": "2026-11-19T09:45:23Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 439 DATA COLLECTION: WEEK 21, 2025 DATE OF PUBLICATION: 28 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and collect\ninformation on large and sudden population movemen",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-439-adamawa-state-19-25-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-43-benue-state-19-25-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 43 \u2014 Benue State (19 - 25 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/674ecd81-40f2-59d1-8130-5e675da5dbd0/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2043_final.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North Central & North West"
-  ],
-  "states": [
-   "Benue"
-  ],
-  "round": null,
-  "number": 43,
-  "period_start": "2025-05-19",
-  "period_end": "2025-05-25",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W21",
-  "figures": {
-   "arrivals_ind": 116
-  },
-  "lgas": [
-   "Guma"
-  ],
-  "text_hash": "d927757b9d06ada15f29d28c308cf8e9",
-  "harvested": "2026-11-19T09:45:27Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 43 DATA COLLECTION: Week 20, 2025 DATE OF PUBLICATION: 29May 2025\nOVERVIEW OF DISPLACEMENTS M ETH O D O LO G Y\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, prov",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Benue"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-43-benue-state-19-25-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-437-borno-state-19-25-may-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 437 - Borno State (19 - 25 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/0e530f8d-3b4e-535d-bf9f-63bd45a651ea/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "round": null,
-  "number": 437,
-  "period_start": "2025-05-19",
-  "period_end": "2025-05-25",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W21",
-  "figures": {
-   "arrivals_ind": 300
-  },
-  "lgas": [
-   "Gombi",
-   "Hong",
-   "",
-   "Kwaya/Kusar",
-   "Askira/Uba",
-   "Maiduguri",
-   "Guzamala",
-   "Monguno",
-   "Kukawa",
-   "Damboa",
-   "Abadam",
-   "Mobbar",
-   "Shani",
-   "Ngala",
-   "Gwoza",
-   "Dikwa",
-   "Marte",
-   "Jere",
-   "Bama",
-   "Uba"
-  ],
-  "text_hash": "98c790d555e8a6af7c16a132a63b93d8",
-  "harvested": "2026-11-19T09:45:31Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 437 DATA COLLECTION: WEEK 21, 2025 DATE OF PUBLICATION: 27 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-437-borno-state-19-25-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-438-yobe-state-19-25-may-2025",
-  "title": "Nigeria: Emergency Tracking Tool Report 438 \u2014 Yobe State (19 - 25 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/3f1aff04-4688-5271-a9d7-e8116d2368c3/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 438,
-  "period_start": "2025-05-19",
-  "period_end": "2025-05-25",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W21",
-  "figures": {
-   "arrivals_ind": 506
-  },
-  "lgas": [
-   "Yunusari",
-   "Damaturu",
-   "Geidam",
-   "Gujba"
-  ],
-  "text_hash": "57412f06baa336edab8bafe3e20693f3",
-  "harvested": "2026-11-19T09:45:35Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 438 DATA COLLECTION: WEEK 21, 2025 DATE OF PUBLICATION: 27 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollectinformationonlargeandsuddenpopulationmovements,provide",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-438-yobe-state-19-25-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-435-yobe-state-12-18-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 435 \u2014 Yobe State (12 - 18 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/6ff2f822-f4a8-5886-9573-fb0c090a7336/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 435,
-  "period_start": "2025-05-12",
-  "period_end": "2025-05-18",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W20",
-  "figures": {
-   "arrivals_ind": 276
-  },
-  "lgas": [
-   "Damaturu",
-   "Gujba"
-  ],
-  "text_hash": "1b86a70b4c4e14df275d08b97b51ce46",
-  "harvested": "2026-11-19T09:45:38Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 12 \u2013 18 MAY 2025\nDASHBOARD: 435 DATA COLLECTION: WEEK 20, 2025 DATE OF PUBLICATION: 21 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide\n27",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-435-yobe-state-12-18-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-42-benue-state-12-18-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 42 \u2014 Benue State (12 - 18 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/ef397dac-b5cc-53e2-92a4-c1312b9b3f7e/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2042_final.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North Central & North West"
-  ],
-  "states": [
-   "Benue"
-  ],
-  "round": null,
-  "number": 42,
-  "period_start": "2025-05-12",
-  "period_end": "2025-05-18",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W20",
-  "figures": {
-   "arrivals_ind": 1263
-  },
-  "lgas": [
-   "Gwer West",
-   "Kwande",
-   "Guma"
-  ],
-  "text_hash": "0860102ecf217cd3af94440a7e65e8d2",
-  "harvested": "2026-11-19T09:45:42Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE, 12 \u2013 18 MAY 2025\nDASHBOARD: 42 DATA COLLECTION: Week 20, 2025 DATE OF PUBLICATION: 22 May 2025\nOVERVIEW OF DISPLACEMENTS M ETH O D O LO G Y\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, pro",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Benue"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-42-benue-state-12-18-may-2025"
  },
  {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-and-adamawa-states-dashboard-434-12-18-may-2025",
@@ -5234,263 +3167,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-433-yobe-state-5-11-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 433 \u2014 Yobe State (5 - 11 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/f211b9a4-5e26-5524-9e0d-88513bcec7ed/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Yobe"
-  ],
-  "round": null,
-  "number": 433,
-  "period_start": "2025-05-05",
-  "period_end": "2025-05-11",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W19",
-  "figures": {
-   "arrivals_ind": 224,
-   "demog": {
-    "children_pct": 100.0
-   }
-  },
-  "lgas": [
-   "Damaturu",
-   "Gujba"
-  ],
-  "text_hash": "a918cc10487d871578dc5d698a0475ba",
-  "harvested": "2026-11-19T09:45:52Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 433 DATA COLLECTION: WEEK 19, 2025 DATE OF PUBLICATION: 14 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, ",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Yobe"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-433-yobe-state-5-11-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-41-benue-state-5-11-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 41 Benue State (5 - 11 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/3de47842-55f4-522a-90cb-dde88b4b6687/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2041_final.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North Central & North West"
-  ],
-  "states": [
-   "Benue"
-  ],
-  "round": null,
-  "number": 41,
-  "period_start": "2025-05-05",
-  "period_end": "2025-05-11",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W19",
-  "figures": {
-   "bio_lgas": [
-    {
-     "lga": "GENDER BREAKDOWN",
-     "ind": 618,
-     "hh": 135
-    }
-   ]
-  },
-  "lgas": [
-   "Guma"
-  ],
-  "text_hash": "cca8bceb16ba48a75ccad397bf6e558d",
-  "harvested": "2026-11-19T09:45:56Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 41 DATA COLLECTION: Week 19, 2025 DATE OF PUBLICATION: 14May 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\n618\nindividuals\n135\nhouseholds\n4 LIMITATIONS\nLGAs\n5 56%\n44%\nLocations female male\nDISPLACEMENT EVOLUTION\nDATE OF MOVEMENTS ALE",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Benue"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-41-benue-state-5-11-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-431-borno-state-5-11-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 431 \u2014 Borno State (5 - 11 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/90c299ab-eada-55e7-8ffa-5529de00a1d2/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno",
-   "Gombe",
-   "Katsina"
-  ],
-  "round": null,
-  "number": 431,
-  "period_start": "2025-05-05",
-  "period_end": "2025-05-11",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W19",
-  "figures": {
-   "arrivals_ind": 384,
-   "demog": {
-    "children_pct": 64.0
-   }
-  },
-  "lgas": [
-   "Mubi North",
-   "Yola North",
-   "Michika",
-   "Hong",
-   "",
-   "Kwaya Kusar",
-   "Kwaya/Kusar",
-   "Askira/Uba",
-   "Maiduguri",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Damboa",
-   "Mobbar",
-   "Gubio",
-   "Hawul",
-   "Gwoza",
-   "Dikwa",
-   "Jere",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Kwami",
-   "Jibia"
-  ],
-  "text_hash": "162ddc1592dc0f94b642c97680003f92",
-  "harvested": "2026-11-19T09:46:02Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 431 DATA COLLECTION: WEEK 19, 2025 DATE OF PUBLICATION: 14 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements,",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East",
-   "North Central & North West"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno",
-   "Gombe",
-   "Katsina"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-431-borno-state-5-11-may-2025"
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-432-adamawa-state-5-11-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 432 \u2014 Adamawa State (5 - 11 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/35e4ebad-c60e-5a54-8594-c932dd174988/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "round": null,
-  "number": 432,
-  "period_start": "2025-05-05",
-  "period_end": "2025-05-11",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W19",
-  "figures": {
-   "arrivals_ind": 262,
-   "reasons_pct": {
-    "Communal clashes": 10.0
-   }
-  },
-  "lgas": [
-   "Mubi South",
-   "Yola South",
-   "Yola North",
-   "Madagali",
-   "Michika",
-   "Fufore",
-   "Maiha",
-   "Numan",
-   "Guyuk",
-   "Hong",
-   "",
-   "Maiduguri",
-   "Monguno",
-   "Chibok",
-   "Mobbar",
-   "Gwoza",
-   "Bama"
-  ],
-  "text_hash": "c275df52090b61f7b8b5848fa29fbcee",
-  "harvested": "2026-11-19T09:46:06Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 432 DATA COLLECTION: WEEK 19, 2025 DATE OF PUBLICATION: 13 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movement",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Borno"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-432-adamawa-state-5-11-may-2025"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/dtm-nigeria-emergency-tracking-tool-summary-movements-benue-state-28-april-4-may-2025",
   "title": "DTM Nigeria: Emergency Tracking Tool - Summary of Movements in Benue State, 28 April - 4 May 2025",
   "published": null,
@@ -5543,92 +3219,6 @@
   ],
   "pub_status": "other source",
   "duplicate_of": null
- },
- {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-430-28-april-4-may-2025",
-  "title": "Nigeria \u2014 Emergency Tracking Tool Report 430 (28 April - 4 May 2025)",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/a87b0f71-24fc-5e4f-912c-14588e5dc5e8/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "ett",
-  "component_name": "Emergency Tracking Tool (ETT)",
-  "regions": [
-   "North East"
-  ],
-  "states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba"
-  ],
-  "round": null,
-  "number": 430,
-  "period_start": "2025-04-28",
-  "period_end": "2025-05-04",
-  "year": 2025,
-  "month": "2025-05",
-  "week": "2025-W18",
-  "figures": {
-   "demog": {
-    "children_pct": 4.0
-   },
-   "reasons_pct": {
-    "Farmer\u2013herder clashes": 4.0,
-    "Armed banditry / kidnapping": 3.0
-   }
-  },
-  "lgas": [
-   "Yola South",
-   "Madagali",
-   "Michika",
-   "Lamurde",
-   "Fufore",
-   "Maiha",
-   "Numan",
-   "Girei",
-   "Hong",
-   "",
-   "Ningi",
-   "Askira/Uba",
-   "Monguno",
-   "Kukawa",
-   "Chibok",
-   "Mobbar",
-   "Ngala",
-   "Gubio",
-   "Gwoza",
-   "Dikwa",
-   "Mafa",
-   "Bama",
-   "Biu",
-   "Uba",
-   "Kwami"
-  ],
-  "text_hash": "1f77c1b4e0b9c1078cdf1b901a965df1",
-  "harvested": "2026-11-19T09:46:16Z",
-  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA AND BORNO STATES, 28 APRIL \u2013 4 MAY 2025\nDASHBOARD: 430 DATA COLLECTION: WEEK 18, 2025 DATE OF PUBLICATION: 8 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden pop",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "ett",
-  "pub_regions": [
-   "North East"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-430-28-april-4-may-2025"
  },
  {
   "url": "https://reliefweb.int/report/nigeria/nigeria-displacement-tracking-matrix-dtm-emergency-tracking-tool-ett-summary-movements-borno-and-adamawa-states-dashboard-429-21-27-april-2025",
@@ -37114,113 +34704,6 @@
   "duplicate_of": null
  },
  {
-  "url": "https://reliefweb.int/report/nigeria/nigeria-ioms-dtm-celebrates-10-years-excellence-nigeria",
-  "title": "Nigeria \u2014 IOM's DTM Celebrates 10 years of Excellence in Nigeria",
-  "published": null,
-  "date_basis": "not stated",
-  "date_v": 2,
-  "period_covered": null,
-  "pdfs": [
-   "https://reliefweb.int/attachments/a3ea8f4a-5b87-4c03-ac64-aff693a6f975/IOM%20DTM%20Nigeria%20%40%2010.pdf"
-  ],
-  "source": "reliefweb.int",
-  "kind": "report",
-  "component": "mt_needs",
-  "component_name": "Mobility Tracking \u2013 Needs Monitoring",
-  "regions": [
-   "North East",
-   "North Central & North West",
-   "Other"
-  ],
-  "states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe",
-   "Benue",
-   "FCT",
-   "Kogi",
-   "Kwara",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Jigawa",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Kebbi",
-   "Sokoto",
-   "Zamfara",
-   "Akwa Ibom",
-   "Bayelsa",
-   "Cross River",
-   "Delta",
-   "Edo",
-   "Rivers",
-   "Ekiti",
-   "Lagos",
-   "Ogun",
-   "Ondo",
-   "Osun",
-   "Oyo"
-  ],
-  "round": null,
-  "number": null,
-  "figures": {},
-  "lgas": [
-   ""
-  ],
-  "text_hash": "662532e0869a6c7b49f3b7c88ae38dd0",
-  "harvested": "2026-11-19T10:41:05Z",
-  "snippet": "Nigeria The IOM\u2019s Displacement Tracking Matrix (DTM) was conceptualized in 2004 in Iraq with essential data on displacement to inform humanitarian interventions. Since then, it has been adapted for more than 80 countries, including conflict, climatic shocks, complex emergencies, and prolonged crises. The DTM methodological framework centres on four major components: mobility tracking, flow monitor",
-  "in_tracker": false,
-  "tracker_dup": false,
-  "pub_cat": "other",
-  "pub_regions": [
-   "North East",
-   "North Central & North West",
-   "Southern states"
-  ],
-  "pub_states": [
-   "Adamawa",
-   "Bauchi",
-   "Borno",
-   "Gombe",
-   "Taraba",
-   "Yobe",
-   "Benue",
-   "FCT",
-   "Kogi",
-   "Kwara",
-   "Nasarawa",
-   "Niger",
-   "Plateau",
-   "Jigawa",
-   "Kaduna",
-   "Kano",
-   "Katsina",
-   "Kebbi",
-   "Sokoto",
-   "Zamfara",
-   "Akwa Ibom",
-   "Bayelsa",
-   "Cross River",
-   "Delta",
-   "Edo",
-   "Rivers",
-   "Ekiti",
-   "Lagos",
-   "Ogun",
-   "Ondo",
-   "Osun",
-   "Oyo"
-  ],
-  "pub_status": "other source",
-  "duplicate_of": "https://dtm.iom.int/reports/nigeria-ioms-dtm-celebrates-10-years-excellence-nigeria"
- },
- {
   "url": "https://reliefweb.int/report/nigeria/flash-report-population-displacement-yobe-north-east-nigeria-11-march-2023",
   "title": "Flash Report: Population Displacement Yobe - North-east Nigeria (11 March 2023)",
   "published": null,
@@ -43009,6 +40492,2523 @@
   ],
   "pub_status": "dataset",
   "duplicate_of": null
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-524-adamawa-state-19-25-january-2026",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 524 \u2014 Adamawa State (19\u201325 January 2026)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/70985603-f1b4-505e-b80c-d5fb0f829e2c/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "round": null,
+  "number": 524,
+  "period_start": "2026-01-19",
+  "period_end": "2026-01-25",
+  "year": 2026,
+  "month": "2026-01",
+  "week": "2026-W04",
+  "figures": {
+   "reasons_pct": {
+    "Climate-related disaster": 3.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Mubi North",
+   "Yola North",
+   "Shelleng",
+   "Madagali",
+   "Michika",
+   "Lamurde",
+   "Fufore",
+   "Vimtim",
+   "Maiha",
+   "Numan",
+   "Guyuk",
+   "Girei",
+   "Gombi",
+   "Hong",
+   "",
+   "Shani",
+   "Gwoza",
+   "Jere",
+   "Bama",
+   "Balanga"
+  ],
+  "text_hash": "0f74d99c47d591f1688d9b8a21f32af0",
+  "harvested": "2026-11-19T09:38:39Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 524 DATA COLLECTION: 19 \u201325 January 2026 DATE OF PUBLICATION: 02 FEBRUARY 2026\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to collect\n1,413 information on large and sudden population movements, provide",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-524-adamawa-state-19-25-january-2026"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-54-benue-state-19-25-january-2026",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 54 \u2014 Benue State (19\u201325 January 2026)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/2280d0c7-6412-5225-bf18-f107b671f753/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Benue"
+  ],
+  "round": null,
+  "number": 54,
+  "period_start": "2026-01-19",
+  "period_end": "2026-01-25",
+  "year": 2026,
+  "month": "2026-01",
+  "week": "2026-W04",
+  "figures": {
+   "ett_farm_ind": 21
+  },
+  "lgas": [
+   "Tarka",
+   "Guma"
+  ],
+  "text_hash": "9615a677a12bd1767010bd8bb6f5638f",
+  "harvested": "2026-11-19T09:38:43Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE\nDASHBOARD: 54 DATA COLLECTION: 19 \u201325 January 2026 DATE OF PUBLICATION: 30 JANUARY 2026\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOG Y\nThe DTM EmergencyTracking Tool (ETT) is deployedto collect\n215 informationon largeandsuddenpopulationmovements,provide\nfrequentupda",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Benue"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-54-benue-state-19-25-january-2026"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-511-08-14-december-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report #511 (08 \u2013 14 December 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/791a6ae0-55a1-5168-82b6-d82582aef631/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": null,
+  "period_start": "2025-12-08",
+  "period_end": "2025-12-14",
+  "year": 2025,
+  "month": "2025-12",
+  "week": "2025-W50",
+  "figures": {
+   "arrivals_ind": 413,
+   "demog": {
+    "children_pct": 43.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Gujba",
+   "Fune"
+  ],
+  "text_hash": "6e76d62cf38e9a642787ea7241e9ec39",
+  "harvested": "2026-11-19T09:39:37Z",
+  "snippet": "Nigeria Between 08 and 14 December 2025, 484 new arrivals of internally displaced persons were recorded at seven locations in Yobe State. The new arrivals were recorded in the Fune (413 individuals), Gujba (43 individuals) and Damaturu (28 individuals) local government areas (LGAs). The ETT assessments identified attacks as the trigger of the movement for all the 484 individuals. The new arrivals ",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-511-08-14-december-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-505-adamawa-state-17-23-november-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 505 \u2014 Adamawa State (17 - 23 November 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/17d68c1a-475e-5ac4-ba8a-2bed279649c6/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Benue"
+  ],
+  "round": null,
+  "number": 505,
+  "period_start": "2025-11-17",
+  "period_end": "2025-11-23",
+  "year": 2025,
+  "month": "2025-11",
+  "week": "2025-W47",
+  "figures": {
+   "arrivals_ind": 842,
+   "ett_idp_ind": 411,
+   "ett_ret_ind": 414,
+   "ett_farm_ind": 17,
+   "reasons_pct": {
+    "Climate-related disaster": 12.0,
+    "Communal clashes": 3.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Mubi North",
+   "Yola North",
+   "Shelleng",
+   "Madagali",
+   "Michika",
+   "Lamurde",
+   "Fufore",
+   "Maiha",
+   "Numan",
+   "Demsa",
+   "Guyuk",
+   "Gombi",
+   "Song",
+   "Hong",
+   "",
+   "Toro",
+   "Konduga",
+   "Monguno",
+   "Chibok",
+   "Shani",
+   "Gwoza",
+   "Bama",
+   "Kwande"
+  ],
+  "text_hash": "55de1b5399424444f78e7f03b0510f58",
+  "harvested": "2026-11-19T09:40:04Z",
+  "snippet": "Nigeria Between 17 and 23 November 2025, 842 new arrivals were recorded in locations across Adamawa State. The new arrivals were recorded at locations in the Yola South (101 individuals), Michika (89 individuals), Hong (86 individuals), Fufore (80 individuals), Maiha (61 individuals), Demsa (57 individuals), Numan (57 individuals), Guyuk (55 individuals), Madagali (54 individuals), Mubi South (42 ",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Benue"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-505-adamawa-state-17-23-november-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-504-borno-state-17-23-november-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 504 \u2014 Borno State (17 - 23 November 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/821201e1-e8fa-5bdf-99a4-7a6757ccee36/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "round": null,
+  "number": 504,
+  "period_start": "2025-11-17",
+  "period_end": "2025-11-23",
+  "year": 2025,
+  "month": "2025-11",
+  "week": "2025-W47",
+  "figures": {
+   "ett_idp_ind": 137,
+   "ett_ret_ind": 158,
+   "demog": {
+    "children_pct": 60.0
+   }
+  },
+  "lgas": [
+   "Mubi North",
+   "Madagali",
+   "Hong",
+   "",
+   "Askira/Uba",
+   "Konduga",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Hawul",
+   "Gwoza",
+   "Bayo",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Gujba"
+  ],
+  "text_hash": "20e1a278d1f07da73ad266c4ccdb26b3",
+  "harvested": "2026-11-19T09:40:28Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 504 DATA COLLECTION: 17 \u201323 November 2025 DATE OF PUBLICATION:25 November 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to collect\ninformation on large and sudden population movements, provide\n295\nfre",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-504-borno-state-17-23-november-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-493-borno-state-13-19-october-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 493 \u2014 Borno State (13 - 19 October 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/1a0bbc74-53e2-5575-9ef9-a546d4ca3858/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe"
+  ],
+  "round": null,
+  "number": 493,
+  "period_start": "2025-10-13",
+  "period_end": "2025-10-19",
+  "year": 2025,
+  "month": "2025-10",
+  "week": "2025-W42",
+  "figures": {
+   "demog": {
+    "children_pct": 68.0
+   }
+  },
+  "lgas": [
+   "Madagali",
+   "Michika",
+   "Gombi",
+   "",
+   "Askira/Uba",
+   "Maiduguri",
+   "Guzamala",
+   "Monguno",
+   "Shani",
+   "Gwoza",
+   "Kaga",
+   "Jere",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Akko"
+  ],
+  "text_hash": "ecc84ab86570c4449912e2de6406669f",
+  "harvested": "2026-11-19T09:41:25Z",
+  "snippet": "Nigeria Between 13 and 19 October 2025, 440 new IDP, returnee and farmers arrivals were recorded in locations across Borno State. The new arrivals were found in Askira/Uba, Bama, Biu, Gwoza, Kaga, Monguno and Shani local government areas (LGAs). The ETT assessments identified the following movement triggers: improved security in place of origin (227 individuals, 52%), poor living conditions (95 in",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-493-borno-state-13-19-october-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-485-borno-state-22-28-september-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 485 \u2014 Borno State (22 - 28 September 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/995e1ae2-f40f-5296-8d61-a7677944d983/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "round": null,
+  "number": 485,
+  "period_start": "2025-09-22",
+  "period_end": "2025-09-28",
+  "year": 2025,
+  "month": "2025-09",
+  "week": "2025-W39",
+  "figures": {
+   "demog": {
+    "children_pct": 65.0
+   }
+  },
+  "lgas": [
+   "Madagali",
+   "Song",
+   "",
+   "Askira/Uba",
+   "Maiduguri",
+   "Guzamala",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Damboa",
+   "Gwoza",
+   "Kaga",
+   "Bayo",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Gujba"
+  ],
+  "text_hash": "cd0530c950bff78e1928ec97cdc2e903",
+  "harvested": "2026-11-19T09:42:54Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 485 DATA COLLECTION: 22 \u201328 September 2025 DATE OF PUBLICATION:30 September 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to collect\ninformation on large and sudden population movements, provide\n206\nf",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-485-borno-state-22-28-september-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-487-yobe-state-22-28-september-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 487 \u2014 Yobe State (22 - 28 September 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/85d9c010-b281-5f55-a156-57aa3ab123ef/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "states": [
+   "Yobe",
+   "Jigawa",
+   "Kano"
+  ],
+  "round": null,
+  "number": 487,
+  "period_start": "2025-09-22",
+  "period_end": "2025-09-28",
+  "year": 2025,
+  "month": "2025-09",
+  "week": "2025-W39",
+  "figures": {
+   "demog": {
+    "children_pct": 52.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Gujba",
+   "Bagwai"
+  ],
+  "text_hash": "5824ae4bd46b932032dcb1207e8e6e62",
+  "harvested": "2026-11-19T09:43:02Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 487 DATA COLLECTION: 22 \u201328 September 2025 DATE OF PUBLICATION: 2 October 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n274 collect information on large and sudden population movements,\npr",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Yobe",
+   "Jigawa",
+   "Kano"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-487-yobe-state-22-28-september-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-475-yobe-state-18-24-august-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 475 \u2014 Yobe State (18 - 24 August 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/29389626-c9ee-569c-93c5-470acb0d73aa/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 475,
+  "period_start": "2025-08-18",
+  "period_end": "2025-08-24",
+  "year": 2025,
+  "month": "2025-08",
+  "week": "2025-W34",
+  "figures": {
+   "demog": {
+    "children_pct": 37.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Geidam",
+   "Gujba"
+  ],
+  "text_hash": "6fb9298a52adec7acb40bb1369b833a8",
+  "harvested": "2026-11-19T09:43:47Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 475 DATA COLLECTION: 18 \u201324 August 2025 DATE OF PUBLICATION: 29 August 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n87 collect information on large and sudden population movements,\nprovid",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-475-yobe-state-18-24-august-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-467-borno-state-4-10-august-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 467 \u2014 Borno State (4 - 10 August 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/fcb0c275-1f4b-511b-bbc2-d5e3f5490160/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "round": null,
+  "number": 467,
+  "period_start": "2025-08-04",
+  "period_end": "2025-08-10",
+  "year": 2025,
+  "month": "2025-08",
+  "week": "2025-W32",
+  "figures": {
+   "demog": {
+    "children_pct": 61.0
+   },
+   "reasons_pct": {
+    "Climate-related disaster": 10.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Maiha",
+   "Girei",
+   "",
+   "Kwaya Kusar",
+   "Kwaya/Kusar",
+   "Askira/Uba",
+   "Maiduguri",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Damboa",
+   "Shani",
+   "Ngala",
+   "Gwoza",
+   "Dikwa",
+   "Marte",
+   "Kaga",
+   "Bama",
+   "Biu",
+   "Uba"
+  ],
+  "text_hash": "9e65d268747ae577298bb91e5a6c4066",
+  "harvested": "2026-11-19T09:43:54Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 467 DATA COLLECTION: 4 \u201310 August 2025 DATE OF PUBLICATION: 13 AUGUST 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n3",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-467-borno-state-4-10-august-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-466-adamawa-state-28-july-03-august-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 466 \u2014 Adamawa State (28 July - 03 August 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/c5493b6e-fe48-5fd8-899d-e33d5eedd32f/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "round": null,
+  "number": 466,
+  "period_start": "2025-07-28",
+  "period_end": "2025-08-03",
+  "year": 2025,
+  "month": "2025-08",
+  "week": "2025-W31",
+  "figures": {
+   "demog": {
+    "children_pct": 57.0
+   },
+   "reasons_pct": {
+    "Climate-related disaster": 19.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Mubi North",
+   "Mayo-Belwa",
+   "Yola North",
+   "Shelleng",
+   "Madagali",
+   "Michika",
+   "Lamurde",
+   "Fufore",
+   "Maiha",
+   "Numan",
+   "Demsa",
+   "Ganye",
+   "Guyuk",
+   "Song",
+   "Jada",
+   "Hong",
+   "",
+   "Monguno",
+   "Mobbar",
+   "Gwoza",
+   "Bama",
+   "Balanga"
+  ],
+  "text_hash": "397a00cf9a23f7d442f49b0d7bd15d64",
+  "harvested": "2026-11-19T09:43:58Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 466 DATA COLLECTION: 28 July \u201303 August 2025 DATE OF PUBLICATION: 07 AUGUST 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES SEX BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements,\n2,34",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-466-adamawa-state-28-july-03-august-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-470-borno-state-11-17-august-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 470 \u2014 Borno State (11 - 17 August 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/e1bacad7-bd88-55e8-9627-ba6a181b83f3/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Borno",
+   "Yobe"
+  ],
+  "round": null,
+  "number": 470,
+  "period_start": "2025-08-11",
+  "period_end": "2025-08-17",
+  "year": 2025,
+  "month": "2025-08",
+  "week": "2025-W33",
+  "figures": {
+   "demog": {
+    "children_pct": 60.0
+   }
+  },
+  "lgas": [
+   "Askira/Uba",
+   "Maiduguri",
+   "Konduga",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Hawul",
+   "Gwoza",
+   "Marte",
+   "Kaga",
+   "Bayo",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Bursari"
+  ],
+  "text_hash": "e5657c181732f0587c08093bc6e51e45",
+  "harvested": "2026-11-19T09:44:02Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 470 DATA COLLECTION: 11\u201317August 2025 DATE OF PUBLICATION: 19 AUGUST 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n15",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Borno",
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-470-borno-state-11-17-august-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-465-borno-state-28-july-3-august-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 465 \u2014 Borno State (28 July - 3 August 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/6c74c7bf-4f84-53d8-83a2-34c315ea01c1/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "round": null,
+  "number": 465,
+  "period_start": "2025-07-28",
+  "period_end": "2025-08-03",
+  "year": 2025,
+  "month": "2025-08",
+  "week": "2025-W31",
+  "figures": {
+   "demog": {
+    "children_pct": 60.0
+   },
+   "reasons_pct": {
+    "Climate-related disaster": 16.0
+   }
+  },
+  "lgas": [
+   "Mubi North",
+   "Yola North",
+   "Gombi",
+   "",
+   "Askira/Uba",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Damboa",
+   "Gubio",
+   "Hawul",
+   "Gwoza",
+   "Dikwa",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Akko"
+  ],
+  "text_hash": "398ca0ea05b44395223b1fee3c4bfe1f",
+  "harvested": "2026-11-19T09:44:07Z",
+  "snippet": "Nigeria Between 28 July and 3 August 2025, 451 new IDP and returnee arrivals were recorded in locations across Borno State. The new arrivals were found in Askira/Uba, Bama, Biu, Chibok, Damboa, Dikwa, Gubio, Gwoza, Hawul and Monguno local government areas (LGAs). The ETT assessments identified the following movement triggers: fear of attack (217 individuals or 48%), poor living conditions (103 ind",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-465-borno-state-28-july-3-august-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-51-benue-state-21-27-july-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 51 \u2014 Benue State (21 - 27 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/5ca5a39f-2d58-5bb4-9937-bc7ae42c3de4/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Report%20No%2051_v3.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Benue"
+  ],
+  "round": null,
+  "number": 51,
+  "period_start": "2025-07-21",
+  "period_end": "2025-07-27",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W30",
+  "figures": {
+   "arrivals_ind": 175,
+   "demog": {
+    "children_pct": 30.0
+   }
+  },
+  "lgas": [
+   "Vandeikya",
+   "Guma",
+   "Ukum"
+  ],
+  "text_hash": "5f2cf51625bbb9fd151a25d8a144772a",
+  "harvested": "2026-11-19T09:44:10Z",
+  "snippet": "Nigeria Between 21 and 27 July 2025, 175 new arrivals were recorded in locations across Benue State. The new arrivals were recorded in the Guma, Ukum and Vandeikya local government areas (LGAs) of Benue State. The ETT assessments identified communal clashes as the main trigger for these movements in the state. The new arrivals were recorded across various locations in Guma, Ukum and Vandeikya LGAs",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Benue"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-51-benue-state-21-27-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-462-yobe-state-21-27-july-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 462 \u2014 Yobe State (21 - 27 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/ee77cb2e-b819-5d4e-b1a6-bf417ddecc21/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 462,
+  "period_start": "2025-07-21",
+  "period_end": "2025-07-27",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W30",
+  "figures": {
+   "demog": {
+    "children_pct": 32.0
+   },
+   "reasons_pct": {
+    "Armed banditry / kidnapping": 9.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Tarmuwa",
+   "Fune"
+  ],
+  "text_hash": "1cba6811f77e3a6454c2f907c7f6e353",
+  "harvested": "2026-11-19T09:44:14Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 462 DATA COLLECTION: 21 \u2013 27 July 2025 DATE OF PUBLICATION: 30 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n154 collect information on large and sudden population movements,\nprovide ",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-462-yobe-state-21-27-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-461-borno-state-21-27-july-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 461 \u2014 Borno State (21 - 27 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/919beb69-b5ff-541b-a911-46636aabc3c6/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "round": null,
+  "number": 461,
+  "period_start": "2025-07-21",
+  "period_end": "2025-07-27",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W30",
+  "figures": {
+   "demog": {
+    "children_pct": 66.0
+   }
+  },
+  "lgas": [
+   "Hong",
+   "",
+   "Kwaya/Kusar",
+   "Kala Balge",
+   "Askira/Uba",
+   "Maiduguri",
+   "Konduga",
+   "Monguno",
+   "Chibok",
+   "Damboa",
+   "Shani",
+   "Gwoza",
+   "Dikwa",
+   "Marte",
+   "Kaga",
+   "Jere",
+   "Bayo",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Kwami"
+  ],
+  "text_hash": "082d25715d2fd1dc47d55564dab0d5bf",
+  "harvested": "2026-11-19T09:44:18Z",
+  "snippet": "Nigeria Between 21 and 27 July 2025, 1,875 new IDP, returnee and farmer arrivals were recorded in locations across Borno State. The new arrivals were found in Askira/Uba, Bama, Bayo, Biu, Damboa, Dikwa, Gwoza, Kaga, Kala Balge, Kwaya/Kusar, Monguno and Shani local government areas (LGAs). The ETT assessments identified the following movement triggers: attack (1,590 individuals or 85%), fear of att",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-461-borno-state-21-27-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-459-yobe-state-14-20-july-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 459 - Yobe State (14 - 20 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/5c23a8c3-d15a-5969-ab6d-1d6c9cf11359/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 459,
+  "period_start": "2025-07-14",
+  "period_end": "2025-07-20",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W29",
+  "figures": {
+   "demog": {
+    "children_pct": 43.0
+   },
+   "reasons_pct": {
+    "Armed banditry / kidnapping": 15.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Tarmuwa",
+   "Gujba"
+  ],
+  "text_hash": "14b3b727c1ed2aa3e5f078a1c11aab64",
+  "harvested": "2026-11-19T09:44:21Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 459 DATA COLLECTION: 14 \u2013 20 July 2025 DATE OF PUBLICATION: 23 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\n1,343 collect information on large and sudden population movements,\nprovid",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-459-yobe-state-14-20-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-456-borno-state-07-july-13-july-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 456 \u2014 Borno State (07 July - 13 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/59bf6389-46fd-5f82-8b39-16d1c41cae22/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "round": null,
+  "number": 456,
+  "period_start": "2025-07-07",
+  "period_end": "2025-07-13",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W28",
+  "figures": {
+   "demog": {
+    "children_pct": 62.0
+   }
+  },
+  "lgas": [
+   "Madagali",
+   "Michika",
+   "Hong",
+   "",
+   "Kwaya Kusar",
+   "Askira/Uba",
+   "Nganzai",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Damboa",
+   "Gubio",
+   "Hawul",
+   "Gwoza",
+   "Bayo",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Damaturu",
+   "Gujba"
+  ],
+  "text_hash": "3fbf3635a9c2091cda1e73654ea069da",
+  "harvested": "2026-11-19T09:44:28Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 456 DATA COLLECTION: 7 \u201313 July 2025 DATE OF PUBLICATION: 17 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide\n399\nfrequentupda",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-456-borno-state-07-july-13-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-453-yobe-state-30-june-6-july-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 453 \u2014 Yobe State (30 June - 6 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/06814b66-5f58-56e1-8fa6-4cd78b113760/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 453,
+  "period_start": "2025-06-30",
+  "period_end": "2025-07-06",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W27",
+  "figures": {
+   "demog": {
+    "children_pct": 46.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Gujba"
+  ],
+  "text_hash": "a3393d9ebd398be232272f0775d1f898",
+  "harvested": "2026-11-19T09:44:36Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE\nDASHBOARD: 453 DATA COLLECTION: 30 June \u201306 July 2025 DATE OF PUBLICATION: 11 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide\n121\nfrequen",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-453-yobe-state-30-june-6-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-452-borno-state-30-june-6-july-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 452 \u2014 Borno State (30 June - 6 July 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/de873ebc-5c5c-575a-80be-573dd4512c2b/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "round": null,
+  "number": 452,
+  "period_start": "2025-06-30",
+  "period_end": "2025-07-06",
+  "year": 2025,
+  "month": "2025-07",
+  "week": "2025-W27",
+  "figures": {
+   "demog": {
+    "children_pct": 64.0
+   }
+  },
+  "lgas": [
+   "Mubi North",
+   "Madagali",
+   "Hong",
+   "",
+   "Askira/Uba",
+   "Maiduguri",
+   "Magumeri",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Gubio",
+   "Hawul",
+   "Gwoza",
+   "Dikwa",
+   "Jere",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Gujba"
+  ],
+  "text_hash": "86498bd03d85ea2cd892ac7c1c0d130b",
+  "harvested": "2026-11-19T09:44:43Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 452 DATA COLLECTION: 30 June \u20136 July 2025 DATE OF PUBLICATION: 11 JULY 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-452-borno-state-30-june-6-july-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-442-adamawa-state-02-08-june-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 442 \u2014 Adamawa State (02 - 08 June 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/5e8e6563-8c61-5660-a7c7-e92bb0e6a683/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Taraba"
+  ],
+  "round": null,
+  "number": 442,
+  "period_start": "2025-06-02",
+  "period_end": "2025-06-08",
+  "year": 2025,
+  "month": "2025-06",
+  "week": "2025-W23",
+  "figures": {
+   "demog": {
+    "female_pct": 57.0,
+    "male_pct": 43.0
+   },
+   "reasons_pct": {
+    "Armed banditry / kidnapping": 3.0,
+    "Communal clashes": 3.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Mubi North",
+   "Yola North",
+   "Mayo Bani",
+   "Shelleng",
+   "Madagali",
+   "Michika",
+   "Lamurde",
+   "Fufore",
+   "Maiha",
+   "Numan",
+   "Guyuk",
+   "Girei",
+   "Gombi",
+   "Song",
+   "Hong",
+   "",
+   "Alkaleri",
+   "Askira/Uba",
+   "Monguno",
+   "Chibok",
+   "Mobbar",
+   "Gwoza",
+   "Bama"
+  ],
+  "text_hash": "9602d50924edd28150f8526be060e7a9",
+  "harvested": "2026-11-19T09:44:52Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 442 DATA COLLECTION: 26 May \u201301 June 2025 DATE OF PUBLICATION: 03 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provid",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Taraba"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-442-adamawa-state-02-08-june-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-44-benue-state-26-may-1-june-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 44 \u2014 Benue State (26 May - 1 June 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/2ac79b6a-6ac4-5bd8-85a6-d1e530fb8e4e/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2044.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Benue",
+   "Katsina"
+  ],
+  "round": null,
+  "number": 44,
+  "period_start": "2025-05-26",
+  "period_end": "2025-06-01",
+  "year": 2025,
+  "month": "2025-06",
+  "week": "2025-W22",
+  "figures": {},
+  "lgas": [
+   "Katsina-Ala",
+   "Gwer East",
+   "Gwer West",
+   "Makurdi",
+   "Guma",
+   "Logo"
+  ],
+  "text_hash": "0f1118ff6fa7f7021149cdae8c516046",
+  "harvested": "2026-11-19T09:44:56Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE\nDASHBOARD: 44 DATA COLLECTION: 26 MAY -1 JUNE,2025 DATE OF PUBLICATION: 5 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide frequent\n1,504",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Benue",
+   "Katsina"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-44-benue-state-26-may-1-june-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-443-borno-state-02-june-8-june-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 443 \u2014 Borno State (02 June - 8 June 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/09e5d178-d43c-5a57-b932-4a3d37d47edf/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "round": null,
+  "number": 443,
+  "period_start": "2025-06-02",
+  "period_end": "2025-06-08",
+  "year": 2025,
+  "month": "2025-06",
+  "week": "2025-W23",
+  "figures": {
+   "arrivals_ind": 290,
+   "demog": {
+    "children_pct": 59.0
+   }
+  },
+  "lgas": [
+   "Girei",
+   "Hong",
+   "",
+   "Askira/Uba",
+   "Chibok",
+   "Hawul",
+   "Gwoza",
+   "Jere",
+   "Bama",
+   "Biu",
+   "Uba"
+  ],
+  "text_hash": "e585fb4c3c61640315d87c24678ee70f",
+  "harvested": "2026-11-19T09:45:05Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE\nDASHBOARD: 443 DATA COLLECTION: 2 \u20138 June 2025 DATE OF PUBLICATION: 10 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, provide\n290\nfr",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-443-borno-state-02-june-8-june-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-444-adamawa-state-02-08-june-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 444 \u2014 Adamawa State (02 - 08 June 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/6ce48e82-de66-57d6-859e-07ed60d73210/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe",
+   "Taraba"
+  ],
+  "round": null,
+  "number": 444,
+  "period_start": "2025-06-02",
+  "period_end": "2025-06-08",
+  "year": 2025,
+  "month": "2025-06",
+  "week": "2025-W23",
+  "figures": {
+   "arrivals_ind": 1037,
+   "demog": {
+    "female_pct": 55.0,
+    "children_pct": 1.0,
+    "male_pct": 45.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Mubi North",
+   "Shelleng",
+   "Madagali",
+   "Michika",
+   "Lamurde",
+   "Fufore",
+   "Vimtim",
+   "Toungo",
+   "Maiha",
+   "Numan",
+   "Guyuk",
+   "Gombi",
+   "Song",
+   "Hong",
+   "",
+   "Askira/Uba",
+   "Konduga",
+   "Monguno",
+   "Chibok",
+   "Mobbar",
+   "Shani",
+   "Gwoza",
+   "Bama"
+  ],
+  "text_hash": "d44f0e24dd91d9b432c4ee015aa7c6a0",
+  "harvested": "2026-11-19T09:45:11Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE\nDASHBOARD: 444 DATA COLLECTION: 02 \u201308 June,2025 DATE OF PUBLICATION: 11 JUNE 2025\nOVERVIEW OF DISPLACEMENTS KEY FIGURES GENDER BREAKDOWN METHODOLOGY\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements,\n1,037\nprov",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe",
+   "Taraba"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-444-adamawa-state-02-08-june-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-440-yobe-state-26-may-1-june-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 440 \u2014 Yobe State (26 May - 1 June 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/acc8ed33-eada-5a8d-89e4-9788e6023ec5/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 440,
+  "period_start": "2025-05-26",
+  "period_end": "2025-06-01",
+  "year": 2025,
+  "month": "2025-06",
+  "week": "2025-W22",
+  "figures": {
+   "arrivals_ind": 45
+  },
+  "lgas": [
+   "Potiskum",
+   "Damaturu"
+  ],
+  "text_hash": "e17266dd782b33b4bc7459ab8387d475",
+  "harvested": "2026-11-19T09:45:15Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 26 MAY \u2013 1 JUNE 2025\nDASHBOARD: 440 DATA COLLECTION: WEEK 22, 2025 DATE OF PUBLICATION: 3 JUNE 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provid",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-440-yobe-state-26-may-1-june-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-441-borno-state-26-may-1-june-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 441 \u2014 Borno State (26 May - 1 June 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/155da7a6-55e2-5b73-9c47-8e312a699558/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "round": null,
+  "number": 441,
+  "period_start": "2025-05-26",
+  "period_end": "2025-06-01",
+  "year": 2025,
+  "month": "2025-06",
+  "week": "2025-W22",
+  "figures": {
+   "demog": {
+    "children_pct": 1.0
+   }
+  },
+  "lgas": [
+   "Yola North",
+   "Girei",
+   "Hong",
+   "",
+   "Kala Balge",
+   "Askira/Uba",
+   "Kala/Balge",
+   "Maiduguri",
+   "Magumeri",
+   "Nganzai",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Damboa",
+   "Mobbar",
+   "Ngala",
+   "Gubio",
+   "Gwoza",
+   "Marte",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Kwami"
+  ],
+  "text_hash": "971299dbb00200926d41b3f479552d0f",
+  "harvested": "2026-11-19T09:45:19Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE, 26 MAY \u2013 1 JUNE 2025\nDASHBOARD: 441 DATA COLLECTION: WEEK 22, 2025 DATE OF PUBLICATION: 3 JUNE 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movem",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-441-borno-state-26-may-1-june-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-439-adamawa-state-19-25-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 439 \u2014 Adamawa State (19 - 25 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/cda95ac8-1cdb-5437-b49d-750d533dba04/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "round": null,
+  "number": 439,
+  "period_start": "2025-05-19",
+  "period_end": "2025-05-25",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W21",
+  "figures": {
+   "arrivals_ind": 421,
+   "demog": {
+    "female_pct": 57.0,
+    "children_pct": 72.0,
+    "male_pct": 43.0
+   },
+   "reasons_pct": {
+    "Communal clashes": 12.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Yola North",
+   "Shelleng",
+   "Madagali",
+   "Michika",
+   "Fufore",
+   "Toungo",
+   "Maiha",
+   "Numan",
+   "Ganye",
+   "Girei",
+   "Hong",
+   "",
+   "Monguno",
+   "Chibok",
+   "Mobbar",
+   "Gwoza",
+   "Marte",
+   "Bama"
+  ],
+  "text_hash": "2023e48b3a5f597ddaac3243da5914d0",
+  "harvested": "2026-11-19T09:45:23Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 439 DATA COLLECTION: WEEK 21, 2025 DATE OF PUBLICATION: 28 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and collect\ninformation on large and sudden population movemen",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-439-adamawa-state-19-25-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-43-benue-state-19-25-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 43 \u2014 Benue State (19 - 25 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/674ecd81-40f2-59d1-8130-5e675da5dbd0/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2043_final.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Benue"
+  ],
+  "round": null,
+  "number": 43,
+  "period_start": "2025-05-19",
+  "period_end": "2025-05-25",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W21",
+  "figures": {
+   "arrivals_ind": 116
+  },
+  "lgas": [
+   "Guma"
+  ],
+  "text_hash": "d927757b9d06ada15f29d28c308cf8e9",
+  "harvested": "2026-11-19T09:45:27Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 43 DATA COLLECTION: Week 20, 2025 DATE OF PUBLICATION: 29May 2025\nOVERVIEW OF DISPLACEMENTS M ETH O D O LO G Y\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, prov",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Benue"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-43-benue-state-19-25-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-437-borno-state-19-25-may-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 437 - Borno State (19 - 25 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/0e530f8d-3b4e-535d-bf9f-63bd45a651ea/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "round": null,
+  "number": 437,
+  "period_start": "2025-05-19",
+  "period_end": "2025-05-25",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W21",
+  "figures": {
+   "arrivals_ind": 300
+  },
+  "lgas": [
+   "Gombi",
+   "Hong",
+   "",
+   "Kwaya/Kusar",
+   "Askira/Uba",
+   "Maiduguri",
+   "Guzamala",
+   "Monguno",
+   "Kukawa",
+   "Damboa",
+   "Abadam",
+   "Mobbar",
+   "Shani",
+   "Ngala",
+   "Gwoza",
+   "Dikwa",
+   "Marte",
+   "Jere",
+   "Bama",
+   "Uba"
+  ],
+  "text_hash": "98c790d555e8a6af7c16a132a63b93d8",
+  "harvested": "2026-11-19T09:45:31Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 437 DATA COLLECTION: WEEK 21, 2025 DATE OF PUBLICATION: 27 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-437-borno-state-19-25-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-438-yobe-state-19-25-may-2025",
+  "title": "Nigeria: Emergency Tracking Tool Report 438 \u2014 Yobe State (19 - 25 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/3f1aff04-4688-5271-a9d7-e8116d2368c3/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 438,
+  "period_start": "2025-05-19",
+  "period_end": "2025-05-25",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W21",
+  "figures": {
+   "arrivals_ind": 506
+  },
+  "lgas": [
+   "Yunusari",
+   "Damaturu",
+   "Geidam",
+   "Gujba"
+  ],
+  "text_hash": "57412f06baa336edab8bafe3e20693f3",
+  "harvested": "2026-11-19T09:45:35Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 19 \u2013 25 MAY 2025\nDASHBOARD: 438 DATA COLLECTION: WEEK 21, 2025 DATE OF PUBLICATION: 27 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollectinformationonlargeandsuddenpopulationmovements,provide",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-438-yobe-state-19-25-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-435-yobe-state-12-18-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 435 \u2014 Yobe State (12 - 18 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/6ff2f822-f4a8-5886-9573-fb0c090a7336/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 435,
+  "period_start": "2025-05-12",
+  "period_end": "2025-05-18",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W20",
+  "figures": {
+   "arrivals_ind": 276
+  },
+  "lgas": [
+   "Damaturu",
+   "Gujba"
+  ],
+  "text_hash": "1b86a70b4c4e14df275d08b97b51ce46",
+  "harvested": "2026-11-19T09:45:38Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 12 \u2013 18 MAY 2025\nDASHBOARD: 435 DATA COLLECTION: WEEK 20, 2025 DATE OF PUBLICATION: 21 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, provide\n27",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-435-yobe-state-12-18-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-42-benue-state-12-18-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 42 \u2014 Benue State (12 - 18 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/ef397dac-b5cc-53e2-92a4-c1312b9b3f7e/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2042_final.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Benue"
+  ],
+  "round": null,
+  "number": 42,
+  "period_start": "2025-05-12",
+  "period_end": "2025-05-18",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W20",
+  "figures": {
+   "arrivals_ind": 1263
+  },
+  "lgas": [
+   "Gwer West",
+   "Kwande",
+   "Guma"
+  ],
+  "text_hash": "0860102ecf217cd3af94440a7e65e8d2",
+  "harvested": "2026-11-19T09:45:42Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE, 12 \u2013 18 MAY 2025\nDASHBOARD: 42 DATA COLLECTION: Week 20, 2025 DATE OF PUBLICATION: 22 May 2025\nOVERVIEW OF DISPLACEMENTS M ETH O D O LO G Y\nKEY FIGURES GENDER BREAKDOWN\nTheDTMEmergencyTrackingTool(ETT)isdeployedtotrackandcollect\ninformation on large and sudden population movements, pro",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Benue"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-42-benue-state-12-18-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-433-yobe-state-5-11-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 433 \u2014 Yobe State (5 - 11 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/f211b9a4-5e26-5524-9e0d-88513bcec7ed/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Yobe"
+  ],
+  "round": null,
+  "number": 433,
+  "period_start": "2025-05-05",
+  "period_end": "2025-05-11",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W19",
+  "figures": {
+   "arrivals_ind": 224,
+   "demog": {
+    "children_pct": 100.0
+   }
+  },
+  "lgas": [
+   "Damaturu",
+   "Gujba"
+  ],
+  "text_hash": "a918cc10487d871578dc5d698a0475ba",
+  "harvested": "2026-11-19T09:45:52Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN YOBE STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 433 DATA COLLECTION: WEEK 19, 2025 DATE OF PUBLICATION: 14 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements, ",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Yobe"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-433-yobe-state-5-11-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-41-benue-state-5-11-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 41 Benue State (5 - 11 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/3de47842-55f4-522a-90cb-dde88b4b6687/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20NC%20Benue%20Report%20No%2041_final.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North Central & North West"
+  ],
+  "states": [
+   "Benue"
+  ],
+  "round": null,
+  "number": 41,
+  "period_start": "2025-05-05",
+  "period_end": "2025-05-11",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W19",
+  "figures": {
+   "bio_lgas": [
+    {
+     "lga": "GENDER BREAKDOWN",
+     "ind": 618,
+     "hh": 135
+    }
+   ]
+  },
+  "lgas": [
+   "Guma"
+  ],
+  "text_hash": "cca8bceb16ba48a75ccad397bf6e558d",
+  "harvested": "2026-11-19T09:45:56Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BENUE STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 41 DATA COLLECTION: Week 19, 2025 DATE OF PUBLICATION: 14May 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\n618\nindividuals\n135\nhouseholds\n4 LIMITATIONS\nLGAs\n5 56%\n44%\nLocations female male\nDISPLACEMENT EVOLUTION\nDATE OF MOVEMENTS ALE",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Benue"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-41-benue-state-5-11-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-431-borno-state-5-11-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 431 \u2014 Borno State (5 - 11 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/90c299ab-eada-55e7-8ffa-5529de00a1d2/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno",
+   "Gombe",
+   "Katsina"
+  ],
+  "round": null,
+  "number": 431,
+  "period_start": "2025-05-05",
+  "period_end": "2025-05-11",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W19",
+  "figures": {
+   "arrivals_ind": 384,
+   "demog": {
+    "children_pct": 64.0
+   }
+  },
+  "lgas": [
+   "Mubi North",
+   "Yola North",
+   "Michika",
+   "Hong",
+   "",
+   "Kwaya Kusar",
+   "Kwaya/Kusar",
+   "Askira/Uba",
+   "Maiduguri",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Damboa",
+   "Mobbar",
+   "Gubio",
+   "Hawul",
+   "Gwoza",
+   "Dikwa",
+   "Jere",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Kwami",
+   "Jibia"
+  ],
+  "text_hash": "162ddc1592dc0f94b642c97680003f92",
+  "harvested": "2026-11-19T09:46:02Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN BORNO STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 431 DATA COLLECTION: WEEK 19, 2025 DATE OF PUBLICATION: 14 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movements,",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East",
+   "North Central & North West"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno",
+   "Gombe",
+   "Katsina"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-431-borno-state-5-11-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-432-adamawa-state-5-11-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 432 \u2014 Adamawa State (5 - 11 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/35e4ebad-c60e-5a54-8594-c932dd174988/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "round": null,
+  "number": 432,
+  "period_start": "2025-05-05",
+  "period_end": "2025-05-11",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W19",
+  "figures": {
+   "arrivals_ind": 262,
+   "reasons_pct": {
+    "Communal clashes": 10.0
+   }
+  },
+  "lgas": [
+   "Mubi South",
+   "Yola South",
+   "Yola North",
+   "Madagali",
+   "Michika",
+   "Fufore",
+   "Maiha",
+   "Numan",
+   "Guyuk",
+   "Hong",
+   "",
+   "Maiduguri",
+   "Monguno",
+   "Chibok",
+   "Mobbar",
+   "Gwoza",
+   "Bama"
+  ],
+  "text_hash": "c275df52090b61f7b8b5848fa29fbcee",
+  "harvested": "2026-11-19T09:46:06Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA STATE, 5 \u2013 11 MAY 2025\nDASHBOARD: 432 DATA COLLECTION: WEEK 19, 2025 DATE OF PUBLICATION: 13 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden population movement",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Borno"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-432-adamawa-state-5-11-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-emergency-tracking-tool-report-430-28-april-4-may-2025",
+  "title": "Nigeria \u2014 Emergency Tracking Tool Report 430 (28 April - 4 May 2025)",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/a87b0f71-24fc-5e4f-912c-14588e5dc5e8/IOM%20Nigeria%20DTM%20Emergency%20Tracking%20Tool%20%28ETT%29%20Report%20No.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "ett",
+  "component_name": "Emergency Tracking Tool (ETT)",
+  "regions": [
+   "North East"
+  ],
+  "states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe",
+   "Taraba"
+  ],
+  "round": null,
+  "number": 430,
+  "period_start": "2025-04-28",
+  "period_end": "2025-05-04",
+  "year": 2025,
+  "month": "2025-05",
+  "week": "2025-W18",
+  "figures": {
+   "demog": {
+    "children_pct": 4.0
+   },
+   "reasons_pct": {
+    "Farmer\u2013herder clashes": 4.0,
+    "Armed banditry / kidnapping": 3.0
+   }
+  },
+  "lgas": [
+   "Yola South",
+   "Madagali",
+   "Michika",
+   "Lamurde",
+   "Fufore",
+   "Maiha",
+   "Numan",
+   "Girei",
+   "Hong",
+   "",
+   "Ningi",
+   "Askira/Uba",
+   "Monguno",
+   "Kukawa",
+   "Chibok",
+   "Mobbar",
+   "Ngala",
+   "Gubio",
+   "Gwoza",
+   "Dikwa",
+   "Mafa",
+   "Bama",
+   "Biu",
+   "Uba",
+   "Kwami"
+  ],
+  "text_hash": "1f77c1b4e0b9c1078cdf1b901a965df1",
+  "harvested": "2026-11-19T09:46:16Z",
+  "snippet": "Nigeria\nDISPLACEMENT TRACKING MATRIX \u2014 NIGERIA\nEMERGENCY TRACKING TOOL (ETT)\nSUMMARY OF MOVEMENTS IN ADAMAWA AND BORNO STATES, 28 APRIL \u2013 4 MAY 2025\nDASHBOARD: 430 DATA COLLECTION: WEEK 18, 2025 DATE OF PUBLICATION: 8 MAY 2025\nOVERVIEW OF DISPLACEMENTS METHODOLOGY\nKEY FIGURES GENDER BREAKDOWN\nThe DTM Emergency Tracking Tool (ETT) is deployed to track and\ncollect information on large and sudden pop",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "ett",
+  "pub_regions": [
+   "North East"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe",
+   "Taraba"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-emergency-tracking-tool-report-430-28-april-4-may-2025"
+ },
+ {
+  "url": "https://reliefweb.int/report/nigeria/nigeria-ioms-dtm-celebrates-10-years-excellence-nigeria",
+  "title": "Nigeria \u2014 IOM's DTM Celebrates 10 years of Excellence in Nigeria",
+  "published": null,
+  "date_basis": "not stated",
+  "date_v": 2,
+  "period_covered": null,
+  "pdfs": [
+   "https://reliefweb.int/attachments/a3ea8f4a-5b87-4c03-ac64-aff693a6f975/IOM%20DTM%20Nigeria%20%40%2010.pdf"
+  ],
+  "source": "reliefweb.int",
+  "kind": "report",
+  "component": "mt_needs",
+  "component_name": "Mobility Tracking \u2013 Needs Monitoring",
+  "regions": [
+   "North East",
+   "North Central & North West",
+   "Other"
+  ],
+  "states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe",
+   "Taraba",
+   "Yobe",
+   "Benue",
+   "FCT",
+   "Kogi",
+   "Kwara",
+   "Nasarawa",
+   "Niger",
+   "Plateau",
+   "Jigawa",
+   "Kaduna",
+   "Kano",
+   "Katsina",
+   "Kebbi",
+   "Sokoto",
+   "Zamfara",
+   "Akwa Ibom",
+   "Bayelsa",
+   "Cross River",
+   "Delta",
+   "Edo",
+   "Rivers",
+   "Ekiti",
+   "Lagos",
+   "Ogun",
+   "Ondo",
+   "Osun",
+   "Oyo"
+  ],
+  "round": null,
+  "number": null,
+  "figures": {},
+  "lgas": [
+   ""
+  ],
+  "text_hash": "662532e0869a6c7b49f3b7c88ae38dd0",
+  "harvested": "2026-11-19T10:41:05Z",
+  "snippet": "Nigeria The IOM\u2019s Displacement Tracking Matrix (DTM) was conceptualized in 2004 in Iraq with essential data on displacement to inform humanitarian interventions. Since then, it has been adapted for more than 80 countries, including conflict, climatic shocks, complex emergencies, and prolonged crises. The DTM methodological framework centres on four major components: mobility tracking, flow monitor",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "other",
+  "pub_regions": [
+   "North East",
+   "North Central & North West",
+   "Southern states"
+  ],
+  "pub_states": [
+   "Adamawa",
+   "Bauchi",
+   "Borno",
+   "Gombe",
+   "Taraba",
+   "Yobe",
+   "Benue",
+   "FCT",
+   "Kogi",
+   "Kwara",
+   "Nasarawa",
+   "Niger",
+   "Plateau",
+   "Jigawa",
+   "Kaduna",
+   "Kano",
+   "Katsina",
+   "Kebbi",
+   "Sokoto",
+   "Zamfara",
+   "Akwa Ibom",
+   "Bayelsa",
+   "Cross River",
+   "Delta",
+   "Edo",
+   "Rivers",
+   "Ekiti",
+   "Lagos",
+   "Ogun",
+   "Ondo",
+   "Osun",
+   "Oyo"
+  ],
+  "pub_status": "other source",
+  "duplicate_of": "https://dtm.iom.int/reports/nigeria-ioms-dtm-celebrates-10-years-excellence-nigeria"
  },
  {
   "url": "https://dtm.iom.int/reports/nigeria-%E2%80%94-displacement-dashboard-1-december-2014",
