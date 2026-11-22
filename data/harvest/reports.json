@@ -45981,6 +45981,44 @@
   ]
  },
  {
+  "url": "https://dtm.iom.int/datasets/nigeria-site-assessment-round-10",
+  "title": "Nigeria \u2014 Site Assessment Round 10",
+  "published": "2016-06-30",
+  "date_basis": "citation line",
+  "date_v": 2,
+  "period_covered": [
+   "2016-05-05",
+   "2016-05-30"
+  ],
+  "pdfs": [],
+  "source": "dtm.iom.int",
+  "kind": "dataset",
+  "component": "mt_atlas",
+  "component_name": "Mobility Tracking \u2013 IDP & Returnee Atlas",
+  "regions": [
+   "National / multi-region"
+  ],
+  "states": [],
+  "round": 10,
+  "number": null,
+  "period_start": "2016-05-05",
+  "period_end": "2016-05-30",
+  "year": 2016,
+  "month": "2016-05",
+  "week": "2016-W22",
+  "figures": {},
+  "text_hash": "b082afaf38a15a4a6f0504e54d877ebf",
+  "harvested": "2026-11-22T08:56:17Z",
+  "snippet": "  View all bookmarks 76 Nigeria A site assessment is a sub-component of mobility tracking. It aims to collect data on population presence, living conditions and needs in a particular displacement site or community. IDPs Unit of Analysis Or Observation  Site or Location Type of Survey or Assessment  Key Informant  AAP Cash based intervention CCCM Demographics Education Food security & livelihoods G",
+  "in_tracker": false,
+  "tracker_dup": false,
+  "pub_cat": "other",
+  "pub_regions": [],
+  "pub_states": [],
+  "pub_status": "dataset",
+  "duplicate_of": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-10"
+ },
+ {
   "url": "https://dtm.iom.int/datasets/nigeria-%E2%80%94-site-assessment-round-11",
   "title": "Nigeria \u2014 Site Assessment Round 11",
   "published": "2016-07-07",
@@ -115191,7 +115229,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "climate",
-  "pub_regions": [],
+  "pub_regions": [
+   "North Central & North West"
+  ],
   "pub_states": [],
   "component_was": "flood",
   "pub_status": "counted"
@@ -117094,7 +117134,7 @@
   "in_tracker": true,
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
-  "pub_cat": "other",
+  "pub_cat": "fmp",
   "pub_regions": [],
   "pub_states": [],
   "component_was": "transhumance",
