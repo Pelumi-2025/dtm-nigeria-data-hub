@@ -83063,7 +83063,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "si",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -91637,7 +91639,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "si",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -104686,7 +104690,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "si",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
@@ -127457,7 +127463,9 @@
   "date_basis": "Publications Tracker (publication date)",
   "date_v": 2,
   "pub_cat": "smi",
-  "pub_regions": [],
+  "pub_regions": [
+   "North East"
+  ],
   "pub_states": [],
   "pub_status": "counted"
  },
